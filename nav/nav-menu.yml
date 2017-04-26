@@ -1,0 +1,26 @@
+- name: GETTING STARTED
+  url: /documentation/getting-started/README.md
+- name: USING TESTCAFE STUDIO
+  url: /documentation/using-testcafe-studio/README.md
+  content:
+  - name: User Interface Overview
+    url: /documentation/using-testcafe-studio/user-interface-overview.md
+  - name: Explorer Pane
+    url: /documentation/using-testcafe-studio/explorer-pane.md
+  - name: Visual Test Recorder
+    url: /documentation/using-testcafe-studio/visual-test-recorder.md
+  - name: Tasks Pane  
+    url: /documentation/using-testcafe-studio/tasks-pane.md
+  - name: Test View
+    url: /documentation/using-testcafe-studio/test-view.md
+  - name: Report View
+    url: /documentation/using-testcafe-studio/report-view.md
+  - name: Common Concepts
+    url: /documentation/using-testcafe-studio/common-concepts/README.md
+    content:
+    - name: HTTP Basic and NTLM Authentication
+      url: /documentation/using-testcafe-studio/common-concepts/http-basic-and-ntlm-authentication.md
+    - name: Test Actions
+      url: /documentation/using-testcafe-studio/common-concepts/test-actions.md
+    - name: Test Run Configuration
+      url: /documentation/using-testcafe-studio/common-concepts/test-run-configuration.md

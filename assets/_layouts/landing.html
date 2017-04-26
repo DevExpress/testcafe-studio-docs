@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="page-content-wrapper">
+
+      {% include header.html %}
+
+      {{ content }}
+
+      <div class="push"></div>
+    </div>
+
+    {% include footer.html %}
+
+    <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+    <script type="text/javascript"> docsearch({
+          apiKey: '938fb7894c0af8c01af3e2b4c53d4bdd',
+          indexName: 'testcafe',
+          inputSelector: '#search',
+          debug: false // Set debug to true if you want to inspect the dropdown
+      });
+    </script>-->
+
+  </body>
+
+</html>

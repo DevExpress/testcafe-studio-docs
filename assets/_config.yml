@@ -1,0 +1,15 @@
+# Site settings
+title: "TestCafe"
+baseurl: "" 
+url: "http://testcafe.devexpress.com" 
+  
+# Build settings
+markdown: redcarpet
+highlighter: null
+redcarpet:
+  extensions: ["tables"]
+gems:
+  - jekyll-sitemap
+
+# Blog
+excerpt_separator: "<!--more-->"

@@ -1,0 +1,321 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% capture title %}{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% endcapture %}
+  <title>{{ title }}</title>
+
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width">
+
+  <meta property="og:image" content="https://raw.githubusercontent.com/DevExpress/testcafe-gh-page-assets/master/src/images/testcafe-ogp-icon.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{% include canonical-link.html %}" />
+  <meta property="og:title" content="{{ title }}" />
+
+  <link rel="shortcut icon" href="/testcafe/favicon.ico">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/docco.min.css">
+  <link rel="canonical" href="{% include canonical-link.html %}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />-->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
+  <script>
+      document.addEventListener('DOMContentLoaded', function (e) {
+          hljs.initHighlightingOnLoad();
+      });
+  </script>
+
+  {% if jekyll.environment == "production" %}
+  <script>
+    // Google Analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-83678642-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+
+  {% if page.permalink == '/' %}{% assign isLandingPage = true %}{% else %}{% assign isLandingPage = false %}{% endif %}
+  {% if page.url contains '/documentation/' %}{% assign isDocumentation = true %}{% else %}{% assign isDocumentation = false %}{% endif %}
+  {% if page.url contains '/details/' %}{% assign isDetailsPage = true %}{% else %}{% assign isDetailsPage = false %}{% endif %}
+
+  {% if isDocumentation == false %}
+  <link rel="stylesheet" href="{{ "/css/landing-page.css" | prepend: site.baseurl }}">
+  {% endif %}
+
+  {% if isDetailsPage == true %}
+  <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.3.min.js"></script>
+  <script>
+    var BGImages = [
+        { Src: "../images/html5-testing-browsers-devices.png" },
+        { Src: "../images/html5-testing-javascript.png" },
+        { Src: "../images/html5-testing-visual-recorder.png" },
+        { Src: "../images/html5-testing-browsers-devices.png" }
+    ];
+    function initSlideShow(Images) {
+        // preload backgrounds
+        Images.forEach(function (img) { $('<img/>')[0].src = img.Src; });
+
+        var SlideDelay = 5000;
+        var AnimationDelay = 300;
+        var root = $('#HCCInteractive');
+        var eBGImage = root.find(".ImageContainer");
+
+        var scrollLeft = root.find("div.Scroll.Left");
+        var scrollRight = root.find("div.Scroll.Right");
+
+        var platforms = root.find("div.Platforms");
+        var tooltip = platforms.find("div.Tooltip");
+        var tooltipCallout = tooltip.find("img");
+
+        var currentSlideIndex = 0;
+        var slideShowTimer = null;
+        var animationActive = true;
+        var isIOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/)
+
+        function SwitchToSlide(slideIndex) {
+            eBGImage.fadeOut(AnimationDelay, function () {
+                $(this).css('background-image', 'url("' + Images[slideIndex].Src + '")');
+                $(this).fadeIn(AnimationDelay);
+            });
+        }
+        function ScrollLeft() {
+            StopSlideShow();
+            currentSlideIndex--;
+            if (currentSlideIndex < 1) currentSlideIndex = Images.length - 1;
+            SwitchToSlide(currentSlideIndex);
+            StartSlideShow();
+        }
+        function ScrollRight() {
+            StopSlideShow();
+            currentSlideIndex++;
+            if (currentSlideIndex > Images.length - 1) currentSlideIndex = 1;
+            SwitchToSlide(currentSlideIndex);
+            StartSlideShow();
+        }
+        function StartSlideShow() {
+            if (animationActive) {
+                slideShowTimer = setInterval(ScrollRight, SlideDelay);
+            }
+        }
+        function StopSlideShow() {
+            if (slideShowTimer != null) {
+                clearInterval(slideShowTimer);
+            }
+        }
+
+        scrollLeft.click(ScrollLeft);
+        scrollRight.click(ScrollRight);
+        StartSlideShow();
+    }
+
+    document.addEventListener('DOMContentLoaded', function (e) {
+        initSlideShow(BGImages);
+    });
+  </script>
+  {% endif %}
+
+  {% if isDocumentation %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.12/css/perfect-scrollbar.min.css">
+    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.12/js/perfect-scrollbar.min.js"></script>
+    <script>
+        var MIN_BODY_WIDTH = 1000;
+        var FOOTER_HEIGHT  = 63;
+        var HEADER_HEIGHT  = 102;
+
+        var nav            = null;
+        var article        = null;
+        var isMobileDevice = window.screen.width < 800 || window.screen.height < 800;
+
+        function setNavTopPosition () {
+            var isMobileZoomed = isMobileDevice && window.innerWidth !== document.body.scrollWidth;
+            var top = null;
+
+            if(isMobileDevice) {
+                top = window.pageYOffset >= HEADER_HEIGHT ? window.pageYOffset - HEADER_HEIGHT + 'px' : '0';
+
+                if (nav.style.paddingTop !== top) {
+                    nav.style.paddingTop = top;
+                    Ps.update(nav);
+                }
+
+                return;
+            }
+
+            if (document.body.clientWidth > MIN_BODY_WIDTH) {
+                if (nav.style.top !== HEADER_HEIGHT + 'px') {
+                    nav.style.top = HEADER_HEIGHT + 'px';
+                    Ps.update(nav);
+                }
+            }
+            else if(!isMobileZoomed) {
+                top = window.pageYOffset <= HEADER_HEIGHT ? HEADER_HEIGHT - window.pageYOffset + 'px' : '0';
+
+                if (nav.style.top !== top) {
+                    nav.style.top = top;
+                    Ps.update(nav);
+                }
+            }
+        }
+
+        function setNavBottomPosition () {
+            var footerVisibleHeight = FOOTER_HEIGHT - document.body.scrollHeight + window.pageYOffset +
+                                      document.body.clientHeight;
+
+            if (footerVisibleHeight > 0) {
+                if (nav.style.bottom !== footerVisibleHeight + 'px') {
+                    nav.style.bottom = footerVisibleHeight + 'px';
+                    Ps.update(nav);
+                }
+            }
+            else if (nav.style.bottom !== '0') {
+                nav.style.bottom = '0';
+                Ps.update(nav);
+            }
+        }
+
+        function updatePosition () {
+            if (isMobileDevice)
+                changeBodyHeight();
+            else
+                nav.style.marginLeft = '-' + window.pageXOffset + 'px';
+
+            setNavBottomPosition();
+            setNavTopPosition();
+        }
+
+        function changeBodyHeight () {
+            if (document.body.style.height !== window.innerHeight + 'px')
+                document.body.style.height = window.innerHeight + 'px';
+        }
+
+        function initScrollBar() {
+            Ps.initialize(nav);
+
+            window.addEventListener('resize', function () {
+                Ps.update(nav);
+            });
+        }
+
+        function initNav() {
+            if(isMobileDevice) {
+                nav.style.position = 'relative';
+                nav.style.float = 'left';
+                nav.style.top = '0px';
+
+                article.style.marginTop = '0px';
+                article.style.paddingTop = '22px';
+            }
+
+            initScrollBar();
+            updatePosition();
+            window.addEventListener('scroll', updatePosition);
+            window.addEventListener('resize', updatePosition);
+
+            if(isMobileDevice) {
+                nav.style.height = window.innerHeight + 'px';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function (e) {
+            nav     = document.querySelector('.doc-nav');
+            article = document.querySelector('.doc');
+
+            if(nav)
+                initNav(nav);
+        });
+    </script>
+  {% endif %}
+    <script>
+        function initHeader(siteHeader, contentWrapper, docTopMenu, article) {
+            var MIN_BODY_WIDTH = 1000;
+
+            function updateHeader() {
+                var bodyMinimized = document.body.clientWidth === MIN_BODY_WIDTH;
+
+                siteHeader.style.position = bodyMinimized ? 'static' : '';
+
+                if(docTopMenu)
+                    docTopMenu.style.position = bodyMinimized ? 'static' : '';
+
+                if(contentWrapper)
+                    contentWrapper.style.paddingTop = bodyMinimized ? {% if isLandingPage %}'48px'{% else %}'0'{% endif %} : '';
+
+                if(article)
+                    article.style.marginTop = bodyMinimized ? '21px' : '72px';
+            }
+
+            updateHeader();
+            window.addEventListener('scroll', updateHeader);
+            window.addEventListener('resize', updateHeader);
+        }
+        document.addEventListener('DOMContentLoaded', function (e) {
+            var contentWrapper = document.querySelector({% if isLandingPage %}'.banner'{% else %}'.container'{% endif %});
+            var siteHeader     = document.querySelector('.site-header');
+            var docTopMenu     = document.querySelector('.doc-top-nav');
+            var article        = document.querySelector('.doc');
+
+            if(siteHeader) 
+                initHeader(siteHeader, contentWrapper, docTopMenu, article);
+        });
+    </script>
+    {% if isLandingPage %}
+    <script type="text/javascript" src="scripts/ua-parser.min.js"></script>
+    <script>
+        function getOs() {
+            var parser = new UAParser();
+            var result = parser.getResult();
+            var os;
+
+            if (result.os.name === 'Windows') {
+                os = {
+                    name: "Windows",
+                    downloadLink: "https://go.devexpress.com/DevExpressDownload_TestCafe_Win.aspx",
+                    cssClass: " win"
+                };
+            } else if (result.os.name === 'Mac OS') {
+                os = {
+                    name: "MacOS",
+                    downloadLink: "https://go.devexpress.com/DevExpressDownload_TestCafe_Mac.aspx",
+                    cssClass: " macos"
+                };
+            } else if (navigator.userAgent.match(/(WOW64|x86_64)/g)) {
+                os = {
+                    name: "Linux (64 bit)",
+                    downloadLink: "https://go.devexpress.com/DevExpressDownload_TestCafe_Linux64.aspx",
+                    cssClass: " linux32"
+                };
+            } else {
+                os = {
+                    name: "Linux (32 bit)",
+                    downloadLink: "https://go.devexpress.com/DevExpressDownload_TestCafe_Linux32.aspx",
+                    cssClass: " linux32"
+                };
+            }
+
+            return os;
+        }
+
+        function configDownloadButton() {
+            var os = getOs();
+
+            var osName = document.querySelector('.index-header .os');
+            osName.textContent = os.name;
+
+            var osImage = document.querySelector('.index-header .button.download .image');
+            osImage.className += os.cssClass;
+
+            document.querySelector('.index-header .button.download').setAttribute('href', os.downloadLink);
+        }
+
+        document.addEventListener('DOMContentLoaded', function (e) {
+            configDownloadButton();
+        });
+    </script>
+    {% endif %}
+</head>

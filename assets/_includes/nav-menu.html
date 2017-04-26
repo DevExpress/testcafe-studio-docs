@@ -1,0 +1,15 @@
+{% for menuItem in site.data.nav-menu %}
+	{% capture menuItemUrl %}{{ menuItem.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
+	{% if page.url contains menuItemUrl and menuItem.content %}
+	<nav class="doc-nav">	
+		<div class="doc-nav-content">
+			<ul>
+				<li>
+				{% include nav-menu-item.html url=menuItem.url name=menuItem.name %}
+				{% include nav-menu-folder.html toc=menuItem.content %}
+				</li>
+			</ul>
+		</div>
+	</nav>
+	{% endif %}
+{% endfor %}	

@@ -1,0 +1,11 @@
+<ul>
+{% for navitem in include.toc %}
+    <li>
+		{% capture itemName %}{% if navitem.name %}{{ navitem.name }}{% elsif navitem.url %}{{ navitem.url }}{% else %}Unknown navitem: {{ navitem }}{% endif %}{% endcapture %}    
+		{% include nav-menu-item.html url=navitem.url name=itemName %}
+		{% if navitem.content %}
+			{% include nav-menu-folder.html toc=navitem.content %}
+		{% endif %}
+    </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,957 @@
+---
+---
+
+.index-header {
+    padding-top: 85px;
+    padding-bottom: 70px;
+    background-image: url(../Images/header-back.jpg);
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.index-header h1 {
+    font-size: 58px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 2px 3px rgba(32,32,32,.18);
+    white-space: nowrap;
+}
+
+.index-header h1 .bold {
+    font-family: Segoe UI,Arial,sans-serif;
+    font-weight: bold;
+}
+
+.index-header .buttons {
+    margin-top: 50px;
+}
+
+.index-header .buttons .button {
+    width: 460px;
+    height: 140px;
+    border: 1px solid rgba(254,254,254,.5);
+    padding: 40px 20px 40px 40px;
+    text-decoration: none;
+    color: #3c3c3c;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: left;
+    background-color: #fff;
+}
+
+.index-header .buttons .button:hover {
+    background-color: #BFEDFF;
+}
+
+.button {
+    font-family: Segoe UI,Arial,sans-serif;
+    color: #19abe2;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.index-header .buttons .button:last-child {
+    float: right;
+}
+
+.sprite {
+    background-image: url(../images/test-cafe-sprite.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.index-header .buttons .button .image {
+    width: 62px;
+    height: 66px;
+    background-position: top;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.index-header .buttons .button .image.win {
+    background-position: 0 -443px;
+    top: -1px;
+}
+
+.index-header .buttons .button .image.macos {
+    background-position: -63px -443px;
+    top: -5px;
+}
+
+.index-header .buttons .button .image.linux32 {
+    background-position: -123px -443px;
+    top: -3px;
+}
+
+.index-header .buttons .button .text-block {
+    display: table;
+    height: 100%;
+}
+
+.index-header .buttons .button .text-block span.text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-header .buttons .button .image.get-started-img {
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/get-started.png);
+    top: -3px;
+}
+
+div.LightBox {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+div.LightBox div.ImageContainer {
+    background-image: url(../images/html5-testing-browsers-devices.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+div.HCC div.Platforms {
+    background-color: #4a4a4a;
+    height: 82px;
+    padding: 10px 0;
+    position: relative;
+}
+
+div.HCC div.Platforms .content {
+    height: 100%;
+}
+
+div.HCC div.Platforms .content .icon-group {
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+div.HCC div.Platforms .content h4 {
+    font-size: 24px;
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    font-weight: lighter;
+    color: #a6a6a6;
+    text-align: center;
+    margin: 0 0;
+}
+
+div.HCC div.Platforms .Icon, div.HCC div.Platforms .Separator {
+    display: inline-block;
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    margin-top: 15px;
+    margin-left: 23px;
+}
+
+div.HCC div.Platforms div.Separator {
+    width: 1px;
+    top: -34px;
+    position: relative;
+    height: 71px;
+    overflow: hidden;
+    background-color: #777;
+    float: right;
+}
+
+.features .row {
+    padding-top: 15px;
+    padding-bottom: 37px;
+}
+
+.row {
+    margin-left: -20px;
+}
+
+.row:before, .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.row:after {
+    clear: both;
+}
+
+.home-page {
+    background: #f3f3f3;
+}
+
+.span7 {
+    width: 540px;
+}
+
+.span5 {
+    width: 380px;
+}
+
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+}
+
+.features .text {
+    text-align: left;
+    line-height: 16px;
+    color: #3c3c3c;
+    padding: 0 20px;
+}
+
+.features .text ul {
+    font-size: 13px;
+}
+
+.content ul, .container ul, .content ol, .container ol {
+    margin: 0 0 15px;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+
+.features .text ul li {
+    line-height: 18px;
+}
+
+ul.has-marker li {
+    margin-bottom: 10px;
+    padding-left: 26px;
+}
+
+ul.has-marker li:before {
+    background: url(../images/test-cafe-sprite.png) no-repeat -80px -49px;
+    content: "";
+    width: 16px;
+    height: 14px;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    margin-left: -26px;
+}
+
+.features .row .span5 {
+    margin-top: 40px;
+}
+
+.features .row .span5 .right {
+    text-align: right;
+}
+
+img {
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+@media only screen and (max-width: 1560px) {
+    .content {
+        width: auto;
+        max-width: 940px;
+        min-width: 920px;
+    }
+}
+
+.features h2 {
+    color: #18222f;
+    font-size: 40px;
+    padding-left: 20px;
+    line-height: 42px;
+    font-weight: 100;
+    padding-bottom: 13px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.features .row:not(:first-child) {
+    background: url(../images/separator-shadow.png) no-repeat center top;
+}
+
+.get-started h1 {
+    color: #fff;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 45px;
+    font-weight: normal;
+}
+
+.get-started {
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    background: #7d7d7d;
+}
+
+.get-started .steps {
+    width: 810px;
+    height: 280px;
+    background: url(../images/get-started-back.png) no-repeat center top;
+    padding: 0 50px;
+}
+
+.get-started .steps .step {
+    padding-top: 190px;
+    float: left;
+    width: 270px;
+    color: #c5c5c5;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.get-started h3 {
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif!important;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 23px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.get-started .steps .step h4 {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.site-content .container, .site-content .content {
+    padding: 0 0 70px;
+}
+
+.buy-now {
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    background: #f6f6f6;
+    text-align: center;
+}
+
+.buy-now h1 {
+    color: #252525;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 49px;
+    margin-bottom: 28px;
+    line-height: 45px;
+    font-weight: normal;
+}
+
+.buy-now h3 {
+    color: #666;
+    font-weight: normal;
+    line-height: 29px;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.buy-now .button {
+    margin-top: 27px;
+    height: 90px;
+    width: 260px;
+    background-color: #25aae1;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0 2px 1px #1f7fa3;
+    -moz-box-shadow: 0 2px 1px #1f7fa3;
+    -ms-box-shadow: 0 2px 1px #1f7fa3;
+    -o-box-shadow: 0 2px 1px #1f7fa3;
+    box-shadow: 0 2px 1px #1f7fa3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.buy-now .button img {
+    padding-top: 7px;
+}
+
+.buy-now .footnote, .buy-now .footnote a {
+    font-size: 11px;
+    line-height: 13px;
+    font-family: Segoe UI,Arial,sans-serif;
+    color: #666;
+    padding-bottom: 10px;
+}
+
+div.HCC div.MainImage {
+    position: relative;
+    height: 530px;
+    background-color: #f9f9f9;
+}
+
+div.HCC div.MainImage div.Info {
+    background: none;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #000;
+}
+
+div.HCC div.MainImage div.Info div.Background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #f8f8f8;
+    opacity: .9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    height: 150px;
+}
+
+div.HCC div.MainImage div.Info div.Content {
+    height: auto;
+}
+
+div.HCC div.MainImage div.Overlay {
+    width: 940px;
+}
+
+div.HCC div.MainImage .Content {
+    position: relative;
+    margin: 0 auto;
+    height: 530px;
+}
+
+div.LightBox .Content {
+    width: auto;
+}
+
+div.HCC div.MainImage div.Info div.Content .Description {
+    margin-top: 14px;
+    width: 590px;
+    float: left;
+}
+
+div.HCC div.MainImage div.Info div.Content .Title {
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    font-size: 43px;
+    line-height: 47px;
+    font-weight: 100;
+    color: #39b7e7;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.HCC div.MainImage div.Info div.Content .Text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #6b6b6b;
+}
+
+div.HCC div.MainImage div.Info div.Content .Button {
+    margin-top: 47px;
+    float: right;
+}
+
+.details.button.download-button.blue {
+    background-color: #25aae1;
+    color: #fff;
+    margin-top: -7px;
+}
+
+.button.download-button {
+    width: 300px;
+    position: relative;
+    height: 71px;
+    text-align: left;
+    padding-left: 84px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 68px;
+    margin-top: 32px;
+    background-color: #fff;
+    color: #3c3c3c;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,.3);
+    -ms-box-shadow: 0 1px 5px rgba(0,0,0,.3);
+    -o-box-shadow: 0 1px 5px rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px rgba(0,0,0,.3);
+}
+
+.button.download-button:hover {
+    text-decoration: none;
+}
+
+.details.button.download-button.blue:after {
+    background: url(../images/test-cafe-sprite.png) no-repeat -110px -263px #25aae1;
+}
+
+.button.download-button:after {
+    background: url(../images/test-cafe-sprite.png) no-repeat -55px -261px;
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 12px;
+    top: 8px;
+}
+
+.container:before, .container:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.purchase h1.to-table {
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: #252525;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    line-height: 120%;
+    padding-top: 50px;
+    text-align: center;
+    line-height: normal;
+}
+
+.purchase h4.gray-text {
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    color: #666!important;
+    text-align: center;
+    line-height: normal;
+    padding-bottom: 40px;
+    margin-top: 0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.table-container {
+    line-height: normal;
+    position: relative;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 70px;
+    margin-top: 0;
+    border-color: gray;
+    border-spacing: 2px;
+}
+
+.table-container table tr td.corner {
+    border: 0 solid #fff!important;
+}
+
+.table-container table tr td {
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    font-size: 16px;
+    width: 16.6%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #252525;
+    padding-left: 12px;
+    padding-right: 12px;
+    vertical-align: top;
+}
+
+.table-container table tr td.header {
+    font-size: 24px;
+    color: #252525;
+}
+
+.table-container table tr td.testcafe {
+    background-color: #f0f9fd;
+    width: 35%;
+}
+
+.table-container table tr td.competitor {
+    width: 200px;
+}
+
+.table-container table tr td.rowheader {
+    text-align: left;
+    padding-left: 20px;
+    color: #28abe1!important;
+    font-weight: bold;
+    padding-right: 50px;
+    vertical-align: middle;
+}
+
+.table-container table tr td div.yes, .table-container table tr td div.blue {
+    color: #28abe1!important;
+}
+
+.table-container table tr td div.no, .table-container table tr td div.yes {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.table-container table tr td div.opensource {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.table-container table tr td div.price {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.table-container table tr td div.description {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.table-container table tr td div.gray, .table-container table tr td div.no {
+    color: #a3a3a3!important;
+}
+
+.table-container table tr td div.no, .table-container table tr td div.yes {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.details .row img {
+    float: left;
+    padding-top: 48px;
+    padding-right: 20px;
+}
+
+.span10 {
+    width: 780px;
+}
+
+.details h2 {
+    font-size: 33px;
+    margin-bottom: 6px;
+}
+
+.details h3 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.details h6 {
+    font-weight: bold;
+    padding: 15px 0;
+    font-size: 16px;
+    margin: 0;
+}
+
+ul.list {
+    list-style: square outside;
+    margin-left: 18px;
+}
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 940px;
+}
+
+h1.article-header {
+    color: #19abe2;
+    margin-top: 40px;
+    font-size: 48px;
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.purchase h2 {
+    line-height: 30px;
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.purchase .license-link {
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+}
+
+.purchase .license-link:hover {
+    text-decoration: underline;
+    color: #19abe2;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.pull-left {
+    float: left;
+}
+
+.purchase h2.price {
+    color: #19abe2;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 66px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.purchase .per-developer {
+    padding-left: 71px;
+}
+
+.purchase .add-to-cart {
+    background-position: 0 -66px;
+    width: 161px;
+    display: block;
+    text-decoration: none;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.light {
+    color: #afafaf;
+}
+
+.small {
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 16px;
+}
+
+.purchase p.small, .purchase a.small {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.purchase p, .purchase a {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.purchase .gradient-separator-light {
+    margin: 50px 0;
+}
+
+.gradient-separator-light {
+    background: url(../images/gradient-separator-light.png) no-repeat 0 0;
+    height: 28px;
+    margin: 40px 0 30px;
+}
+
+.span6 {
+    width: 460px;
+}
+
+.contact-dx {
+    background: #f5f5f5;
+    text-align: left;
+    height: 141px;
+    padding: 20px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contact-dx h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.contact-dx p {
+    text-align: center;
+    color: #737373;
+}
+
+.purchase h1.download {
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    line-height: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.purchase h3.download {
+    font-family: 'Segoe UI Light','Segoe UI','Helvetica Neue Light','Helvetica Neue',Helvetica,Verdana,sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    padding-bottom: 20px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.purchase p.download, .purchase a.download {
+    text-align: center;
+}
+
+.download-links-background {
+    background: #26a4dd;
+    height: 142px;
+    margin-bottom: -10px;
+    margin-top: -15px;
+}
+
+.purchase .download-links {
+    margin: 0;
+}
+
+.purchase .download-links .span3 {
+    width: 227px;
+    margin: 20px 4px;
+    cursor: pointer;
+    color: #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgba(254,254,254,.5);
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.purchase .download-links .span3:hover {
+    background-color: rgba(254,254,254,.17);
+}
+
+.purchase .download-links .download-icon.win {
+    background-position: 0 -371px;
+}
+
+.purchase .download-links .download-icon.macos {
+    background-position: -63px -371px;
+}
+
+.purchase .download-links .download-icon.linux32 {
+    background-position: -123px -371px;
+}
+
+.purchase .download-links .download-icon.linux64 {
+    background-position: -123px -371px;
+}
+
+.purchase .download-links .download-icon {
+    margin-top: 10px;
+    width: 62px;
+    height: 70px;
+    float: left;
+}
+
+.purchase .download-links .span3 .text {
+    float: left;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.site-content .container.version, .site-content .content.version {
+    padding: 20px 0 0 0;
+    margin: 0 auto -35px auto;
+    text-align: center;
+    font-size: 13px;
+    color: #afafaf;
+}
+
+.site-content .container p a, .site-content .content p a {
+    text-decoration: underline;
+}
+
+.site-content .container p a:hover, .site-content .content p a:hover {
+    color: #19abe2;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.faq .article-header {
+    padding-top: 20px;
+}
+
+.faq .contact-dx {
+    margin-top: 40px;
+}
+
+.site-header {
+    position: static;
+}
+
+a:hover {
+    color: #19abe2;   
+}

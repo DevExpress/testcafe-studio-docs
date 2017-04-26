@@ -1,0 +1,227 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+ * Horizontal line
+ */
+hr {
+    margin-top: 41px;
+    margin-bottom: 9px;
+    border-top: 1px solid $border-color;
+}
+
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+}
+
+
+/**
+ * Scrollbars always visible
+ */
+html {
+    overflow-y: scroll;
+}
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, pre,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+blockquote,
+figure, table {
+    margin: $spacing-unit 0;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: $spacing-unit;
+}
+
+h1 {
+    margin-top: $spacing-unit;
+
+    &:first-child {
+        margin-top: 0;
+    }    
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+    
+    &:hover .permalink {
+        display: inline;
+    }
+}
+
+.permalink {
+    color: $grey-color;
+    display: none;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: calc(-#{$header-height-min} - 8px);
+    visibility: hidden;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-top: 1px solid $border-color;
+    padding: 8px 0 0 48px;
+    font-style: italic;
+    background-image: url($baseUrl + "/images/icon-note.png");
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
+
+    &.important {
+        background-image: url($baseUrl + "/images/icon-warning.png");
+        color: #815f3a;
+    }
+
+    :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.blockquote-content {
+    border-bottom: 1px solid $border-color;
+    min-height: 48px;    
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    border: 1px solid $blockquote-border-color;
+    border-radius: 3px;
+    background-color: #f8f8ff;
+    color:#219161;
+    font-style: normal;
+}
+
+code {
+    padding: 1px 5px;
+    white-space: pre; 
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding: 0;
+    }
+}
+
+/**
+ * Page content
+ */
+.container {
+    padding-top: $header-height-min;
+}
+
+/**
+ * Tables
+ */
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	border-bottom: 1px solid #cfcfcf;
+	text-align: left;
+}
+
+table > tbody > tr > th,
+table > tbody > tr > td, 
+table > thead > tr > th,
+table > thead > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr > td {
+	border-bottom: 1px solid $border-color;
+}
+

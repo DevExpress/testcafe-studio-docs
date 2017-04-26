@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<main>
+    <div class="post">
+        <div class="post-date">
+            {{ page.date | date: "%b %e, %Y" | upcase }}
+        </div>
+        <article class="post-content">
+            {{ content }}
+        </article>
+        <div id="back-to-posts-link">
+            <p><a href="./">Back to Post List</a></p>
+        </div>
+        <div id="disqus_thread"></div>
+    </div>
+</main>
+
+{% if jekyll.environment != "testing" %}
+<script>
+    var disqus_config = function () {
+        this.page.url = '{% include canonical-link.html %}';
+        this.page.identifier = '{{ page.id }}';
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//{% if jekyll.environment == "production" %}testcafe-blog{% else %}testcafe-staging{% endif %}.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
