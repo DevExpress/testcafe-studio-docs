@@ -4,7 +4,7 @@
 
 - [ ] - Use a cross-platform installer with auto-update (under development).
 - [ ] - Add a capability to create assertions in Visual Recorder (under development).
-- [ ] - Implement licensing mechanism (in discussion).
+- [ ] - Implement licensing mechanism (in under development).
 - [ ] - Create a new landing page (TODO).
 - [ ] - Create a Getting Started guide and promo videos (TODO).
 - [ ] - Clean up UI (TODO).
