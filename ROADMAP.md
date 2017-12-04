@@ -4,7 +4,6 @@
 
 - [ ] - Use a cross-platform installer with auto-update (under development).
 - [ ] - Add a capability to create assertions in Visual Recorder (under development).
-- [ ] - Implement licensing mechanism (in under development).
 - [ ] - Create a new landing page (in progress).
 - [ ] - Create a Getting Started guide and promo videos (TODO).
 - [ ] - Clean up UI (in progress).
@@ -13,7 +12,7 @@
 - [ ] - Fix major bugs.
 
 ## 0.x.0 - Next CTPs
-
+- [ ] - Implement licensing mechanism.
 - [ ] - Add "Rapid development mode" for fast writting/debugging tests.
   *The idea is described here: https://github.com/DevExpress/testcafe/issues/1624*  
   
