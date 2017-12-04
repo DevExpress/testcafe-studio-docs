@@ -3,6 +3,7 @@
 ## 0.1.0 - CTP (Community Technology Preview)
 
 - [ ] - Use a cross-platform installer with auto-update (under development).
+- [ ] - Setup an auto-update server (TODO).
 - [ ] - Add a capability to create assertions in Visual Recorder (under development).
 - [ ] - Create a new landing page (in progress).
 - [ ] - Create a Getting Started guide and promo videos (TODO).
