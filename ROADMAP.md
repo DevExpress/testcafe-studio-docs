@@ -6,7 +6,7 @@
 - [x] - Setup an auto-update server.
 - [ ] - Add a capability to create assertions in Visual Recorder (under development).
 - [ ] - Create a new landing page (in progress).
-- [ ] - Create a Getting Started guide and promo videos (TODO).
+- [ ] - Create a Getting Started guide and promo videos (in progress).
 - [ ] - Clean up UI (in progress).
 - [ ] - Figure out versioning (TODO).
 - [ ] - Add LICENSE.
