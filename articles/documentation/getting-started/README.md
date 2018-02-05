@@ -59,27 +59,30 @@ The **Test Editor** also allows you to reorder, delete the recorded commands and
 
 ## Adding New Commands to the Test
 
-The **Test Editor** allows you to add new commands to the test manually from the **Test Commands** panel or by recording them.
-At this step, you will record an assertion command that checks if the name you specified in the **Your name** input on the tested page is displayed on the **Thank you** page.
+If you need to add more steps to the test, you can continue the recording. The Test Editor also contains the **Test Commands** panel with specific commands that can be added to the test both during and after the recording.
+
+At this step, you will add an assertion that checks if the name you specified in the **Your name** input on the tested page is displayed on the **Thank you** page. It is more convenient to add the assertion command in the recording mode in order to visually select an object to verify on the tested page.
 
 To continue recording the test, click the IMAGE button.
-TestCafe Studio will play back the existing commands and wait for adding new ones. Click the IMAGE button in the **Assertions** section of the **Test Commands** panel.
+TestCafe Studio will play back the existing commands and wait for adding new ones.
+Click the IMAGE button in the **Assertions** section of the **Test Commands** panel.
 The new command will be added to the end of the test.
 
 Now you need to specify the assertion parameters in the **Test Editor**.
-Click the IMAGE button next to the **Actual** field to select an element whose property you are going to check.
-After you click the button, the tested webpage is displayed allowing you to select the target element.
-Hover over the page header that says *'Thank you, ...'*.
-The **Element Selector** popup will appear.
-It suggests a CSS selector that identifies the page header.
 
-IMAGE
+1. Select an element whose property you are going to check. To do this, click the IMAGE button next to the **Actual** field. The tested webpage will be displayed allowing you to select the target element. Hover over the page header that says *'Thank you, ...'*. The **Element Selector** popup will appear. It suggests a CSS selector that identifies the page header.
 
-Click the page header to add the selector to the **Actual** field. Use the IMAGE button to view alternative selectors that identify the same element.
+    IMAGE
 
-Then enter the expected text in the **Expected** field.
+    Click the page header to add the selector to the **Actual** field. To view or select alternative selectors that identify the same element, use the IMAGE button.
 
-IMAGE
+    IMAGE
+
+2. Select the property you want to verify. Click the IMAGE button to open the list of the object properties and select the desired one. The **Value** field will display the current property value.
+
+3. Enter the expected value of the object property into the **Expected** field. To add the current property value, click the IMAGE button. <!--By default, it holds the current property value.-->
+
+    IMAGE
 
 Stop the recording by clicking the IMAGE button.
 
