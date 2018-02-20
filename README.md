@@ -4,11 +4,13 @@ This repository contains documentation for TestCafe Studio and the source code o
 
 ## What is TestCafe Studio?
 
-TestCafe Studio is a cross-platform IDE for end-to-end Web testing. It provides lightweight, fast and reliable test automation.
+TestCafe Studio is a cross-platform IDE for end-to-end Web testing. You can create and maintain tests without coding using the built-in Visual Test Recorder.
 
-TestCafe Studio does not require WebDriver, browser plugins or other tools. It works on Windows, macOS and Linux. You can create and maintain tests without coding using the built-in Visual Test Recorder.
+TestCafe Studio does not require WebDriver, browser plugins or other tools. It works on Windows, macOS and Linux.
 
-TestCafe Studio is built on top of the [open-source TestCafe testing framework](https://github.com/DevExpress/testcafe/) and inhertis all its benefits. TestCafe tests do not require manual timeouts as all the waiting is performed automatically. This makes tests more stable and deterministic.
+The IDE is built on top of the [open-source TestCafe testing framework](https://github.com/DevExpress/testcafe/) and inhertis all its benefits. TestCafe tests do not require manual timeouts as all the waiting is performed automatically. This makes tests more stable and deterministic.
+
+Altogether it provides lightweight, fast and reliable test automation.
 
 ## What's in this repo?
 
