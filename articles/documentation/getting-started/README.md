@@ -7,7 +7,7 @@ permalink: /documentation/getting-started/
 
 This Getting Started tutorial guides you through recording your first test, running it and analyzing the results.
 
-In the tutorial, you will record a test for the [http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example) sample page.
+In the tutorial, you will record a test for the [TestCafe sample page](http://devexpress.github.io/testcafe/example).
 
 The tutorial includes the following steps:
 
@@ -19,13 +19,18 @@ The tutorial includes the following steps:
 
 ## Recording Test Actions
 
-To begin with, create a directory anywhere on your computer to store tests you will record.
+To begin with, create a directory anywhere on your computer to store your tests.
 Go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory.
 You can view the directory contents in the **Explorer** panel. Currently, the test directory is empty.
 
-The next step is to create a test fixture that will contain tests for a specific webpage.
+![The Explorer panel](../../images/getting-started/explorer-panel.png)
+
+Next, create a test fixture that will contain tests for a specific webpage.
 In the **Explorer** panel, click the **Create a New Fixture** button.
-In the opened **New Fixture** dialog, specify the fixture name (*My first fixture*) and the tested page URL (*[http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)*) and click **Create**.
+In the opened **New Fixture** dialog, specify the fixture name and the tested page URL, then click **Create**.
+
+![The New Fixture dialog](../../images/getting-started/new-fixture-dialog.png)
+
 The new fixture will be added to the test directory.
 
 To start recording a test, click the **Record a New Test** button in the **Explorer** panel.
@@ -37,68 +42,66 @@ Do the following actions on the webpage.
 * Check two check boxes: **Support for testing on remote devices** and **Advanced traffic and markup analysis**.
 * Click the **Submit** button.
 
-ANIMATION
-
 While you interact with the webpage, TestCafe Studio adds the corresponding actions to the test. You can view the recorded actions in TestCafe Studio both during the recording or after you finish it.
 
-IMAGE
+![The recorded test](../../images/getting-started/recorded-test.png)
 
-To stop the recording, close the browser window or click IMAGE on the toolbar.
+To stop the recording, close the browser window or click ![Stop recording](../../images/getting-started/stop-recording-icon.png) on the toolbar.
 
 ## Viewing the Recorded Test
 
 TestCafe Studio displays the recorded test in the **Test Editor**.
 
-When you click an action in the editor, the action parameters are displayed.
-You can edit the parameters.
-In particular, you can change the selector that identifies the element for the action: select an alternative selector from the list of the generated selectors or enter your own one.
+Click an action in the editor to view or change its parameters.
+For example, you can change a selector that identifies the element for the action: select an alternative selector from the list of the generated selectors or enter your own one.
 
-IMAGE
+![Choosing the selector](../../images/getting-started/choosing-the-selector.png)
 
 The **Test Editor** also allows you to reorder, delete the actions and [add new ones](#adding-new-actions-to-the-test).
 
 ## Adding New Actions to the Test
 
-If you need to add more steps to the test, you can continue the recording. The Test Editor also contains the **Actions** panel with specific actions that can be added to the test both during and after the recording.
+To add more steps to the test, you can continue the recording. The Test Editor also contains the **Actions** panel with specific actions that can be added to the test both during and after the recording.
 
-At this step, you will add an assertion that checks if the name you specified in the **Your name** input on the tested page is displayed on the **Thank you** page. It is more convenient to add the assertion in the recording mode in order to visually select an object to verify on the tested page.
+At this step, you will add an assertion that checks if the name entered earlier as **Your name** is displayed on the **Thank you** page. It is more convenient to add the assertion in the recording mode in order to visually select an object to verify on the tested page.
 
-To continue recording the test, click the IMAGE button.
+To continue recording the test, click ![Record test actions](../../images/getting-started/record-test-icon.png) on the toolbar.
 TestCafe Studio will play back the existing actions and wait for adding new ones.
-Click the IMAGE button in the **Assertions** section of the **Actions** panel.
+Click the button ![Equals assertion](../../images/getting-started/assertion-eql-icon.svg) in the **Assertions** section of the **Actions** panel.
 The new action will be added to the end of the test.
 
-Now you need to specify the assertion parameters in the **Test Editor**.
+Then specify the assertion parameters in the **Test Editor**.
 
-1. Select an element whose property you are going to check. To do this, click the IMAGE button next to the **Actual** field. The tested webpage will be displayed allowing you to select the target element. Hover over the page header that says *'Thank you, ...'*. The **Element Selector** popup will appear. It suggests a CSS selector that identifies the page header.
+1. Select an element whose property you are going to check. To do this, click the ![Pick a target element](../../images/getting-started/element-picker-active-icon.png) button next to the **Actual** field. The tested webpage will be displayed allowing you to select the target element. Hover over the page header that says *'Thank you, ...'*. The **Element Selector** popup will appear. It suggests a CSS selector that identifies the page header.
 
-    IMAGE
+    ![The Element Selector popup](../../images/getting-started/selector-popup.png)
 
-    Click the page header to add the selector to the **Actual** field. To view or select alternative selectors that identify the same element, use the IMAGE button.
-
-    IMAGE
+    Click the page header to add the selector to the **Actual** field. To view or select alternative selectors that identify the same element, click ![Choose the selector](../../images/getting-started/id-bar-icon.png).
 
 2. Select the property you want to verify from the list. The **Value** field will display the current property value.
 
-3. Enter the expected value of the object property into the **Expected** field. To add the current property value, click the IMAGE button. <!--By default, it holds the current property value.-->
+    ![The Properties list](../../images/getting-started/properties-list.png)
 
-    IMAGE
+3. Enter the expected value of the object property into the **Expected** field. To add the current property value, click the button ![Copy the value to the Expected field](../../images/getting-started/copy-value-active-icon.png).
 
-Stop the recording by clicking the IMAGE button.
+    ![Assertion](../../images/getting-started/assertion.png)
+
+Stop the recording by clicking the ![Stop recording](../../images/getting-started/stop-recording-icon.png) **Stop recording** button.
 
 ## Running the Test
 
-TestCafe Studio can run tests in most popular browsers.
+TestCafe Studio can run tests in all popular browsers.
 It automatically detects browsers installed on the local computer and creates test run configurations for them.
 To view available configurations, open the **Run Configuration** menu on the toolbar.
-To view configurations details, modify them or create your own configuration, click the IMAGE button next to the menu and use the subsequent **Run Configurations** dialog.
+
+![The Run Configuration menu](../../images/getting-started/run-configuration-menu.png)
+
+To view configurations details, modify them or create your own configuration, click ![Settings button](../../images/getting-started/settings-icon.png) next to the menu and use the subsequent **Run Configurations** dialog.
 For each configuration, you can select one or several browsers and specify additional options that affect test run.
 
-IMAGE
+![The Run Configurations dialog](../../images/getting-started/run-configurations-dialog.png)
 
-To run the recorded test in all the installed browsers, use the *all* configuration. Select it in the **Run Configuration** menu and click the IMAGE button.
-
-IMAGE
+To run the recorded test in all the installed browsers, use the *all* configuration. Select it in the **Run Configuration** menu and click the ![Run test](../../images/getting-started/action-run-icon.png) **Run test** button on the toolbar.
 
 TestCafe Studio will start test execution within several browsers in parallel.
 While the test is running, the **Reports** panel displays its progress.
@@ -107,4 +110,4 @@ While the test is running, the **Reports** panel displays its progress.
 
 After the test is over, the **Reports** panel displays the test result. To see a complete test report within the **Report** tab, click the entry in the **Reports** panel.
 
-IMAGE
+![Report](../../images/getting-started/report.png)
