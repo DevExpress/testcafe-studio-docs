@@ -67,14 +67,14 @@ To add more steps to the test, you can continue the recording. The Test Editor a
 
 At this step, you will add an assertion that checks if the name entered earlier as **Your name** is displayed on the **Thank you** page. It is more convenient to add the assertion in the recording mode in order to visually select an object to verify on the tested page.
 
-To continue recording the test, click ![Record test actions](../../images/getting-started/record-test-icon.png) on the toolbar.
+To continue recording the test, click the ![Record test actions](../../images/getting-started/record-test-icon.png) **Record test actions** button on the toolbar.
 TestCafe Studio will play back the existing actions and wait for adding new ones.
 Click the button ![Equals assertion](../../images/getting-started/assertion-eql-icon.svg) in the **Assertions** section of the **Actions** panel.
 The new action will be added to the end of the test.
 
 Then specify the assertion parameters in the **Test Editor**.
 
-1. Select an element whose property you are going to check. To do this, click the ![Pick a target element](../../images/getting-started/element-picker-active-icon.png) button next to the **Actual** field. The tested webpage will be displayed allowing you to select the target element. Hover over the page header that says *'Thank you, ...'*. The **Element Selector** popup will appear. It suggests a CSS selector that identifies the page header.
+1. Select an element whose property you are going to check. To do this, click the button ![Pick a target element](../../images/getting-started/element-picker-icon.png) next to the **Actual** field. The tested webpage will be displayed allowing you to select the target element. Hover over the page header that says *'Thank you, ...'*. The **Element Selector** popup will appear. It suggests a CSS selector that identifies the page header.
 
     ![The Element Selector popup](../../images/getting-started/selector-popup.png)
 
@@ -84,7 +84,7 @@ Then specify the assertion parameters in the **Test Editor**.
 
     ![The Properties list](../../images/getting-started/properties-list.png)
 
-3. Enter the expected value of the object property into the **Expected** field. To add the current property value, click the button ![Copy the value to the Expected field](../../images/getting-started/copy-value-active-icon.png).
+3. Enter the expected value of the object property into the **Expected** field. To add the current property value, click the button ![Copy the value to the Expected field](../../images/getting-started/copy-value-icon.png).
 
     ![Assertion](../../images/getting-started/assertion.png)
 
