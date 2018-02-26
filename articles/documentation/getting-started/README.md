@@ -78,7 +78,7 @@ Then specify the assertion parameters in the **Test Editor**.
 
     ![The Element Selector popup](../../images/getting-started/selector-popup.png)
 
-    Click the page header to add the selector to the **Actual** field. To view or select alternative selectors that identify the same element, click ![Choose the selector](../../images/getting-started/id-bar-icon.png).
+    Click the page header to add the selector to the **Actual** field. To view or select alternative selectors that identify the same element, click the ![Choose the selector](../../images/getting-started/id-bar-icon.png) arrow button next to the **Actual** field.
 
 2. Select the property you want to verify from the list. The **Value** field will display the current property value.
 
