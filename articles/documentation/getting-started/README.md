@@ -44,13 +44,15 @@ Do the following actions on the webpage.
 
 While you interact with the webpage, TestCafe Studio adds the corresponding actions to the test. You can view the recorded actions in TestCafe Studio both during the recording or after you finish it.
 
-![The recorded test](../../images/getting-started/recorded-test.png)
+![Recording the test](../../images/getting-started/recording-the-test.png)
 
 To stop the recording, close the browser window or click ![Stop recording](../../images/getting-started/stop-recording-icon.png) on the toolbar.
 
 ## Viewing the Recorded Test
 
 TestCafe Studio displays the recorded test in the **Test Editor**.
+
+![The recorded test](../../images/getting-started/recorded-test.png)
 
 Click an action in the editor to view or change its parameters.
 For example, you can change a selector that identifies the element for the action: select an alternative selector from the list of the generated selectors or enter your own one.
