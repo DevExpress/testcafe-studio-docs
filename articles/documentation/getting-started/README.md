@@ -19,7 +19,7 @@ The tutorial includes the following steps:
 
 ## Recording Test Actions
 
-To begin with, create a directory anywhere on your computer to store your tests.
+Create a directory anywhere on your computer to store your tests.
 Go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory.
 You can view the directory contents in the **Explorer** panel. Currently, the test directory is empty.
 
