@@ -25,7 +25,7 @@ You can view the directory contents in the **Explorer** panel. Currently, the te
 
 ![The Explorer panel](../../images/getting-started/explorer-panel.png)
 
-Next, create a test fixture that will contain tests for a specific webpage.
+Next, create a test fixture that will contain tests for the sample webpage.
 In the **Explorer** panel, click the **Create a New Fixture** button.
 In the opened **New Fixture** dialog, specify the fixture name and the tested page URL, then click **Create**.
 
@@ -42,7 +42,7 @@ Do the following actions on the webpage.
 * Check two check boxes: **Support for testing on remote devices** and **Advanced traffic and markup analysis**.
 * Click the **Submit** button.
 
-While you interact with the webpage, TestCafe Studio adds the corresponding actions to the test. You can view the recorded actions in TestCafe Studio both during the recording or after you finish it.
+While you interact with the webpage, TestCafe Studio adds your actions to the test. You can view the recorded actions in TestCafe Studio during the recording and after you finish it.
 
 ![Recording the test](../../images/getting-started/recording-the-test.png)
 
