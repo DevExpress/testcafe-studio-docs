@@ -16,20 +16,8 @@ Altogether it provides lightweight, fast and reliable test automation.
 
 ### Website
 
-This repository contains the sources of TestCafe Studio website. This static website is built using Jekyll and published on GitHub Pages.
-
-To preview the website locally, you need to [install Ruby](https://www.ruby-lang.org/en/documentation/installation/) with the following gems.
-
-```sh
-gem install jekyll htmlentities sanitize redcarpet jekyll-sitemap
-```
-
-After that, run a `gulp` task.
-
-```sh
-gulp preview-website
-```
+As soon as we prepare the TestCafe Studio website, we will publish its source code in this repo.
 
 ### Documentation
 
-In the [/articles/documentation](/articles/documentation) directory, you can find the current **development** version of TestCafe Studio documentation. Note that the functionality described here may not be included in the current release version. Unreleased functionality may change or be dropped before the next release.
+In the [/documentation](/documentation) directory, you can find the current **development** version of TestCafe Studio documentation. Note that the functionality described here may not be included in the current release version. Unreleased functionality may change or be dropped before the next release.
