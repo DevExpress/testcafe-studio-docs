@@ -96,7 +96,7 @@ To view the available configurations, open the **Run Configuration** menu on the
 ![The Run Configuration menu](../../images/getting-started/run-configuration-menu.png)
 
 To view configurations details, modify them or create your own configuration, click ![Settings button](../../images/getting-started/settings-icon.png) next to the menu and use the subsequent **Run Configurations** dialog.
-You can select one or several browsers and specify additional options that affect each configuration's  test run.
+You can select one or several browsers for each configuration and specify additional test run options.
 
 ![The Run Configurations dialog](../../images/getting-started/run-configurations-dialog.png)
 
