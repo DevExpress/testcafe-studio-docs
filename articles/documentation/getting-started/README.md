@@ -18,7 +18,7 @@ This tutorial uses the [TestCafe sample page](http://devexpress.github.io/testca
 ## Recording Test Actions
 
 First, create a directory for storing your tests.
-Go to the TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory.
+Go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory.
 You can view the directory's contents in the **Explorer** panel. Currently, the test directory is empty.
 
 ![The Explorer panel](../../images/getting-started/explorer-panel.png)
