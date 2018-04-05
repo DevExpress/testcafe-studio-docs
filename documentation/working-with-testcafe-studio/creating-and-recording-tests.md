@@ -9,6 +9,7 @@ This topic explains the basic concepts of tests in TestCafe Studio and describes
 
 * [Test Actions](#test-actions)
 * [Recording Tests](#recording-tests)
+    * [Record Configurations](#record-configurations)
     * [Starting and Stopping Recording](#starting-and-stopping-recording)
     * [During Recording](#during-recording)
 * [Creating Tests Manually](#creating-tests-manually)
@@ -35,9 +36,11 @@ You can quickly create tests by recording test actions. This way has the followi
 * You can record on-page actions simply by interacting with the web page.
 * You can create assertions quickly. In the recording mode, TestCafe Studio allows you to visually select a target element.
 
-### Starting and Stopping Recording
+### Record Configurations
 
 You can record a test in any local browser. TestCafe detects browsers installed on the local computer and add them to the **Record configuration** list. Before recording a test, select a desired record configuration in the list.
+
+### Starting and Stopping Recording
 
 **To start recording** a new test, do any of the following.
 
