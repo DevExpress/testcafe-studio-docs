@@ -48,7 +48,7 @@ You can view and modify the fixture in the **Fixture Editor**.
 
 ## Tests
 
-[Visual tests](about-test-types.md#visual-tests) (or simply **tests**) are stored within a fixture file and shown as the fixture's child elements in the **Explorer** panel.
+[Visual tests](test-types.md#visual-tests) (or simply **tests**) are stored within a fixture file and shown as the fixture's child elements in the **Explorer** panel.
 
 For information on how to create tests, see [Creating and Recording Tests](creating-and-recording-tests.md).
 

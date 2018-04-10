@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: About Test Types
+title: Test Types
 permalink: /documentation/working-with-testcafe-studio/test-types
 ---
 # Test Types
