@@ -10,7 +10,7 @@ This topic provides information on how to organize your test files.
 * [Test Directory](#test-directory)
 * [Fixtures](#fixtures)
 * [Tests](#tests)
-* [.js Test Files](#js-test-files)
+* [Coded Test Files](#coded-test-files)
 
 The image below demonstrates the **Explorer** panel that serves to manage your test files. It shows them in a tree-like structure.
 
@@ -29,7 +29,7 @@ You can also organize fixtures and .js test files into *subdirectories*. To crea
 
 ## Fixtures
 
-A fixture is a JavaScript file with `*.testcafe` extension that can contain one or more tests for a single specified target URL. Therefore, you will usually have one test fixture per website page/route.
+A fixture is a JSON file with `*.testcafe` extension that can contain one or more tests for a single specified target URL. Therefore, you will usually have one test fixture per website page/route.
 
 To create a new fixture:
 
@@ -52,6 +52,6 @@ You can view and modify the fixture in the **Fixture Editor**.
 
 For information on how to create tests, see [Creating and Recording Tests](creating-and-recording-tests.md).
 
-## .js Test Files
+## Coded Test Files
 
-You can store [JavaScript test files](about-test-types.md#javascript-test-code) to a test directory or subdirectory. For more information, see [Writing Test Code].
+You can store [coded tests](about-test-types.md#coded-tests) files to a test directory or subdirectory. For more information, see [Writing Test Code].
