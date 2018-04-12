@@ -29,7 +29,7 @@ You can run an entire test directory/subdirectory, a specific fixture, an indivi
 
 **To run an individual test**, do any of the following:
 
-* Click the IMAGE **Run test** button on the **Test Editor**'s toolbar.
+* Click the IMAGE **Run test** button on the **Test Editor** toolbar.
 * Click the IMAGE **Run test** button next to the test in the **Fixture Editor** or in the **Explorer** panel.
 
 **To run a coded test's file**, click the **Run test** IMAGE button next to the file in the **Explorer** panel. You can also run test fixtures and individual tests from the **Code Editor** by clicking the IMAGE button.

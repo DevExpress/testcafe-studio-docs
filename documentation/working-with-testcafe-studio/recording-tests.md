@@ -37,7 +37,7 @@ You can create tests in two ways:
 You can quickly create tests by recording test actions. Using the test recorder has the following advantages:
 
 * You can record on-page actions simply by interacting with the web page.
-* You can visually select a target element for actions added from the Actions panel during recording.
+* You can visually select a target element for actions (when you add actions from the Actions panel or need to change the target element for the recorded action).
 * You can create assertions quickly: visually select a target element, choose a desired property from the auto-generated property list, see the assertion status.
 
 ### Record Configurations
@@ -51,14 +51,14 @@ IMAGE
 **To start recording** a new test, do any of the following.
 
 * Select a [fixture](organizing-tests.md#fixtures) in the Explorer panel and click the **Record a New Test** button.
-* Click the IMAGE **Record a new test** button on the **Fixture Editor**'s toolbar.
+* Click the IMAGE **Record a new test** button on the **Fixture Editor** toolbar.
 * Click the IMAGE **Start recording a test** button on the **Welcome** page.
 
 TestCafe Studio will create a new test, add it to the fixture and start recording test actions. See [During Recording](#during-recording).
 
-**To stop recording**, close the browser or click the IMAGE **Stop** button on the **Test Editor**'s toolbar.
+**To stop recording**, close the browser or click the IMAGE **Stop** button on the **Test Editor** toolbar.
 
-**To resume recording**, click the **Record test actions** button on the **Test Editor**'s toolbar. TestCafe will replay the previous actions and wait for new ones.
+**To continue recording**, click the **Record test actions** button on the **Test Editor** toolbar. TestCafe will replay the previous actions and wait for new ones.
 
 ### During Recording
 
@@ -78,7 +78,7 @@ You can do the following during test recording:
 
 To create a new test, right-click a desired [fixture](organizing-tests.md#fixtures) in the **Explorer** panel and select **New Test** from the context menu. In the **Create Test** dialog, specify the test name and click **Create**. TestCafe Studio will create a test with the specified name and open it in the **Test Editor**. Note that the created test is empty. You will have to add actions to it in the **Test Editor**. See [Modifying Tests](#modifying-tests).
 
-You can also click the **Record test actions** button on the **Test Editor**'s toolbar and [record](#recording-tests) test actions.
+You can also click the **Record test actions** button on the **Test Editor** toolbar and [record](#recording-tests) test actions.
 
 ### Modifying Tests
 

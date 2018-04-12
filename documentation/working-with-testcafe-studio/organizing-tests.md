@@ -33,12 +33,12 @@ A fixture is a JSON file with `*.testcafe` extension that can contain one or mor
 
 To create a new fixture:
 
-* Do any of the following:
+1. Do any of the following:
     * In the **Explorer** panel, click **Create a New Fixture** button.
     * Right-click a test directory or subdirectory in the **Explorer** panel and select **New Fixture** from the context menu.
     The **New Fixture** dialog will open.
-* Specify the fixture name and the tested page’s URL.
-* Click **Create**.
+2. Specify the fixture name and the tested page’s URL.
+3. Click **Create**.
 
 After the fixture is created, you can [start recording tests](recording-tests.md#starting-and-stopping-recording).
 
