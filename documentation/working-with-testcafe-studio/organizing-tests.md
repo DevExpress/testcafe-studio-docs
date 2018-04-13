@@ -31,32 +31,16 @@ The **Explorer** panel will show the directory's content.
 
 You can also organize test files into *subdirectories*. To create a subdirectory, right-click a test directory in the **Explorer** panel and select **New Directory**. In the **New directory** dialog, enter the directory name and click the **Create** button.
 
-## Test Files
+## Recorded Tests Files
 
-### Recorded Tests Files
+The major type of tests you create with TestCafe Studio is **recorded tests**. These tests are stored within `*.testcafe` files. TestCafe Studio automatically creates a new `*.testcafe` file when you [start recording a test](recording-tests.md#starting-and-stopping-recording) for a new tested page.
 
-The major type of tests you create with TestCafe Studio is **recorded tests**. These tests are stored within `*.testcafe` files. TestCafe Studio automatically creates a new `*.testcafe` file when you [start recording a test](recording-tests.md#starting-and-stopping-recording) or create a fixture (see below) for a new tested page.
+The `.testcafe` test file can contain one more recorded tests.
 
-Recorded tests must be organized into categories called **fixtures**. A fixture contains tests for a single target URL. Therefore, you will usually have one fixture per website page.
+For information on how to record tests, see [Recording Tests](recording-tests.md)
 
-The `.testcafe` test file can contain one or more fixtures, and a fixture can contain one or more recorded tests.
+## Coded Tests Files
 
-The **Explorer** panel shows test files, fixtures and recorded tests in a tree-like structure.
+TestCafe Studio also allows you to write tests in JavaScript or TypeScript. You create a `.js` or `.ts` file in a test directory, open this file in a built-in code editor and write test code. For more information, see [Writing Test Code].
 
-IMAGE
-
-For information on how to create fixtures and record tests, see [Recording Tests](recording-tests.md)
-
-### Coded Tests Files
-
-TestCafe Studio also allows you to write tests in JavaScript or TypeScript. You create a `.js` or `.ts` file in a test directory, open this file in a built-in code editor and write test code.
-
-Coded tests must be organized by tested pages into categories called **fixtures**. You declare fixtures in the test code. For more information, see [Writing Test Code].
-
-The **Explorer** panel shows test files, fixtures and tests in a tree-like structure.
-
-IMAGE
-
-> If a test file contains one fixture, the Explorer panel doesn't show it, it shows the tests as the test file's child nodes.
-
-  IMAGE
+> TestCafe Studio also allows you to work with tests created with an earlier version of TestCafe (`.test.js` files). You can add these files to a test directory and view/modify/run the tests from TestCafe Studio.
