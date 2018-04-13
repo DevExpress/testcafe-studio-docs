@@ -58,3 +58,5 @@ The **Explorer** panel shows test files, fixtures and tests in a tree-like struc
 IMAGE
 
 > If a test file contains one fixture, the Explorer panel doesn't show it, it shows the tests as the test file's child nodes.
+
+  IMAGE
