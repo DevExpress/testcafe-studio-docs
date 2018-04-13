@@ -52,3 +52,9 @@ For information on how to create fixtures and record tests, see [Recording Tests
 TestCafe Studio also allows you to write tests in JavaScript or TypeScript. You create a `.js` or `.ts` file in a test directory, open this file in a built-in code editor and write test code.
 
 Coded tests must be organized by tested pages into categories called **fixtures**. You declare fixtures in the test code. For more information, see [Writing Test Code].
+
+The **Explorer** panel shows test files, fixtures and tests in a tree-like structure.
+
+IMAGE
+
+> If a test file contains one fixture, the Explorer panel doesn't show it, it shows the tests as the test file's child nodes.
