@@ -9,13 +9,9 @@ TestCafe Studio allows you to write tests using JavaScript and TypeScript. It pr
 
 To write test code from scratch, follow the steps:
 
-1. Create a `.js` or `.ts` file in a [test directory](organizing-tests.md#test-directory) or subdirectory. To do this, right-click the directory in the **Explorer** panel and select **New File** from the context menu. In the **New File** dialog, specify the file name and click **Create**.
+1. Create a `.js` or `.ts` file in a [test directory](organizing-tests.md#test-directory) or subdirectory. To do this, right-click the directory in the **Explorer** panel and select **New File** from the context menu. In the **New File** dialog, specify the file name and click **Create**. TestCafe Stuido will create the test file and open it in the **Code Editor**.
 
-     IMAGE
-
-2. Double-click the test file in the **Explorer** panel to open it in the **Code Editor**.
-
-3. Write test code. For information about the API used in tests, see the [Test API](https://devexpress.github.io/testcafe/documentation/test-api/) topic in the open-source TestCafe documentation.
+2. Write test code. For information about the API used in tests, see the [Test API](https://devexpress.github.io/testcafe/documentation/test-api/) topic in the open-source TestCafe documentation.
 
 ## Converting Recorded Tests to JavaScript Code
 

@@ -8,22 +8,33 @@ permalink: /documentation/working-with-testcafe-studio/debugging-tests
 This topic provides information about debugging tests and contains the following sections.
 
 * [Debugging Recorded Tests](#debugging-recorded-tests)
-  * [Options Useful for Debugging](#options-useful-for-debugging)
+  * [Features Useful for Debugging](#features-useful-for-debugging)
 * [Debugging Coded Tests](#debugging-coded-tests)
 
 ## Debugging Recorded Tests
 
-To debug recorded tests, TestCafe Studio provides the **Debug** action that pauses a test and allows you to debug using the browser's developer tools.
+To help you understand what is happening in your web page during test run, TestCafe Studio provides a debug mode. In this mode, TestCafe Studio pauses running a test and allows you to debug the tested page using the browser's developer tools: check the web page state, the location of DOM elements, their CSS styles, and so on.
+
+You can activate the debug mode in one of the following ways:
+
+* Add the **Debug** action to a particular place in a test. When test execution reaches this action, it pauses.
+* Enable the **Debug mode** option for a run configuration in the **Run Configurations** dialog. In this case, test run is paused before the first test action.
+* Enable the **Pause the test when it fails** option for a run configuration in the **Run Configurations** dialog. TestCafe Studio enters the debug mode when a test fails.
 
 IMAGE
 
-When test execution reaches this action, it pauses so that you can open browser's developer tools and check the web page state, the location of DOM elements, their CSS styles, etc.
+Once the test run is paused, you can open browser's developer tools and debug.
 
-The footer displays buttons that allow you to continue test execution or step to the next test action.
+The browser window's footer displays buttons that allow you to ...
+
+* The **Unlock Page** button allows you to unlock the tested page and interact with its elements.
+* The **Resume** button allows you to continue test execution.
+* The **Next Action** button allows you to go to the next test action.
+
 
 IMAGE
 
-### Options Useful for Debugging
+### Features Useful for Debugging
 
 TestCafe Studio includes a few features helpful to find the cause of issues in your tests.
 
@@ -45,9 +56,9 @@ TestCafe Studio stores the screenshots in a directory specified in the **Run Con
 
 IMAGE
 
-#### Test Execution Speed
+#### Test Speed
 
-TestCafe Studio provides the capability to change test speed. By default, tests are executed at full speed with minimum delays between actions. This makes it hard to identify problems visually when running a test. To slow down the test, use the **Test Execution Speed** action. You can use values from 1 to 0.01.
+TestCafe Studio provides the capability to change test speed. By default, tests are executed at full speed with minimum delays between actions. This makes it hard to identify problems visually when running a test. To slow down the test, use the **Set Test Speed** action. The action parameter allows you to specify test speed from 1 to 0.01.
 
 IMAGE
 
@@ -55,4 +66,4 @@ When tests run slowly, you can monitor test execution more easily and notice whe
 
 ## Debugging Coded Tests
 
-For more information about debugging coded tests, see [Debugging](https://devexpress.github.io/testcafe/documentation/test-api/debugging.htm) in TestCafe documentation.
+For more information about debugging coded tests, see [Debugging](https://devexpress.github.io/testcafe/documentation/test-api/debugging.html) in TestCafe documentation.
