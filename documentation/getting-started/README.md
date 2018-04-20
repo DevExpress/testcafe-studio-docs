@@ -9,11 +9,16 @@ This Getting Started tutorial guides you through recording your first test, runn
 
 This tutorial uses the [TestCafe sample page](http://devexpress.github.io/testcafe/example) to record the test and consists of the following sections:
 
+* [Installing TestCafe Studio](#installing-testcafe-studio)
 * [Recording Test Actions](#recording-test-actions)
 * [Viewing the Recorded Test](#viewing-the-recorded-test)
 * [Adding New Actions to the Test](#adding-new-actions-to-the-test)
 * [Running the Test](#running-the-test)
 * [Viewing the Test Results](#viewing-the-test-results)
+
+## Installing TestCafe Studio
+
+You can install TestCafe Studio on different operating systems: MacOS, Windows or Linux. For more information on how to do this, see [Installing TestCafe Studio](../installing-testcafe-studio/README.md).
 
 ## Recording Test Actions
 
@@ -103,7 +108,7 @@ You can select one or several browsers for each configuration and specify additi
 To run the recorded test in all the installed browsers, use the *all* configuration. Select it in the **Run Configuration** menu and click the ![Run test](../../images/getting-started/action-run-icon.png) **Run test** button on the toolbar.
 
 TestCafe Studio executes test runs within several browsers simultaneously.
-The **Reports** panel displays the test's progress. 
+The **Reports** panel displays the test's progress.
 
 ## Viewing the Test Results
 
