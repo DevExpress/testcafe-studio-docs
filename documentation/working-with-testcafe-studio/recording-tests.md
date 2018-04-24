@@ -37,7 +37,7 @@ You can record a test in any local browser. TestCafe detects browsers on the loc
 
 You can modify record configuration options by clicking the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button and using the **Record Configuration** dialog.
 
-[!Record Configuration Dialog](../../images/working-with-testcafe-studio/record-configuration-dialog.png)
+![Record Configuration Dialog](../../images/working-with-testcafe-studio/record-configuration-dialog.png)
 
 ## Creating Fixtures
 
@@ -78,15 +78,15 @@ TestCafe Studio creates a test with the specified name and opens it in the **Tes
 
 Do any of the following **to start recording** a new test:
 
-* Select a fixture in the **Explorer** panel and click the **Record a New Test** button.
-* Click the **Record a new test**  button on the **Fixture Editor** toolbar.
+* Select a fixture in the **Explorer** panel and click the ![Start recording a test](../../images/working-with-testcafe-studio/record-test-icon.png) **Record a New Test** button.
+* Click the ![Start recording a test](../../images/working-with-testcafe-studio/record-test-icon.png) **Record a new test**  button on the **Fixture Editor** toolbar.
 * Click the ![Start recording a test](../../images/working-with-testcafe-studio/record-test-icon.png) **Start recording a test** button on the **Welcome** page.
 
 TestCafe Studio creates a new test, adds it to the fixture and starts recording test actions. See [During Recording](#during-recording).
 
 **To stop recording**, close the browser or click the ![Stop recording button](../../images/working-with-testcafe-studio/stop-recording-icon.png) button on the **Test Editor** toolbar.
 
-**To continue recording**, click the **Record test actions** button on the **Test Editor** toolbar. TestCafe replays the previous actions and waits for new ones.
+**To continue recording**, click the ![Start recording a test](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the **Test Editor** toolbar. TestCafe replays the previous actions and waits for new ones.
 
 ## During Recording
 

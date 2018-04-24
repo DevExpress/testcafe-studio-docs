@@ -19,7 +19,7 @@ TestCafe Studio can run tests in all desktop and mobile browsers (with or withou
 
 To modify configurations or create a new one, click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button and use the **Run Configurations** dialog. You can select one or multiple browsers and specify options that affect test execution for each configuration.
 
-[!Run Configurations Dialog](../../images/working-with-testcafe-studio/run-configurations-dialog.png)
+![Run Configurations Dialog](../../images/working-with-testcafe-studio/run-configurations-dialog.png)
 
 ## Starting and Stopping Tests
 
