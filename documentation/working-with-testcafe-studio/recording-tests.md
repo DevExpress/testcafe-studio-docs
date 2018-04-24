@@ -18,7 +18,7 @@ IMAGE
 You can create tests:
 
 * by recording test actions;
-* by adding test actions to a test manually in the [Test Editor].
+* by adding test actions to a test manually in the **Test Editor**.
 
 The following sections provide detailed information about recording tests:
 
@@ -33,7 +33,11 @@ The following sections provide detailed information about recording tests:
 
 You can record a test in any local browser. TestCafe detects browsers on the local computer and adds them to the **Record configuration** list. Before recording a test, select the record configuration from the list.
 
-IMAGE
+![Record Congiruation List](../../images/working-with-testcafe-studio/record-configuration-list.png)
+
+You can modify record configuration options by clicking the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button and using the **Record Configuration** dialog.
+
+[!Record Configuration Dialog](../../images/working-with-testcafe-studio/record-configuration-dialog.png)
 
 ## Creating Fixtures
 
@@ -49,11 +53,13 @@ Follow the steps below to create a fixture:
 3. Specify the fixture name and the tested page’s URL.
 4. Click **Create**.
 
+![Creating a Fixture](../../images/working-with-testcafe-studio/creating-fixture.png)
+
+TestCafe Studio creates the fixture and opens it in the **Fixture Editor**.
+
 After the fixture is created, you can start recording tests.
 
 > If you start recording a test from the **Welcome** page, TestCafe Studio automatically creates a new fixture.
-
-You can view and modify the fixture in the **Fixture Editor**.
 
 ## Creating Tests
 
@@ -61,22 +67,24 @@ You can view and modify the fixture in the **Fixture Editor**.
 
 To create an empty test:
 
-1. Right-click a desired fixture in the **Explorer** panel and select **New Test** from the context menu.
+1. Open the context menu for a desired fixture in the **Explorer** panel and select **New Test**.
 2. In the **Create Test** dialog, specify the test name and click **Create**.
 
-TestCafe Studio creates a test with the specified name and opens it in the **Test Editor**. Next, add actions to the test from the **Actions** panel manually or record them. To start recording, click the IMAGE **Record test actions** button on the **Test Editor** toolbar.
+![Creating a Test](../../images/working-with-testcafe-studio/creating-test.png)
+
+TestCafe Studio creates a test with the specified name and opens it in the **Test Editor**. Next, add actions to the test from the **Actions** panel manually or record them. To start recording, click the ![Record test actions button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the **Test Editor** toolbar.
 
 ## Starting and Stopping Recording
 
 Do any of the following **to start recording** a new test:
 
-* Select a fixture in the Explorer panel and click the **Record a New Test** button.
-* Click the IMAGE **Record a new test** button on the **Fixture Editor** toolbar.
-* Click the IMAGE **Start recording a test** button on the **Welcome** page.
+* Select a fixture in the **Explorer** panel and click the **Record a New Test** button.
+* Click the **Record a new test**  button on the **Fixture Editor** toolbar.
+* Click the ![Start recording a test](../../images/working-with-testcafe-studio/record-test-icon.png) **Start recording a test** button on the **Welcome** page.
 
 TestCafe Studio creates a new test, adds it to the fixture and starts recording test actions. See [During Recording](#during-recording).
 
-**To stop recording**, close the browser or click the IMAGE **Stop** button on the **Test Editor** toolbar.
+**To stop recording**, close the browser or click the ![Stop recording button](../../images/working-with-testcafe-studio/stop-recording-icon.png) button on the **Test Editor** toolbar.
 
 **To continue recording**, click the **Record test actions** button on the **Test Editor** toolbar. TestCafe replays the previous actions and waits for new ones.
 
@@ -90,7 +98,7 @@ You can do the following during test recording:
 
 * Add actions from the **Actions** panel to the test. To do this, click a desired action in the **Actions** panel. The action is added to the end of the test. Then specify the action parameters.
 
-    When you add an on-page action or assertion, you can visually select a target element on the tested page. To do this, click the IMAGE button in the action parameters' area and click an element on the page.
+    When you add an on-page action or assertion, you can visually select a target element on the tested page. To do this, click the ![Element picker](../../images/working-with-testcafe-studio/element-picker-icon.png) button in the action parameters' area and click an element on the page.
 
     You can also choose a desired property from the auto-generated property list and see the assertion status for assertion.
 
