@@ -14,7 +14,7 @@ This topic provides information on how to organize your test files.
 
 The image below demonstrates the **Explorer** panel that allows you to manage your test files.
 
-IMAGE
+![Explorer panel](../../images/working-with-testcafe-studio/explorer-panel.png)
 
 ## Test Directory
 
