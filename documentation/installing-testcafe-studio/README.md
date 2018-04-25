@@ -17,7 +17,7 @@ To install TestCafe Studio:
 
     ![Installing TestCafe Studio on Windows](../../images/installation/setup-windows.png)
 
-    After installation is completed, the instaler will create the TestCafe Studio shortcut on the desktop.
+    After installation is completed, the instaler will create the TestCafe Studio shortcuts in the startup menu and on the desktop.
 
 * **Linux**. Download the TestCafe Studio archive and unzip its contents to the directory where you wish to store TestCafe Studio program files. Note that this is not a temporary folder - no further installation or unpacking is required.
 
