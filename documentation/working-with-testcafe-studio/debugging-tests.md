@@ -19,7 +19,7 @@ You can activate the debug mode in one of the following ways:
 
 * Add the **Debug** action to a particular place in a test. When test execution reaches this action, it pauses.
 
-    IMAGE
+    ![Debug Action](../../images/working-with-testcafe-studio/debug-action.png)
 
 * Enable the **Debug mode** option for a run configuration in the **Run Configurations** dialog. In this case, the test is paused before the first test action.
 
@@ -37,7 +37,7 @@ During debugging, the browser window displays a footer with the following button
 * The **Resume** button resumes the test.
 * The **Next Action** button allows you to skip to the next test action.
 
-![Browsr Footer](../../images/working-with-testcafe-studio/footer.png)
+![Browser Footer](../../images/working-with-testcafe-studio/footer.png)
 
 ### Features Useful for Debugging
 
@@ -51,7 +51,7 @@ There are two ways to take screenshots:
 
 * Use the **Screenshot** action to take a screenshot in a particular place in a test.
 
-    IMAGE
+    ![Take Screenshot Action](../../images/working-with-testcafe-studio/take-screenshot-action.png)
 
 * Turn on the *Take a screenshot if a test fails* option for a desired run configuration in the **Run Configurations** dialog. This option enables TestCafe Studio to take a screenshot when a test fails.
 
@@ -59,7 +59,7 @@ There are two ways to take screenshots:
 
 TestCafe Studio stores the screenshots in a directory specified in the **Run Configurations** dialog and displays them in test reports.
 
-IMAGE
+![Screenshots](../../images/working-with-testcafe-studio/screenshots-in-report.png)
 
 #### Test Speed
 
@@ -67,7 +67,7 @@ TestCafe Studio allows you to change test speed. Tests are executed at full spee
 
 * Use the **Set Test Speed** action. The action parameter allows you to specify the test speed from 1 to 0.01.
 
-    IMAGE
+    ![SEt Test Speed Action](../../images/working-with-testcafe-studio/set-test-speed-action.png)
 
 * Change the **Speed** option's value in the **Advanced Options** section of the **Run Configurations** dialog.
 
