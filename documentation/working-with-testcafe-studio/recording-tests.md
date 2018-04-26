@@ -9,11 +9,11 @@ Tests consist of **test actions** to be performed with a tested page.
 
 TestCafe Studio provides a set of actions that you can use in tests. These actions are organized into different categories in the **Test Editor**'s **Actions** panel. For example, **On-Page Actions** simulate user actions- clicks, key presses, drags, etc. on your tested page. The actions in the **Assertions** category allow you to perform different verifications.
 
-IMAGE
+![Actions Panel](../../images/working-with-testcafe-studio/actions-panel.png)
 
 Actions have parameters that enable you to specify a target element and define how the action should be performed.
 
-IMAGE
+![Action Parameters](../../images/working-with-testcafe-studio/action-parameters.png)
 
 You can create tests:
 
@@ -51,9 +51,10 @@ Follow the steps below to create a fixture:
     * Right-click a test directory or subdirectory in the **Explorer** panel and select **New Fixture** from the context menu.
     This opens the **New Fixture** dialog.
 3. Specify the fixture name and the tested page’s URL.
-4. Click **Create**.
 
-![Creating a Fixture](../../images/working-with-testcafe-studio/creating-fixture.png)
+    ![Creating a Fixture](../../images/working-with-testcafe-studio/creating-fixture.png)
+
+4. Click **Create**.
 
 TestCafe Studio creates the fixture and opens it in the **Fixture Editor**.
 
