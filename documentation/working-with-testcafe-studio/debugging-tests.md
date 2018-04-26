@@ -18,10 +18,16 @@ TestCafe Studio's debug mode helps you understand what is happening in your web 
 You can activate the debug mode in one of the following ways:
 
 * Add the **Debug** action to a particular place in a test. When test execution reaches this action, it pauses.
+
+    IMAGE
+
 * Enable the **Debug mode** option for a run configuration in the **Run Configurations** dialog. In this case, the test is paused before the first test action.
+
+    ![Debug Mode Option](../../images/working-with-testcafe-studio/debug-mode-option.png)
+
 * Enable the **Pause the test when it fails** option for a run configuration in the **Run Configurations** dialog. TestCafe Studio automatically enters the debug mode when the test fails.
 
-IMAGE
+    ![Pause the Test When it Fails](../../images/working-with-testcafe-studio/pause-test-option.png)
 
 Once the test is paused, you can open browser's developer tools and debug.
 
@@ -31,7 +37,7 @@ During debugging, the browser window displays a footer with the following button
 * The **Resume** button resumes the test.
 * The **Next Action** button allows you to skip to the next test action.
 
-IMAGE
+![Browsr Footer](../../images/working-with-testcafe-studio/footer.png)
 
 ### Features Useful for Debugging
 
@@ -49,7 +55,7 @@ There are two ways to take screenshots:
 
 * Turn on the *Take a screenshot if a test fails* option for a desired run configuration in the **Run Configurations** dialog. This option enables TestCafe Studio to take a screenshot when a test fails.
 
-    IMAGE
+    ![Take Screenshot Option](../../images/working-with-testcafe-studio/screenshot-option.png)
 
 TestCafe Studio stores the screenshots in a directory specified in the **Run Configurations** dialog and displays them in test reports.
 
@@ -63,8 +69,9 @@ TestCafe Studio allows you to change test speed. Tests are executed at full spee
 
     IMAGE
 
-* Change the **Speed** option's value in the **Run Configurations** dialog.
+* Change the **Speed** option's value in the **Advanced Options** section of the **Run Configurations** dialog.
 
+    ![Speed Option](../../images/working-with-testcafe-studio/speed-option.png)
 
 ## Debugging Coded Tests
 

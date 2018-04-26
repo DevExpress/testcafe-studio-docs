@@ -13,6 +13,8 @@ Follow the steps below to write test code from scratch:
 
 2. Write the test code. See the [Test API](https://devexpress.github.io/testcafe/documentation/test-api/) topic in the open-source TestCafe documentation for information about the API used in tests.
 
+    ![Code Editor](../../images/working-with-testcafe-studio/code-editor.png)
+
 ## Converting Recorded Tests to JavaScript Code
 
 You can convert recorded tests to JavaScript code. This gives you more control and flexibility in your test.
@@ -21,12 +23,8 @@ To convert a test fixture with recorded tests to code:
 
 1. Select the fixture in the **Explorer** panel and select **Convert to JavaScript Code** from the context menu.
 
-    IMAGE
-
 2. In the subsequent dialog, specify a name of the file where the test code should be added.
 
-    IMAGE
+    ![Convert to JavaScript Code Dialog](../../images/working-with-testcafe-studio/converted-tests.png)
 
-TestCafe Studio creates the `.js` file with tests and displays it in the **Explorer** panel.
-
-    IMAGE
+TestCafe Studio creates the `.js` file with tests in the same test directory and displays it in the **Explorer** panel.
