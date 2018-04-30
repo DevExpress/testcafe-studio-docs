@@ -18,13 +18,13 @@ This tutorial uses the [TestCafe sample page](http://devexpress.github.io/testca
 
 ## Installing TestCafe Studio
 
-You can install TestCafe Studio on different operating systems: MacOS, Windows or Linux. For more information on how to do this, see [Installing TestCafe Studio](../installing-testcafe-studio/README.md).
+You can install TestCafe Studio on MacOS, Windows or Linux. See [Installing TestCafe Studio](../installing-testcafe-studio/README.md) for more information on how to do this.
 
 ## Recording Test Actions
 
 First, create a directory for storing your tests.
 Go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory.
-You can view the directory's contents in the **Explorer** panel. Currently, the test directory is empty.
+You can view the directory's contents in the **Explorer** panel.
 
 ![The Explorer panel](../../images/getting-started/explorer-panel.png)
 
@@ -67,7 +67,7 @@ The **Test Editor** also allows you to reorder, delete and [add new actions](#ad
 
 You can continue the recording to add more steps to the test. The Test Editor also contains an **Actions** panel with specific actions that can be added to the test both during and after recording.
 
-This step adds an assertion that checks if the **Thank you** page displays the name entered earlier as **Your name**. It is more convenient to add the assertion while recording to visually select an object to verify on the tested page.
+This step adds an assertion that checks if the **Thank you** page displays the name entered earlier as **Your name**. Add the assertion while recording to select an object to verify on the tested page visually.
 
 To continue recording the test, click the ![Record test actions](../../images/getting-started/record-test-icon.png) **Record test actions** button on the toolbar.
 TestCafe Studio replays the previous actions and waits for new ones.
@@ -76,7 +76,7 @@ New actions are added to the end of the test.
 
 Next, specify the assertion parameters in the **Test Editor**:
 
-1. Select an element whose property you are going to check. To do this, click the button ![Pick a target element](../../images/getting-started/element-picker-icon.png) next to the **Actual** field. This displays the tested webpage which allows you to select the target element. Hover over the page header that says *'Thank you, ...'* to show the **Element Selector** popup that contains a CSS selector identifying the page header.
+1. Select an element whose property you are going to check by clicking the button ![Pick a target element](../../images/getting-started/element-picker-icon.png) next to the **Actual** field. This displays the tested webpage which allows you to select the target element. Hover over the page header that says *'Thank you, ...'* to show the **Element Selector** popup that contains a CSS selector identifying the page header.
 
     ![The Element Selector popup](../../images/getting-started/selector-popup.png)
 
@@ -95,8 +95,8 @@ You can stop the recording by clicking the ![Stop recording](../../images/gettin
 ## Running the Test
 
 TestCafe Studio can run tests in all popular browsers.
-It automatically detects browsers installed on the local computer and creates test run configurations for them.
-To view the available configurations, open the **Run Configuration** menu on the toolbar.
+It automatically detects browsers on the local computer and creates test run configurations for them.
+You can open the **Run Configuration** menu on the toolbar to view the available configurations.
 
 ![The Run Configuration menu](../../images/getting-started/run-configuration-menu.png)
 
