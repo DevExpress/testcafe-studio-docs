@@ -9,11 +9,16 @@ This Getting Started tutorial guides you through recording your first test, runn
 
 This tutorial uses the [TestCafe sample page](http://devexpress.github.io/testcafe/example) to record the test and consists of the following sections:
 
+* [Installing TestCafe Studio](#installing-testcafe-studio)
 * [Recording Test Actions](#recording-test-actions)
 * [Viewing the Recorded Test](#viewing-the-recorded-test)
 * [Adding New Actions to the Test](#adding-new-actions-to-the-test)
 * [Running the Test](#running-the-test)
 * [Viewing the Test Results](#viewing-the-test-results)
+
+## Installing TestCafe Studio
+
+You can install TestCafe Studio on MacOS, Windows or Linux. See [Installing TestCafe Studio](../installing-testcafe-studio/README.md) for more information on how to do this.
 
 ## Recording Test Actions
 
@@ -71,7 +76,7 @@ New actions are added to the end of the test.
 
 Next, specify the assertion parameters in the **Test Editor**:
 
-1. Select an element whose property you are going to check. To do this, click the button ![Pick a target element](../../images/getting-started/element-picker-icon.png) next to the **Actual** field. This displays the tested webpage which allows you to select the target element. Hover over the page header that says *'Thank you, ...'* to show the **Element Selector** popup that contains a CSS selector identifying the page header.
+1. Select an element whose property you are going to check by clicking the button ![Pick a target element](../../images/getting-started/element-picker-icon.png) next to the **Actual** field. This displays the tested webpage which allows you to select the target element. Hover over the page header that says *'Thank you, ...'* to show the **Element Selector** popup that contains a CSS selector identifying the page header.
 
     ![The Element Selector popup](../../images/getting-started/selector-popup.png)
 
@@ -91,7 +96,7 @@ You can stop the recording by clicking the ![Stop recording](../../images/gettin
 
 TestCafe Studio can run tests in all popular browsers.
 It automatically detects browsers on the local computer and creates test run configurations for them.
-To view the available configurations, open the **Run Configuration** menu on the toolbar.
+You can open the **Run Configuration** menu on the toolbar to view the available configurations.
 
 ![The Run Configuration menu](../../images/getting-started/run-configuration-menu.png)
 
