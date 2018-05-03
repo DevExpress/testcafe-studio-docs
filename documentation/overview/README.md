@@ -7,7 +7,7 @@ permalink: /documentation/overview/
 
 TestCafe Studio is a cross-platform IDE for end-to-end web testing that does not require WebDriver or other tools. It works on Windows, MacOS, and Linux, and in every popular browser. You can install it in a couple of minutes and start testing right away.
 
-TestCafe Studio provides advanced features that help you to test web apps fast.
+TestCafe Studio provides the following features.
 
 * You can create, edit and maintain end-to-end tests with a visual recorder without writing code. See [Recording Tests](../working-with-testcafe-studio/recording-tests.md).
 
@@ -21,4 +21,4 @@ TestCafe Studio provides advanced features that help you to test web apps fast.
 
 * After the tests finish, TestCafe Studio provides a report with overall results and details for each test. See [Reports](../working-with-testcafe-studio/reports.md).
 
-* TestCafe Studio is made for users of all skill levels. The visual recorder allows creating tests without expert knowledge of JavaScript. For those who like to code, TestCafe Studio provides a powerful Code Editor with syntax highlight, code completion, parameter hints and so on. You can write code from scratch, or convert recorded tests to JavaScript code to edit them later. See [Writing Test Code](working-with-testcafe-studio/writing-test-code.md).
+* For users who like to code, TestCafe Studio provides a powerful Code Editor with syntax highlight, code completion and parameter hints. You can write code from scratch, or convert recorded tests to JavaScript to edit them later. See [Writing Test Code](working-with-testcafe-studio/writing-test-code.md).

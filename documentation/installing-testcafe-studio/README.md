@@ -5,7 +5,7 @@ permalink: /documentation/installing-testcafe-studio/
 ---
 # Installing TestCafe Studio
 
-Since TestCafe Studio can be used on different operating systems. It is distributed as an installation file for MacOS and Windows, and a separate ZIP file for Linux.
+Since TestCafe Studio can be used on different operating systems, it is distributed as an installation file for MacOS and Windows, and a separate ZIP file for Linux.
 
 Follow the instructions below to install TestCafe Studio:
 
@@ -13,7 +13,7 @@ Follow the instructions below to install TestCafe Studio:
 
     ![Installing TestCafe Studio on Mac](../../images/installation/setup-mac.png)
 
-* **Windows**. Download the Windows installation file and run it. The installation wizard starts and displays the license agreement. If you accept the terms of the agreement, click **I Agree**. On the next page, specify to which users the software is available to and click **Install**. TestCafe Studio is installed in *Program Files\DevExpress\TestCafe Studio* by default.
+* **Windows**. Download the Windows installation file and run it. The installation wizard starts and displays the license agreement. If you accept the terms of the agreement, click **I Agree**. On the next page, specify to which users the software is available to and click **Install**. TestCafe Studio is installed in *Program Files\DevExpress\TestCafe Studio*.
 
     ![Installing TestCafe Studio on Windows](../../images/installation/setup-windows.png)
 
