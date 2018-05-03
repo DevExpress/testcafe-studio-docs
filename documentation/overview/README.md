@@ -19,6 +19,6 @@ TestCafe Studio has the following features:
 
 * Includes a built-in waiting mechanism that automatically checks that page elements are loaded during the test run. You do not need to add timeouts manually.
 
-* Generates a report with overall results and details for each testAfter testing is finished. See [Reports](../working-with-testcafe-studio/reports.md).
+* Generates a report with overall results and details for each test after testing is finished. See [Reports](../working-with-testcafe-studio/reports.md).
 
 * Contains a powerful Code Editor with syntax highlight, code completion and parameter hints. You can write code from scratch, or convert recorded tests to JavaScript to edit them later. See [Writing Test Code](working-with-testcafe-studio/writing-test-code.md).
