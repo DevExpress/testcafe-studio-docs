@@ -29,7 +29,7 @@ You can view the directory's contents in the **Explorer** panel.
 ![The Explorer panel](../../images/getting-started/explorer-panel.png)
 
 Next, create a test fixture for the sample webpage tests.
-In the **Explorer** panel, click the **Create a New Fixture** button, and in the opened **New Fixture** dialog, specify the fixture name and the tested page's URL. Click **Create**.
+In the **Explorer** panel, click the **Create a New Fixture** button, and in the invoked **New Fixture** dialog, specify the fixture name and the tested page's URL. Click **Create**.
 
 ![The New Fixture dialog](../../images/getting-started/new-fixture-dialog.png)
 
@@ -44,7 +44,7 @@ Perform the following actions on the webpage:
 * Check the **Support for testing on remote devices** and **Advanced traffic and markup analysis** checkboxes.
 * Click the **Submit** button.
 
-While you interact with the webpage, TestCafe Studio adds your actions to the test. You can view the recorded actions in TestCafe Studio at any time.
+TestCafe Studio adds your actions to the test while you interact with the webpage. You can view the recorded actions in TestCafe Studio at any time.
 
 ![Recording the test](../../images/getting-started/recording-the-test.png)
 
@@ -67,7 +67,7 @@ The **Test Editor** also allows you to reorder, delete and [add new actions](#ad
 
 You can continue the recording to add more steps to the test. The Test Editor also contains an **Actions** panel with specific actions that can be added to the test both during and after recording.
 
-This step adds an assertion that checks if the **Thank you** page displays the name entered earlier as **Your name**. Add the assertion while recording to select an object to verify on the tested page visually.
+This step adds an assertion that checks if the **Thank you** page displays the name you entered as **Your name**. You can add the assertion while recording to visually select which object to verify on the tested page.
 
 To continue recording the test, click the ![Record test actions](../../images/getting-started/record-test-icon.png) **Record test actions** button on the toolbar.
 TestCafe Studio replays the previous actions and waits for new ones.
