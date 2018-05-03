@@ -1,0 +1,35 @@
+---
+---
+
+article {
+    overflow-y: auto;
+    height: calc(100% - 80px);
+
+    .post-content {
+        max-width: 940px;
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 100px;
+        padding: 0 40px;
+    }
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+
+post-content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    min-width: 0;
+    
+    .footer-content {
+        min-width: 0;
+        max-width: 940px;
+    }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ "/css/docs.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/article.css" | prepend: site.baseurl }}">
+  </head>
+  <body>
+    <div class="page-content-wrapper">
+
+      {% include header.html %}
+
+      <article>
+        <div class="post-content">
+
+        {{ content }}
+        
+        </div>
+        {% include footer.html %}
+      </article>
+
+    </div>
+
+    {% include search.html %}
+
+  </body>
+
+</html>

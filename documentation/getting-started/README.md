@@ -103,7 +103,7 @@ You can select one or several browsers for each configuration and specify additi
 To run the recorded test in all the installed browsers, use the *all* configuration. Select it in the **Run Configuration** menu and click the ![Run test](../../images/getting-started/action-run-icon.png) **Run test** button on the toolbar.
 
 TestCafe Studio executes test runs within several browsers simultaneously.
-The **Reports** panel displays the test's progress. 
+The **Reports** panel displays the test's progress.
 
 ## Viewing the Test Results
 

@@ -1,0 +1,44 @@
+<nav class="doc-main-nav">
+	<div class="doc-main-nav-content">
+		<ul>
+			{% for menuItem in site.data.nav-menu %}
+				<li>
+					{% capture mainItemUrl %}{{ menuItem.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
+					{% include nav-menu-item.html url=menuItem.url name=menuItem.name level=0 %}
+					{% if page.url contains mainItemUrl and menuItem.content %}
+						<ul>
+							{% for secondaryItem in menuItem.content %}
+								<li>
+									{% include nav-menu-item-highlighted.html url=secondaryItem.url name=secondaryItem.name level=1 %}
+								</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</nav>
+
+
+{% for menuItem in site.data.nav-menu %}
+	{% for secondaryItem in menuItem.content %}
+		{% capture url %}{{ secondaryItem.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
+		{% if page.url contains url and secondaryItem.content %}
+		<script>
+			document.addEventListener('DOMContentLoaded', function (e) {
+				var main = document.querySelector('main');
+				var doc  = document.querySelector('.doc');
+
+				main.className += ' main-small';
+				doc.className  += ' doc-small';
+			});
+		</script>
+		<nav class="doc-secondary-nav">	
+			<div class="doc-secondary-nav-content">
+				{% include nav-menu-folder.html toc=secondaryItem.content level=2 %}
+			</div>
+		</nav>
+		{% endif %}
+	{% endfor %}
+{% endfor %}	
