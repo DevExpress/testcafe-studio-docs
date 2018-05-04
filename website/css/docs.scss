@@ -1,0 +1,237 @@
+---
+---
+
+body {
+    overflow: hidden;
+}
+
+.page-content-wrapper {
+    height: 100% !important;
+}
+
+.site-logo {
+    background-image: url("/images/blue-logo.png");
+    height: 40px;
+    width: 181px;
+    margin: 20px 0;
+}
+
+.site-header {
+    position: relative;
+    background-color: #f8f8f8;
+    height: 80px;
+    box-shadow: 0px 2px 20px rgba(0,0,0,0.1);
+    
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.site-header-content {
+    padding: 0 30px;
+    max-width: none;
+}
+
+.site-nav {
+    margin-right: 0;
+
+    .page-link {
+        padding: 31px 11px 25px;
+        margin-right: 0;
+        color: rgba(42, 56, 82, 255);
+
+        &.active {
+            color: rgba(255, 255, 255, 255);
+            background-color: #00aef0;
+        }
+    }
+
+    .search-button {
+        background-image: url("/images/search-icon.svg");        
+    }
+
+    .separator {
+        color: rgba(42, 56, 82, 255);
+        opacity: .2;
+    }
+}
+
+.doc-main-nav {
+    display: inline-block;
+    background-color: #f2f3f4;
+    height: calc(100% - 80px);
+    width: 270px;
+    overflow: auto;
+
+    ul {
+        font-size: 18px;
+        list-style-type: none;
+        margin-left: 0;
+        margin-bottom: 0;
+
+        & > li:first-of-type a {
+            padding-top: 13px;
+        }
+
+        & > li a {
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+
+        ul {
+            font-size: 14px;
+
+            & > li a {
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            
+            & > li:first-of-type a {
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+        }
+    }
+
+    a {
+        color: rgba(42, 56, 82, 255);
+        padding-left: 30px;
+        padding-right: 10px;
+        display: block;
+
+        &.active {
+            background-color: #0090c5;
+            color:white;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.doc-secondary-nav {
+    display: inline-block;
+    width: 272px;
+    height: calc(100% - 80px);
+    vertical-align: top;
+    background-color: #e7e8eb;
+    margin-left: -4px;
+    overflow: auto;
+
+    ul {
+        font-size: 14px;
+        font-weight: bold;
+        list-style-type: none;
+        margin-left: 0;
+        margin-bottom: 0;
+
+        & > li:first-of-type a {
+            padding-top: 14px;
+        }
+
+        & > li a {
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+
+        ul {
+            font-weight: normal;
+
+            & > li:first-of-type a {
+                padding-top: 3px;
+            }
+
+            & > li a {
+                padding-top: 5px;
+                padding-bottom: 4px;
+            }
+            
+            & > li:last-of-type a {
+                padding-bottom: 10px;
+            }
+
+            ul {
+                & > li a {
+                    padding-left: 50px;
+                }
+
+                ul {
+                    & > li a {
+                        padding-left: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        color: rgba(42, 56, 82, 255);
+        padding-left: 30px;
+        padding-right: 20px;
+        display: block;
+
+        &.active {
+            background-color: white;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+main {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -4px;
+    height: calc(100% - 80px);
+    width: calc(100% - 270px);
+    overflow-y: auto;
+
+    &.main-small {
+        width: calc(100% - 272px - 270px);
+    }
+
+    .post-content {
+        margin-bottom: 100px;
+    }
+}
+
+.doc-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #e4e4e4;
+    height: 178px;
+    min-width: 730px;
+
+    .footer-content {
+        min-width: 670px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 62px 30px 0;
+
+        .copyright {
+            font-size: 14px;
+            color: #2a3852;
+            float: left;
+            opacity: .7;
+        }
+
+        .logo {
+            background-image: url("/images/dx-footer-logo.svg");
+            width: 155px;
+            height: 27px;
+            float: right;
+            opacity: .7;
+        }
+    }
+}
