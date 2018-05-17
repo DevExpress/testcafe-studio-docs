@@ -198,6 +198,10 @@ main {
     }
 }
 
+.doc {
+    width: calc(100% - 60px);
+}
+
 .doc-wrapper {
     display: flex;
     flex-direction: column;
