@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Running Tests
-permalink: /documentation/working-with-testcafe-studio/running-tests
+permalink: /documentation/working-with-testcafe-studio/running-tests.html
 ---
 # Running Tests
 

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Recording Tests
-permalink: /documentation/working-with-testcafe-studio/recording-tests
+permalink: /documentation/working-with-testcafe-studio/recording-tests.html
 ---
 # Recording Tests
 

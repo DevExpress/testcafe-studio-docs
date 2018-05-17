@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Writing Test Code
-permalink: /documentation/working-with-testcafe-studio/writing-test-code
+permalink: /documentation/working-with-testcafe-studio/writing-test-code.html
 ---
 # Writing Test Code
 
