@@ -4,6 +4,8 @@
   url: /documentation/installing-testcafe-studio/README.md
 - name: Getting Started
   url: /documentation/getting-started/README.md
+- name: Video Tutorials
+  url: /documentation/video-tutorials/README.md
 - name: Working with TestCafe Studio
   url: /documentation/working-with-testcafe-studio/README.md
   content:
