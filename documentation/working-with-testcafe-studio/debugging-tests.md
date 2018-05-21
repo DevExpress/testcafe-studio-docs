@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Debugging Tests
-permalink: /documentation/working-with-testcafe-studio/debugging-tests
+permalink: /documentation/working-with-testcafe-studio/debugging-tests.html
 ---
 # Debugging Tests
 

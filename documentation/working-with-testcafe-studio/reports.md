@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Reports
-permalink: /documentation/working-with-testcafe-studio/reports
+permalink: /documentation/working-with-testcafe-studio/reports.html
 ---
 # Reports
 

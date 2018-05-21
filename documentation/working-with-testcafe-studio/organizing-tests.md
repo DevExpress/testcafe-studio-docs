@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Organizing Tests
-permalink: /documentation/working-with-testcafe-studio/organizing-tests
+permalink: /documentation/working-with-testcafe-studio/organizing-tests.html
 ---
 # Organizing Tests
 
