@@ -63,4 +63,15 @@ $(function(){
         }
     });
 });
+
+$(function(){
+    var GO_TO_DOWNLOADS_FLAG = 'go-to-downloads-clicked';
+
+    $('.go-to-download').on('click', function () {
+        if(!window.localStorage.getItem(GO_TO_DOWNLOADS_FLAG)) {
+            gtag('event', 'goToDownloadsClicked');
+            window.localStorage.setItem(GO_TO_DOWNLOADS_FLAG, true);
+        }
+    });
+});
 {% endif %}    
