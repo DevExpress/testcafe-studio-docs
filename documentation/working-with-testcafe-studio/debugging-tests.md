@@ -63,7 +63,9 @@ TestCafe Studio stores the screenshots in a directory specified in the **Run Con
 
 #### Test Speed
 
-TestCafe Studio allows you to change test speed. Tests are executed at full speed with minimum delays between actions by default. This makes it hard to identify problems visually when running a test. You adjust the test's speed in one of the following ways:
+Tests are executed at full speed with minimum delays between actions by default. This makes it hard to identify problems visually when running a test.
+
+TestCafe Studio allows you to change test speed in one of the following ways:
 
 * Use the **Set Test Speed** action. The action parameter allows you to specify the test speed from 1 to 0.01.
 

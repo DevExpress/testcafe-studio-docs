@@ -40,6 +40,6 @@ See [Recording Tests](recording-tests.md) for information on how to record tests
 
 ## Coded Tests Files
 
-TestCafe Studio also allows you to write tests in JavaScript or TypeScript. Create a `.js` or `.ts` file in a test directory, open this file in a built-in code editor and write test code. Refer to [Writing Test Code] for more details.
+TestCafe Studio also allows you to write tests in JavaScript or TypeScript. Create a `.js` or `.ts` file in a test directory, open this file in a built-in code editor and write test code. Refer to [Writing Test Code](writing-test-code.md) for more details.
 
 > TestCafe Studio also allows you to use tests created in an earlier TestCafe version (`.test.js` files). You can add these files to a test directory and view/modify/run the tests from TestCafe Studio.

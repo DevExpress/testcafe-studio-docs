@@ -13,11 +13,11 @@ This topic describes how to execute tests and consists of the following sections
 
 ## Run Configurations
 
-TestCafe Studio can run tests in all desktop and mobile browsers (with or without a UI). It determines which browsers are installed on the local computer and automatically creates *run configurations* for them. You can view available configurations in the **Run Configuration** list.
+TestCafe Studio can run tests in all desktop and mobile browsers (with or without a UI). It determines which browsers are installed on the local computer and automatically creates *run configurations* for them. You can view available configurations and switch between them in the **Run Configuration** drop-down menu.
 
-![Run Congiruation List](../../images/working-with-testcafe-studio/run-configuration-list.png)
+![Run Congiruation Menu](../../images/working-with-testcafe-studio/run-configuration-list.png)
 
-To modify configurations or create a new one, click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button and use the **Run Configurations** dialog. You can select one or multiple browsers and specify options that affect test execution for each configuration.
+To modify configurations or create a new one, click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button and use the [Run Configurations](../user-interface/run-configurations-dialog.md) dialog. You can select one or multiple browsers and specify options that affect test execution for each configuration.
 
 ![Run Configurations Dialog](../../images/working-with-testcafe-studio/run-configurations-dialog.png)
 
