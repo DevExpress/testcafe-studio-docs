@@ -37,6 +37,9 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    display: flex;
+    align-items: center;
+    padding-top: 29px;
 
     .menu-icon {
         display: none;
@@ -45,11 +48,8 @@
     .page-link {
         font-size: 16px;
         font-weight: bold;
-        padding-top: 34px;
         color: rgba(255, 255, 255, 255);
-
         line-height: $base-line-height;
-        display: inline-block;
         margin-right: 19px;
         text-transform: uppercase;
 
@@ -60,8 +60,6 @@
     }
 
     .search-button {
-        display: inline-block;
-        vertical-align: middle;
         width: 18px;
         height: 26px;
         background-image: url("/images/landing-page/search-icon.svg");
@@ -69,8 +67,6 @@
     }
 
     .twitter-button {
-        display: inline-block;
-        vertical-align: sub;
         width: 20px;
         height: 20px;
         background-image: url("/images/twitter-icon.svg");
@@ -78,10 +74,9 @@
     }
 
     .separator {
-        display: inline-block;
-        vertical-align: baseline;
         color: #fff;
         opacity: .2;
+        padding-bottom: 6px;
         font-size: 26px;
         font-weight: lighter;
         margin-right: 14px;
