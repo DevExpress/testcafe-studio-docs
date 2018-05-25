@@ -8,9 +8,8 @@ permalink: /documentation/working-with-testcafe-studio/organizing-tests.html
 This topic provides information on how to organize your test files.
 
 * [Test Directory](#test-directory)
-* [Test Files](#test-files)
-  * [Recorded Tests Files](#recorded-tests-files)
-  * [Coded Tests Files](#coded-tests-files)
+* [Recorded Tests Files](#recorded-tests-files)
+* [Coded Tests Files](#coded-tests-files)
 
 The image below demonstrates the **Explorer** panel that allows you to manage your test files.
 
