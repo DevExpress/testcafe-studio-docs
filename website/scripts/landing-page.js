@@ -35,21 +35,59 @@ document.addEventListener('DOMContentLoaded', function (e) {
 });
 
 $(function(){
-    $('#get-ctp-form').submit(function(e){
-        e.preventDefault();
+    var downloadLinks = {
+        win: {
+            name: 'Windows',
+            url: 'https://testcafe.devexpress.com/Download_for_Windows.aspx'
+        },
+        macos: {
+            name: 'macOS',
+            url: 'https://testcafe.devexpress.com/Download_for_macOS.aspx'
+        },
+        linux64: {
+            name: 'Linux x64',
+            url: 'https://testcafe.devexpress.com/Download_for_Linux64.aspx'
+        },
+        linux32: {
+            name: 'Linux x32',
+            url: 'https://testcafe.devexpress.com/Download_for_Linux32.aspx'
+        }
+    };
 
-        var href = $(this).attr('action');
+    var altOsSpans = ['.alt-os-1', '.alt-os-2', '.alt-os-3'];
 
-        $.ajax({
-            type: 'POST',
-            dataType: 'json',
-            url: href,
-            data: $(this).serialize()
-        });
+    function appendLinks() {
+        for(var platform in downloadLinks) {
+            var link = downloadLinks[platform];
+    
+            if(link.primary) 
+                $('.primary-os').append(link.name).closest('a').attr('href', link.url);
+            else {
+                var htmlLink = $('<a>').attr('href', link.url).text(link.name)
+                
+                $(altOsSpans.shift()).append(htmlLink);
+            }
+        }
+    }
 
-        $('.get-ctp-section').css('display', 'none');
-        $('.get-ctp-confirmation').css('display', 'block');
-    });
+    if(window.UAParser) {
+        var parsedUA = new UAParser(navigator.userAgent);
+        var osName   = parsedUA.getOS().name;
+        var cpu      = parsedUA.getCPU().architecture;
+
+        if(osName && osName.indexOf('Windows') !== -1) 
+            downloadLinks.win.primary = true;
+        else if(osName === 'Mac OS')
+            downloadLinks.macos.primary = true;
+        else if(cpu && cpu.indexOf('64') !== -1)
+            downloadLinks.linux64.primary = true;
+        else
+            downloadLinks.linux32.primary = true;
+    }
+    else
+        downloadLinks.linux32.primary = true;
+
+    appendLinks();
 });
 
 {% if jekyll.environment == "production" %}
