@@ -23,7 +23,7 @@
     "studio"
   ],
   "scripts": {
-    "test": "gulp travis"
+    "test": "gulp test-website-travis"
   },
   "devDependencies": {
     "broken-link-checker": "^0.7.7",

@@ -216,5 +216,3 @@ gulp.task('publish-website', ['build-website-production'], function () {
         }))
         .pipe(ghpages());
 });
-
-gulp.task('test-docs-travis', ['test-website-travis', 'lint']);
