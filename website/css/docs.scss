@@ -272,14 +272,14 @@ footer {
             .section-name {
                 font-weight: bold;
                 font-size: 16px;
-                padding-left: 30px;
+                padding: 0 0 8px 30px;
             }
             .section-content {
                 .video {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    padding: 2.5px 18px 2.5px 30px;
+                    padding: 6px 18px 7px 30px;
 
                     .video-name {
                         font-size: 16px;
