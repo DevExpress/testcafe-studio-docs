@@ -558,6 +558,11 @@ footer {
             color: white;
             float: left;
             opacity: .7;
+
+            a {
+                color: white;
+                text-decoration: underline;
+            }
         }
 
         .logo {
