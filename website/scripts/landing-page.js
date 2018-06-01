@@ -38,19 +38,19 @@ $(function(){
     var downloadLinks = {
         win: {
             name: 'Windows',
-            url: 'https://testcafe.devexpress.com/Download_for_Windows.aspx'
+            url: 'http://testcafe.devexpress.com/TryStudio/windows'
         },
         macos: {
             name: 'macOS',
-            url: 'https://testcafe.devexpress.com/Download_for_macOS.aspx'
+            url: 'http://testcafe.devexpress.com/TryStudio/macos'
         },
         linux64: {
             name: 'Linux x64',
-            url: 'https://testcafe.devexpress.com/Download_for_Linux64.aspx'
+            url: 'http://testcafe.devexpress.com/TryStudio/linux64'
         },
         linux32: {
             name: 'Linux x32',
-            url: 'https://testcafe.devexpress.com/Download_for_Linux32.aspx'
+            url: 'http://testcafe.devexpress.com/TryStudio/linux32'
         }
     };
 
