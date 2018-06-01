@@ -2,7 +2,7 @@
   url: /documentation/getting-started/
   highlightUrl: /documentation
 - text: Support
-  url: https://www.devexpress.com/Support/Center/Question/ChangeFilterSet/1?FavoritesOnly=False&MyItemsOnly=False&MyTeamItemsOnly=False&TechnologyName=Testing+Tools&PlatformName=AllPlatforms&ProductName=AllProducts&TicketType=All
+  url: https://www.devexpress.com/Support/Center/Question/ChangeFilterSet/1?FavoritesOnly=False&MyItemsOnly=False&MyTeamItemsOnly=False&TechnologyName=Testing+Tools&PlatformName=AllPlatforms&ProductName=TestCafe+Studio&TicketType=All
   external: true
 - text: Pricing
   url: /#pricing
