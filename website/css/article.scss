@@ -20,7 +20,7 @@ article {
     flex: 0 1 auto;
 }
 
-post-content {
+.post-content {
     flex: 1 0 auto;
 }
 
@@ -33,3 +33,57 @@ footer {
         max-width: 940px;
     }
 }
+
+.thank-you-page {
+    margin-top: -20px;
+    font-size: 18px;
+    max-width: 665px;
+    margin: 0 auto;
+
+    .thank-you-top {
+        text-align: center;
+        padding-bottom: 60px;
+        border-bottom: 3px solid #ededed;
+
+        .thank-you-header {
+            font-size: 48px;
+            font-weight: bold;    
+            color: rgba(42, 56, 82, 255);
+            line-height: 53px;
+        }
+        .thank-you-subheader {
+            color: rgba(109, 119, 137, 255);
+            padding-top: 25px;
+        }
+    }
+    .whats-next-section {
+        padding-top: 43px;
+
+        .whats-next-header {
+            font-weight: bold;
+
+        }
+        .next-steps {
+            line-height: 30px;
+            padding-top: 2px;
+
+            ul {
+                list-style: none;
+
+                li::before {
+                    content: "\2022";
+                    font-size: 30px;
+                    color: #bdbec2;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                    vertical-align: text-bottom;
+                }
+            }
+        }
+    }
+    .note {
+        padding-top: 25px;
+    }
+}
+
