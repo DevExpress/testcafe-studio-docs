@@ -16,16 +16,11 @@
         }
         });
     }
-    
-    var TOUR_VIDEO_PLAYED_FLAG = 'tour-video-played';
 
     function onPlayerStateChange(event) {
         {% if jekyll.environment == "production" %}
         if (event.data == YT.PlayerState.PLAYING) {
-            if(!window.localStorage.getItem(TOUR_VIDEO_PLAYED_FLAG)) {
-                gtag('event', 'tourVideoPlayed');
-                window.localStorage.setItem(TOUR_VIDEO_PLAYED_FLAG, true);
-            }
+            gtag('event', 'tourVideoPlayed');
         }
         {% endif %}
     }

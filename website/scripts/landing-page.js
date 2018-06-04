@@ -38,19 +38,23 @@ $(function(){
     var downloadLinks = {
         win: {
             name: 'Windows',
-            url: 'http://testcafe.devexpress.com/TryStudio/windows'
+            url: 'http://testcafe.devexpress.com/TryStudio/windows',
+            gaId: 'Win'
         },
         macos: {
             name: 'macOS',
-            url: 'http://testcafe.devexpress.com/TryStudio/macos'
+            url: 'http://testcafe.devexpress.com/TryStudio/macos',
+            gaId: 'Mac'
         },
         linux64: {
             name: 'Linux x64',
-            url: 'http://testcafe.devexpress.com/TryStudio/linux64'
+            url: 'http://testcafe.devexpress.com/TryStudio/linux64',
+            gaId: 'Linux64'
         },
         linux32: {
             name: 'Linux x32',
-            url: 'http://testcafe.devexpress.com/TryStudio/linux32'
+            url: 'http://testcafe.devexpress.com/TryStudio/linux32',
+            gaId: 'Linux32'
         }
     };
 
@@ -60,11 +64,31 @@ $(function(){
         for(var platform in downloadLinks) {
             var link = downloadLinks[platform];
     
-            if(link.primary) 
-                $('.primary-os').append(link.name).closest('a').attr('href', link.url);
+            if(link.primary) {
+                $('.primary-os')
+                    .append(link.name)
+                    .closest('a')
+                    .attr('href', link.url);
+
+                {% if jekyll.environment == "production" %}                                    
+                    $('.primary-os')
+                        .closest('a')                
+                        .on('click', function () {
+                            gtag('event', 'downloadClicked');
+                            gtag('event', 'download' + link.gaId + 'Clicked');
+                    });
+                {% endif %} 
+            }
             else {
-                var htmlLink = $('<a>').attr('href', link.url).text(link.name)
-                
+                var htmlLink = $('<a>').attr('href', link.url).text(link.name);
+
+                {% if jekyll.environment == "production" %}
+                    htmlLink.on('click', function () {
+                        gtag('event', 'downloadClicked');
+                        gtag('event', 'download' + link.gaId + 'Clicked');
+                    });
+                {% endif %} 
+
                 $(altOsSpans.shift()).append(htmlLink);
             }
         }
@@ -92,13 +116,8 @@ $(function(){
 
 {% if jekyll.environment == "production" %}
 $(function(){
-    var GET_CTP_CLICKED_FLAG = 'get-ctp-clicked';
-
     $('.get-ctp').on('click', function () {
-        if(!window.localStorage.getItem(GET_CTP_CLICKED_FLAG)) {
-            gtag('event', 'getCtpClicked');
-            window.localStorage.setItem(GET_CTP_CLICKED_FLAG, true);
-        }
+        gtag('event', 'getCtpClicked');
     });
 });
 {% endif %}    
