@@ -60,6 +60,13 @@ $(function(){
 
     var altOsSpans = ['.alt-os-1', '.alt-os-2', '.alt-os-3'];
 
+    function makeClickCallback(gaId) {
+        return function () {
+            gtag('event', 'downloadClicked');
+            gtag('event', 'download' + gaId + 'Clicked');
+        }
+    }
+
     function appendLinks() {
         for(var platform in downloadLinks) {
             var link = downloadLinks[platform];
@@ -73,20 +80,14 @@ $(function(){
                 {% if jekyll.environment == "production" %}                                    
                     $('.primary-os')
                         .closest('a')                
-                        .on('click', function () {
-                            gtag('event', 'downloadClicked');
-                            gtag('event', 'download' + link.gaId + 'Clicked');
-                    });
+                        .on('click', makeClickCallback(link.gaId));
                 {% endif %} 
             }
             else {
                 var htmlLink = $('<a>').attr('href', link.url).text(link.name);
 
                 {% if jekyll.environment == "production" %}
-                    htmlLink.on('click', function () {
-                        gtag('event', 'downloadClicked');
-                        gtag('event', 'download' + link.gaId + 'Clicked');
-                    });
+                    htmlLink.on('click', makeClickCallback(link.gaId));
                 {% endif %} 
 
                 $(altOsSpans.shift()).append(htmlLink);
