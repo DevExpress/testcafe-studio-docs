@@ -23,6 +23,12 @@
 
     {% include search.html %}
 
+    {% if page.url contains "thanks-for-downloading-ctp" %}
+
+      {% include download-page-script.html %}
+
+    {% endif %}
+
   </body>
 
 </html>
