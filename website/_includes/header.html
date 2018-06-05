@@ -1,13 +1,14 @@
+<script defer src="/scripts/header.js" type="text/javascript"></script>
 <header class="site-header minimized">
   <div class="site-header-content clearfix">
     <a class="site-logo" href="{{ site.baseurl }}/"></a>
     <nav class="site-nav">
         {% for menuItem in site.data.top-menu-items %}
           {% if menuItem.url == '/' %}
-          <a class="page-link {% if menuItem.url == page.permalink %}active{% endif %}" href="{{ menuItem.url | prepend: site.baseurl }}">{{ menuItem.text }}</a>
+          <a {% if menuItem.id %}id="{{ menuItem.id }}" {% endif %}class="page-link {% if menuItem.url == page.permalink %}active{% endif %}" href="{{ menuItem.url | prepend: site.baseurl }}">{{ menuItem.text }}</a>
           {% else %}
           {% capture highlightUrl %}{% if menuItem.highlightUrl %}{{ menuItem.highlightUrl }}{% else %}{{ menuItem.url }}{% endif %}{% endcapture %}
-          <a class="page-link {% if page.url contains highlightUrl %}active{% endif %}" href="{% if menuItem.external %}{{ menuItem.url}}{% else %}{{ menuItem.url | prepend: site.baseurl }}{% endif %}"{% if menuItem.external %} target="_blank"{% endif %}>{{ menuItem.text }}</a>
+          <a {% if menuItem.id %}id="{{ menuItem.id }}" {% endif %}class="page-link {% if page.url contains highlightUrl %}active{% endif %}" href="{% if menuItem.external %}{{ menuItem.url}}{% else %}{{ menuItem.url | prepend: site.baseurl }}{% endif %}"{% if menuItem.external %} target="_blank"{% endif %}>{{ menuItem.text }}</a>
           {% endif %}
         {% endfor %}
         <div class="separator">|</div>

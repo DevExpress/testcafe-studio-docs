@@ -20,7 +20,9 @@
     function onPlayerStateChange(event) {
         {% if jekyll.environment == "production" %}
         if (event.data == YT.PlayerState.PLAYING) {
-            gtag('event', 'tourVideoPlayed');
+            gtag('config', 'UA-83678642-3', {
+                'page_path': '/lp-take-a-tour'
+            });
         }
         {% endif %}
     }

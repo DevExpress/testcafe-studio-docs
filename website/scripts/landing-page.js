@@ -39,22 +39,22 @@ $(function(){
         win: {
             name: 'Windows',
             url: 'http://testcafe.devexpress.com/TryStudio/windows',
-            gaId: 'Win'
+            gaId: 'windows'
         },
         macos: {
             name: 'macOS',
             url: 'http://testcafe.devexpress.com/TryStudio/macos',
-            gaId: 'Mac'
+            gaId: 'macos'
         },
         linux64: {
             name: 'Linux x64',
             url: 'http://testcafe.devexpress.com/TryStudio/linux64',
-            gaId: 'Linux64'
+            gaId: 'linux64'
         },
         linux32: {
             name: 'Linux x32',
             url: 'http://testcafe.devexpress.com/TryStudio/linux32',
-            gaId: 'Linux32'
+            gaId: 'linux32'
         }
     };
 
@@ -62,8 +62,14 @@ $(function(){
 
     function makeClickCallback(gaId) {
         return function () {
-            gtag('event', 'downloadClicked');
-            gtag('event', 'download' + gaId + 'Clicked');
+            {% if jekyll.environment == "production" %}                                    
+                gtag('config', 'UA-83678642-3', {
+                    'page_path': '/download-ctp'
+                });
+                gtag('config', 'UA-83678642-3', {
+                    'page_path': '/download-ctp/' + gaId
+                });
+            {% endif %} 
         }
     }
 
@@ -75,20 +81,14 @@ $(function(){
                 $('.primary-os')
                     .append(link.name)
                     .closest('a')
-                    .attr('href', link.url);
-
-                {% if jekyll.environment == "production" %}                                    
-                    $('.primary-os')
-                        .closest('a')                
-                        .on('click', makeClickCallback(link.gaId));
-                {% endif %} 
+                    .attr('href', link.url)
+                    .on('click', makeClickCallback(link.gaId));
             }
             else {
-                var htmlLink = $('<a>').attr('href', link.url).text(link.name);
-
-                {% if jekyll.environment == "production" %}
-                    htmlLink.on('click', makeClickCallback(link.gaId));
-                {% endif %} 
+                var htmlLink = $('<a>')
+                    .attr('href', link.url)
+                    .text(link.name)
+                    .on('click', makeClickCallback(link.gaId));
 
                 $(altOsSpans.shift()).append(htmlLink);
             }
@@ -118,7 +118,9 @@ $(function(){
 {% if jekyll.environment == "production" %}
 $(function(){
     $('.get-ctp').on('click', function () {
-        gtag('event', 'getCtpClicked');
+        gtag('config', 'UA-83678642-3', {
+            'page_path': '/get-ctp'
+        });
     });
 });
 {% endif %}    
