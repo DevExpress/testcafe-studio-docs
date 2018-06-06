@@ -18,11 +18,14 @@ The dialog's left panel displays the list of available run configurations. When 
 Setting | Description
 ------- | -------------
 *Name* | The name of the test run configuration. It is displayed in the **Run Configurations** drop-down menu on the main toolbar.
-*Default report view* | The format of the test run report used by default in **Reports View**.
+*Default report view* | The format of the test run report used by default in **Reports View**. The following report formats are available: *grid*, *json*, *list*, *minimal*, *spec*, *xunit*.
 
 **Browser**
 
 This section lists locally installed browsers TestCafe Studio detects. Select those where tests should be run.
+
+You can also select the **Remote browser** checkbox to run tests on remote machines. See [Running Tests in Remote Browsers](../working-with-testcafe-studio/running-tests.md#running-tests-in-remote-browsers).
+
 If you select multiple browsers, tests run in them simultaneously. You can use the **Select All** and **Deselect All** buttons to set or remove selection for all the browsers.
 
 **Review Fails and Debug**
@@ -43,8 +46,8 @@ Setting | Description
 *Screenshots path* | The directory's path where screenshots captured during test execution are saved.
 *Selector timeout* | Specifies the time (in milliseconds) within which an element selector attempts to obtain a target DOM element.
 *Assertion timeout* | Specifies the time (in milliseconds) an [assertion](../working-with-testcafe-studio/recording-tests/test-actions/assetions.md) can take to pass before the test fails.
-*Speed* | Specifies the [test speed](../working-with-testcafe-studio/debugging-tests.md#test-speed).
-*Concurrency* | Specifies that tests should run concurrently.
+*Speed* | Specifies the [test speed](../working-with-testcafe-studio/debugging-tests.md#test-speed) from 0.01 to 1.
+*Concurrency* | Specifies the number of browser instances to execute tests concurrently. See [Concurrent Test Execution](../working-with-testcafe-studio/running-tests.md#concurrent-test-execution).
 
 ## Managing Configurations
 

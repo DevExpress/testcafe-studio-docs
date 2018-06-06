@@ -20,7 +20,10 @@
       - name: Assertions
         url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/assertions.md
       - name: On-Page Actions
-        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions.md
+        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md
+        content:
+        - name: Action Options
+          url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-options.md
       - name: Debug
         url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/debug.md
       - name: Browser Actions
@@ -40,7 +43,7 @@
   content:
   - name: Explorer Panel
     url: /documentation/user-interface/explorer-panel.md
-  - name: Record Configurations Dialog
+  - name: Record Configuration Dialog
     url: /documentation/user-interface/record-configuration-dialog.md
   - name: Run Configurations Dialog
     url: /documentation/user-interface/run-configurations-dialog.md

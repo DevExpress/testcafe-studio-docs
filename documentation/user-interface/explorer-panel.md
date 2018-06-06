@@ -5,13 +5,13 @@ permalink: /documentation/user-interface/explorer-panel.html
 ---
 # Explorer Panel
 
-The **Explorer** panel allows you to view and manage test files in your [test directory](../working-with-testcafe-studio/organizing-tests.md#test-directory).
+The **Explorer** panel allows you to view and manage files in your [test directory](../working-with-testcafe-studio/organizing-tests.md#test-directory).
 
-Once you open a test directory in TestCafe Studio, the panel shows the directory's content as a tree of subdirectories, fixtures and tests. See [Organizing Tests](../working-with-testcafe-studio/organizing-tests.md) for more information.
+Once you open a test directory in TestCafe Studio, the panel shows the directory's content as a tree of subdirectories, files and tests. See [Organizing Tests](../working-with-testcafe-studio/organizing-tests.md) for more information.
 
 ![Explorer panel](../../images/working-with-testcafe-studio/explorer-panel.png)
 
-The Explorer panel allows you to manage test directories, fixtures, tests using the context menu's commands. The set of available commands depends on the item currently selected in the panel.
+The Explorer panel allows you to manage test directories, files, fixtures and tests using the context menu's commands. The set of available commands depends on the item currently selected in the panel.
 
 The panel also has the **Record a New Test** and **Create a New Fixture** buttons that allow you to quickly start recording a test and create a fixture correspondingly.
 
@@ -37,23 +37,11 @@ If the tested webpage is protected with HTTP Basic or NTLM authentication, expan
 
 Finally, click the **Create** button. The new fixture appears in the **Explorer** panel.
 
-## Creating a Test File
-
-To create a new test file, right-click a directory in which you want to create a test file and select **New File** from the context menu.
-
-IMAGE
-
-The **New File** dialog appears. Specify the file name and extension in this dialog and click **Create**.
-
-IMAGE
-
-The created test file appears in the **Explorer** panel and opened in **Code Editor**.
-
 ## Creating a Test
 
 You can create a new test in one of the following ways:
 
-* Select a fixture in which you want to create a test and click the **Record a New Test** button. TestCafe Studio automatically creates a new test, adds it to the test directory and starts recording.
+* Select a fixture in which you want to create a test and click the **Record a New Test** button. TestCafe Studio automatically creates a new test, adds it to the fixture and starts recording.
 
 * Select a fixture in which you want to create a test and select **New Test** from the context menu. The **New Test** dialog appears.
 
@@ -61,9 +49,25 @@ You can create a new test in one of the following ways:
 
     Specify the test name in this dialog and click **Create**. TestCafe Studio automatically creates an empty test and open it in **Test Editor**.
 
+## Creating a File
+
+To create a new file, right-click a directory in which you want to create a file and select **New File** from the context menu.
+
+IMAGE
+
+The **New File** dialog appears. Specify the file name and extension in this dialog and click **Create**.
+
+IMAGE
+
+The created file appears in the **Explorer** panel and opened in **Code Editor**.
+
 ## Running Tests
 
-You can run an individual test or all tests in a fixture or directory. To do this, right-click the test, fixture or directory and select **Run Tests** from the context menu.
+To run any runnable item (test, fixture or directory), hover the mouse on it and click the ![The Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** or **Run all tests** button appeared next to this item.
+
+To run several tests from different fixtures and directories, select desired tests with Ctrl-click, then click the ![The Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run Tests** button.
+
+You can also use the context menu's **Run Test** command to run tests.
 
 IMAGE
 
@@ -87,9 +91,9 @@ The **Rename Test** dialog appears. Specify the new test name and click **Rename
 
 IMAGE
 
-### Converting Tests to JavaScript
+### Converting Fixtures to JavaScript
 
-To convert a recorded test to JavaScript, invoke the context menu for the test and select **Convert to JavaScript**. The **Convert to JavaScript** dialog appears. Specify the test file name and extension and click **Create**.
+To convert a fixture with recorded tests to JavaScript, invoke the context menu for the fixture and select **Convert to JavaScript**. The **Convert to JavaScript** dialog appears. Specify the test file name and extension, then click **Create**.
 
 ![Convert to JavaScript Code Dialog](../../images/working-with-testcafe-studio/converted-tests.png)
 
@@ -118,3 +122,5 @@ To delete a directory, fixture or test, invoke the context menu for it and selec
 IMAGE
 
 A confirmation dialog appears. Click **Yes** to delete this item.
+
+To delete several tests from different fixtures and directories, select desired tests with Ctrl-click, then select **Delete** from the context menu.

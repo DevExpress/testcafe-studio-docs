@@ -52,7 +52,7 @@ TestCafe Studio allows you to run tests on any device that has network access to
 
 Follow the steps below to run a test in remote browsers:
 
-1. Create a run configuration for the remote browsers. In the configuration's settings, select the **Remote browser** checkbox and specify the number of remote browsers.
+1. Create a run configuration for the remote browsers. In the run configuration's settings, select the **Remote browser** checkbox and specify the number of remote browsers.
 
     ![Remote Browser Configuration](../../images/working-with-testcafe-studio/remote-browser-configuration.png)
 
@@ -60,3 +60,21 @@ Follow the steps below to run a test in remote browsers:
 3. Start the test run by clicking the **Run test** button. TestCafe provides URLs to open in the remote browsers which you want to test. When you open these URLs, the browser connects to the TestCafe Studio server and starts testing.
 
 ![Running in Remote Browsers](../../images/working-with-testcafe-studio/running-in-remote-browsers.png)
+
+## Concurrent Test Execution
+
+To save time spent on testing, TestCafe allows you to execute tests concurrently. *Concurrency* is an optional mode that allows you to invoke multiple instances of the same browser. These instances constitute the pool of browsers against which tests run concurrently, i.e. each test runs in the first free instance.
+
+To enable concurrency and specify a number of browser instances, use the **Concurrency** option of the run configuration's settings.
+
+![Concurrency option](../../images/working-with-testcafe-studio/concurrency-option.png)
+
+> Concurrent test execution is not supported in Microsoft Edge. This is because there is no known way to start Edge in a new window and make it open a particular URL.
+
+You can also use concurrency when testing against multiple browsers.
+
+![Concurrency against multiple browsers](../../images/working-with-testcafe-studio/concurrency-multiple-browsers.png)
+
+In this case, tests are distributed across four Safari instances and the same tests also run in four Firefox instances.
+
+If you test against multiple [remote browsers](#running-tests-in-remote-browsers), open and connect all instances of one browser before you connect the next browser.

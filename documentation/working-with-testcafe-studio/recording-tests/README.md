@@ -64,14 +64,14 @@ After the fixture is created, you can start recording tests.
 
 ## Creating Tests
 
-> You can create a test manually or you can skip this step and go to recording. When you start recording, TestCafe Studio will automatically create a new test. See [Starting and Stopping Recording](#starting-and-stopping-recording).
+> You can create a test manually or you can skip this step and go to recording. When you start recording, TestCafe Studio automatically creates a new test. See [Starting and Stopping Recording](#starting-and-stopping-recording).
 
 To create an empty test:
 
 1. Open the context menu for a desired fixture in the **Explorer** panel and select **New Test**.
 2. In the **Create Test** dialog, specify the test name and click **Create**.
 
-![Creating a Test](../../../images/working-with-testcafe-studio/creating-test.png)
+    ![Creating a Test](../../../images/working-with-testcafe-studio/creating-test.png)
 
 TestCafe Studio creates a test with the specified name and opens it in the **Test Editor**. Next, add actions to the test from the **Actions** panel manually or record them. To start recording, click the ![Record test actions button](../../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the **Test Editor** toolbar.
 

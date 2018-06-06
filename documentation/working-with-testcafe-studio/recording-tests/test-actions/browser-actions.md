@@ -30,15 +30,10 @@ Resizes the browser window to the full screen.
 
 Resizes the browser window to the device's display dimensions.
 
-Parameter | Type  | Description
---------- | ----- | -------------
-*Device* | String | The name of the device. You can select it from the drop-down list.
-
-You can also specify the following option:
-
-Option | Description
+Parameter | Description
 --------- | -------------
-*portraitOrientation* | Enables/disables the portrait screen orientation.
+*Device* | String | The name of the device. You can select it from the drop-down list.
+*Portrait Orientation* | Boolean | Enables/disables the portrait screen orientation.
 
 ## Navigate
 
