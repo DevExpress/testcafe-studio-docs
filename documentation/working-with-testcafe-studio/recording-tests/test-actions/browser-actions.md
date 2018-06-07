@@ -49,4 +49,4 @@ Takes a screenshot of the tested webpage.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*Path* (optional) | String | The relative path and the name of the screenshot file to be created. Resolved from the screenshot directory specified using the *Screenshot path* option of the run configuration (see [Run Configuration Dialog](../../../user-interface/run-configurations-dialog.md)).
+*Path*&nbsp;(optional) | String | The relative path and the name of the screenshot file to be created. Resolved from the screenshot directory specified using the *Screenshot path* option of the run configuration (see [Run Configuration Dialog](../../../user-interface/run-configurations-dialog.md)).

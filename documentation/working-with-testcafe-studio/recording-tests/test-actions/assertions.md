@@ -38,7 +38,7 @@ When you add an assertion during recording, TestCafe Studio can generate an elem
 
 IMAGE or ANIMATION
 
-Some of assertions have the **Expected** parameter that takes an expected value or code expression. You can enter a desired value or add the property's current value by clicking the ![Copy the value to the Expected field](../../../../images/getting-started/copy-value-icon.png) button.
+Some of assertions have the **Expected** parameter that takes an expected value or code expression. You can enter a desired value or copy the actual value to the **Expected** field by clicking the ![Copy the value to the Expected field](../../../../images/getting-started/copy-value-icon.png) button.
 
 ANIMATION
 

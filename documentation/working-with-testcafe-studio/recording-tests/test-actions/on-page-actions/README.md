@@ -37,7 +37,7 @@ TestCafe Studio produces a set of selectors for a target element, so you can pic
 
 IMAGE
 
-If you need to add an on-page action to a test manually during recording, you can generate an element selector using an element picker. To do this, click the ![Element Picker](../../../../images/getting-started/element-picker-icon.png) button next to the **Element Selector** field, then select a target element on the tested webpage. TestCafe Studio generates the element selector and fills the **Element Selector** field with it.
+If you add an on-page action to a test manually during recording, you can generate an element selector using an element picker. To do this, click the ![Element Picker](../../../../images/getting-started/element-picker-icon.png) button next to the **Element Selector** field, then select a target element on the tested webpage. TestCafe Studio generates the element selector and fills the **Element Selector** field with it.
 
 ## Action Options
 
@@ -135,7 +135,7 @@ Selects text within a contenteditable element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*Start Selector* | Selector | Identifies the webpage element from which selection starts. The start position of selection is the first character of the element's text. See [Action Parameters](README.md#action-parameters).
+*Start&nbsp;Selector* | Selector | Identifies the webpage element from which selection starts. The start position of selection is the first character of the element's text. See [Action Parameters](README.md#action-parameters).
 *End Selector* | Selector | Identifies the webpage element at which selection ends. The end position of selection is the last character of the element's text. See [Action Parameters](README.md#action-parameters).
 
 You can also specify additional parameters for the action. See [Basic Action Options](action-options.md#basic-action-options).

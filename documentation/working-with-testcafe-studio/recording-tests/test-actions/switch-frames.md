@@ -16,7 +16,7 @@ When you add the **Switch Context to iFrame** action to a test, TestCafe Studio 
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*Element Selector* | Selector | Identifies an iFrame on the tested page. The parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function that returns the iFrame. You can generate an element selector using an element picker. To do this, click the ![Element Picker](../../../../images/getting-started/element-picker-icon.png) button next to the **Element Selector** field, then select a target element on the tested webpage. TestCafe Studio generates the element selector and fills the **Element Selector** field with it.
+*Element&nbsp;Selector* | Selector | Identifies an iFrame on the tested page. The parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function that returns the iFrame. You can generate an element selector using an element picker. To do this, click the ![Element Picker](../../../../images/getting-started/element-picker-icon.png) button next to the **Element Selector** field, then select a target element on the tested webpage. TestCafe Studio generates the element selector and fills the **Element Selector** field with it.
 
 ## Switch Context to Main Window
 

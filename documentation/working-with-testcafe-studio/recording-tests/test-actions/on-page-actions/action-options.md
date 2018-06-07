@@ -15,19 +15,19 @@ This topic describes [on-page actions](README.md) options.
 
 ## Basic Action Options
 
-Provide additional parameters for the [Press Key](README.md#press-key),
+The following option is available for the [Press Key](README.md#press-key),
 [Select Text](README.md#select-text), [Select Text Area Content](README.md#select-textarea-content) and
 [Select Editable Content](README.md#select-editable-content) actions.
 
-Parameter | Type   | Description
+Option | Type   | Description
 --------- | ------ | -----------------------------------------------------------------------------------
 *Speed*   | Number | The speed of action emulation. Defines how fast TestCafe Studio performs the action when running tests. A number between `1` (the maximum speed) and `0.01` (the minimum speed). If a test speed is also specified in [run configuration settings](../../../user-interface/run-configurations-dialog.md), the action speed setting overrides the test speed.
 
 ## Mouse Action Options
 
-Provide additional parameters for mouse actions: [Drag](README.md#drag) and [Hover](README.md#hover).
+The following options are available for mouse actions: [Drag](README.md#drag) and [Hover](README.md#hover).
 
-Parameter                      | Type    | Description
+Option                      | Type    | Description
 ------------------------------ | ------- |-----------------------------------------------------------------------------------------------------------------------
 *Modifiers*:&nbsp;*Ctrl*,&nbsp;*Alt*,&nbsp;*Shift*,&nbsp;*Meta*  | Boolean | Indicate which modifier keys should be pressed during the mouse action.
 *Offsets*: *OffsetX*, *OffsetY*           | Number  | Mouse pointer coordinates that define a point where the action is performed or started. If an offset is a positive integer, coordinates are calculated relative to the top-left corner of the target element. If an offset is a negative integer, they are calculated relative to the bottom-right corner.
@@ -35,9 +35,9 @@ Parameter                      | Type    | Description
 
 ## Drag To Element Action Options
 
-Provides additional parameters for the [Drag To Element](README.md#drag-to-element) action.
+The following options are available for the [Drag To Element](README.md#drag-to-element) action.
 
-Parameter                      | Type    | Description
+Option                      | Type    | Description
 ------------------------------ | ------- | --------------------------------------------------------------------------------------------------------------------------------
 *Modifiers*:&nbsp;*Ctrl*,&nbsp;*Alt*,&nbsp;*Shift*,&nbsp;*Meta* | Boolean | Indicate which modifier keys should be pressed during the drag action.
 *Offsets*: *OffsetX*, *OffsetY*        | Number  | Mouse pointer coordinates that define a point where dragging is started. If an offset is a positive integer, coordinates are calculated relative to the top-left corner of the target element. If an offset is a negative integer, they are calculated relative to the bottom-right corner.
@@ -45,9 +45,9 @@ Parameter                      | Type    | Description
 
 ## Click Action Options
 
-Provide additional parameters for click actions: [Click](README.md#click), [Double Click](README.md#double-click) and [Right Click](README.md#right-click).
+The following options are available for click actions: [Click](README.md#click), [Double Click](README.md#double-click) and [Right Click](README.md#right-click).
 
-Parameter                      | Type    | Description
+Option                      | Type    | Description
 ------------------------------ | ------- | -------------------------------------------------------------------------------------------------------------
 *Modifiers*:&nbsp;*Ctrl*,&nbsp;*Alt*,&nbsp;*Shift*,&nbsp;*Meta* | Boolean | Indicate which modifier keys should be pressed during the mouse action.
 *Offsets*: *OffsetX*, *OffsetY*           | Number  | Mouse pointer coordinates that define a point where the action is performed or started. If an offset is a positive integer, coordinates are calculated relative to the top-left corner of the target element. If an offset is a negative integer, they are calculated relative to the bottom-right corner.
@@ -56,9 +56,9 @@ Parameter                      | Type    | Description
 
 ## Typing Action Options
 
-Provide additional parameters for the [Type Text](README.md#type-text) action.
+The following options are available for the [Type Text](README.md#type-text) action.
 
-Parameter                      | Type    | Description
+Option                      | Type    | Description
 ------------------------------ | ------- | --------------------------------------------------------------------------------------------------------------------------
 *Modifiers*:&nbsp;*Ctrl*,&nbsp;*Alt*,&nbsp;*Shift*,&nbsp;*Meta* | Boolean | Indicate which modifier keys should be pressed while typing.
 *Offsets*: *OffsetX*, *OffsetY*           | Number  | Mouse pointer coordinates that define a point where the action is performed or started. If an offset is a positive integer, coordinates are calculated relative to the top-left corner of the target element. If an offset is a negative integer, they are calculated relative to the bottom-right corner.

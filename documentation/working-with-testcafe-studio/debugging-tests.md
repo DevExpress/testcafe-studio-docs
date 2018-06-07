@@ -13,7 +13,7 @@ This topic provides information about debugging tests and consists of the follow
 
 ## Debugging Recorded Tests
 
-TestCafe Studio's debug mode helps you understand what is happening in your web page during testing. In this mode, TestCafe Studio pauses the test and allows you to debug the tested page using the browser's developer tools. You can check the web page state, DOM elements' location, their CSS styles, etc.
+TestCafe Studio's *debug mode* helps you understand what is happening in your web page during testing. In this mode, TestCafe Studio pauses the test and allows you to debug the tested page using the browser's developer tools. You can check the web page state, DOM elements' location, their CSS styles, etc.
 
 You can activate the debug mode in one of the following ways:
 
