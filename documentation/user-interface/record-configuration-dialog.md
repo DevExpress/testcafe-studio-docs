@@ -17,5 +17,5 @@ Options           | Description
 ----------------- | -------------
 Selector timeout  | Specifies the time (in milliseconds) within which element selectors attempt to obtain target DOM elements.
 Assertion timeout | Specifies the time (in milliseconds) an assertion can take to pass before the test fails.
-Speed             | Specify the test speed from 0.01 to 1.
+Speed             | Specifies the test speed from 0.01 to 1.
 Debug mode        | Activates the [debug mode](../working-with-testcafe-studio/debugging-tests.md#debugging-recorded-tests).

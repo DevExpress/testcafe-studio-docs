@@ -5,7 +5,6 @@ permalink: /documentation/user-interface/run-configurations-dialog.html
 ---
 # Run Configurations Dialog
 
-<!--A *run configuration* is a group of settings that define how tests should run. You can create many configurations and switch between them in TestCafe Studio.-->
 The **Run Configurations** dialog allows you to create, modify and delete [run configurations](../working-with-testcafe-studio/running-tests.md#run-configurations).
 The dialog opens when you click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button next to the **Run Configuration** drop-down menu on the main toolbar.
 
@@ -32,8 +31,8 @@ If you select multiple browsers, tests run in them simultaneously. You can use t
 
 Setting                                         | Description
 ----------------------------------------------- | -----------
-*Fail if a JavaScript error occurs on a page* | Specifies whether the test are considered failed if a JavaScript error occurs on the tested page. If unchecked, JavaScript errors are ignored.
-*Take a screenshot if a test fails* | Specifies whether TestCafe take a screenshot of the tested page whenever a test fails.
+*Fail if a JavaScript error occurs on a page* | Specifies whether the test is considered failed if a JavaScript error occurs on the tested page. If unchecked, JavaScript errors are ignored.
+*Take a screenshot if a test fails* | Specifies whether TestCafe Studio takes a screenshot of the tested page whenever a test fails.
 *Debug mode* | Activates the [debug mode](../working-with-testcafe-studio/debugging-tests.md#debugging-recorded-tests).
 *Quarantine mode* | Enables the *quarantine mode* for tests that fail. In this mode, a failed test is executed several times. The test result depends on the outcome (passed or failed) that occurs most often. That is, if the test fails on most attempts, the result is failed. If the test result differs between test runs, the test is marked as unstable.
 *Pause the test when it fails* | Specifies whether to automatically activate the [debug mode](../working-with-testcafe-studio/debugging-tests.md#debugging-recorded-tests) when a test fails.
