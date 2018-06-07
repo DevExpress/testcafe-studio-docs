@@ -34,7 +34,7 @@ When you add an assertion during recording, TestCafe Studio can generate an elem
 
 1. Add an assertion action to a test.
 2. Click the ![Element Picker](../../../../images/getting-started/element-picker-icon.png) button next to the **Actual** field and select a target element on the tested webpage using an element picker. TestCafe shows the property list for the picked element.
-4. Select a desired property from the property list. TestCafe Studio generates the element property expression and adds it to the **Actual** field. It also evaluates the specified expression and shows the result in the **Value** field.
+3. Select a desired property from the property list. TestCafe Studio generates the element property expression and adds it to the **Actual** field. It also evaluates the specified expression and shows the result in the **Value** field.
 
 IMAGE or ANIMATION
 
