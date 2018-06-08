@@ -19,7 +19,7 @@ The panel also has the **Record a New Test** and **Create a New Fixture** button
 
 To create a new directory, invoke the context menu for a directory in which you want to create a new one and select ![New directory icon](../../images/user-interface/context-menu/new-directory.png) **New Directory**. The **New Directory** dialog opens. Specify the directory name in this dialog and click **Create**.
 
-IMAGE
+![New Directory dialog](../../images/user-interface/dialogs/new-directory-dialog.png)
 
 The created directory appears in the **Explorer** panel.
 
@@ -27,7 +27,7 @@ The created directory appears in the **Explorer** panel.
 
 To create a new [fixture](../working-with-testcafe-studio/recording-tests.md#creating-fixtures), select a directory where you want to create it and click the  **Create a New Fixture** button or select the ![New fixture icon](../../images/user-interface/context-menu/new-fixture.png) **New Fixture** command from the context menu. The **New Fixture** dialog opens.
 
-![Creating a Fixture](../../images/working-with-testcafe-studio/creating-fixture.png)
+![Creating a Fixture](../../images/user-interface/dialogs/new-fixture-dialog.png)
 
 Enter the name of the fixture in the **Fixture name** dialog. You can use spaces and punctuation in the fixture name. A file name compatible with the file system is automatically generated in the **File name** field. You can use the generated file name or specify your own.
 
@@ -45,7 +45,7 @@ You can create a new test in one of the following ways:
 
 * Select a fixture in which you want to create a test and select ![New test icon](../../images/user-interface/context-menu/new-test.png) **New Test** from the context menu. The **New Test** dialog appears.
 
-    IMAGE
+    ![New Test dialog](../../images/user-interface/dialogs/new-test-dialog.png)
 
     Specify the test name in this dialog and click **Create**. TestCafe Studio automatically creates an empty test and open it in **Test Editor**.
 
@@ -53,7 +53,7 @@ You can create a new test in one of the following ways:
 
 To create a new file, right-click a directory in which you want to create a file and select ![New file icon](../../images/user-interface/context-menu/new-file.png) **New File** from the context menu. The **New File** dialog appears. Specify the file name and extension in this dialog and click **Create**.
 
-IMAGE
+![New File dialog](../../images/user-interface/dialogs/new-file-dialog.png)
 
 The created file appears in the **Explorer** panel and opened in **Code Editor**.
 
@@ -71,31 +71,31 @@ You can also use the context menu's ![Run test icon](../../images/user-interface
 
 To edit fixture properties, invoke the context menu for a fixture and select ![Edit icon](../../images/user-interface/context-menu/fixture-modify.png) **Edit**. The **Modify Fixture** dialog appears. You can change the fixture name, file name, target webpage and authentication credentials in this dialog. To save the changes, click **OK**.
 
-IMAGE
+![Modify Fixture dialog](../../images/user-interface/dialogs/modify-fixture-dialog.png)
 
-### Renaming Tests
+## Renaming Tests
 
 To rename a test, invoke the context menu for it and select ![Rename icon](../../images/user-interface/context-menu/rename.png) **Rename**. The **Rename Test** dialog appears. Specify the new test name and click **Rename**.
 
-IMAGE
+![Rename Test dialog](../../images/user-interface/dialogs/rename-test-dialog.png)
 
-### Converting Fixtures to JavaScript
+## Converting Fixtures to JavaScript
 
 To convert a fixture with recorded tests to JavaScript, invoke the context menu for the fixture and select ![Convert icon](../../images/user-interface/context-menu/convert.png) **Convert to JavaScript**. The **Convert to JavaScript** dialog appears. Specify the test file name and extension, then click **Create**.
 
-![Convert to JavaScript Code Dialog](../../images/working-with-testcafe-studio/converted-tests.png)
+![Convert to JavaScript Code Dialog](../../images//user-interface/dialogs/convert-dialog.png)
 
 TestCafe Studio creates the test file in the same test directory and displays it in the **Explorer** panel.
 
-### Viewing Test Code
+## Viewing Test Code
 
 To view JavaScript and TypeScript files in **Code Editor**, select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code is revealed in **Code Editor**.
 
-### Showing Files in Windows Explorer/MacOS Finder
+## Showing Files in Windows Explorer/MacOS Finder
 
 To view a fixture or directory in Windows Explorer and macOS Finder, invoke the context menu for the fixture or directory and select ![Show in Explorer icon](../../images/user-interface/context-menu/show-in-explorer.png) **Show in Explorer/Finder**.
 
-### Deleting Directories, Fixtures and Tests
+## Deleting Directories, Fixtures and Tests
 
 To delete a directory, fixture or test, invoke the context menu for it and select ![Delete icon](../../images/user-interface/context-menu/delete.png) **Delete**. A confirmation dialog appears. Click **Yes** to delete this item.
 
