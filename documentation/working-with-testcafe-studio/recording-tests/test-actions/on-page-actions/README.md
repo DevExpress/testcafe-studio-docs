@@ -23,11 +23,11 @@ The **On-Page Actions** category contains test actions that simulate user action
 You can add these actions in two ways:
 
 * Add them to a test and specify its parameters manually.
-* You can record the major of on-page actions. When you interact with a tested web page, TestCafe Studio automatically adds corresponding on-page actions with their necessary parameters to a test.
+* Record them using the recorder (see [Recording Tests](../../README.md). You can record most of the on-page actions. When you interact with a tested web page, TestCafe Studio automatically adds corresponding on-page actions with their necessary parameters to a test.
 
 ## Action Parameters
 
-The major of on-page actions has the **Element Selector** parameter that specifies a target element. This parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function that returns a webpage element.
+Most of the on-page actions has the **Element Selector** parameter that specifies a target element. This parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function that returns a webpage element.
 
 When you interact with a webpage during recording, TestCafe Studio records test actions, automatically generates element selectors for them and adds the selectors to the **Element Selector** field.
 

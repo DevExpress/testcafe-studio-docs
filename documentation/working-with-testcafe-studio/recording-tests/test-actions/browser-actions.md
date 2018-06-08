@@ -33,7 +33,7 @@ Resizes the browser window to the device's display dimensions.
 Parameter | Description
 --------- | -------------
 *Device* | String | The name of the device. You can select it from the drop-down list.
-*Portrait Orientation* | Boolean | Enables/disables the portrait screen orientation.
+*Portrait Orientation* | Boolean | Specifies whether to use dimensions of the screen with portrait or landscape orientation.
 
 ## Navigate
 
