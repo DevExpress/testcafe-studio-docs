@@ -31,13 +31,13 @@ Most of the on-page actions has the **Element Selector** parameter that specifie
 
 When you interact with a webpage during recording, TestCafe Studio records test actions, automatically generates element selectors for them and adds the selectors to the **Element Selector** field.
 
-IMAGES
+![Element selector](../../../../../images/actions/element-selector.png)
 
 TestCafe Studio produces a set of selectors for a target element, so you can pick the one that fits you best.
 
-IMAGE
+![Selectors list](../../../../../images/actions/selectors-list.png)
 
-If you add an on-page action to a test manually during recording, you can generate an element selector using an element picker. To do this, click the ![Element Picker](../../../../images/getting-started/element-picker-icon.png) button next to the **Element Selector** field, then select a target element on the tested webpage. TestCafe Studio generates the element selector and fills the **Element Selector** field with it.
+If you add an on-page action to a test manually during recording, you can generate an element selector using an element picker. To do this, click the ![Element Picker](../../../../../images/getting-started/element-picker-icon.png) button next to the **Element Selector** field, then select a target element on the tested webpage. TestCafe Studio generates the element selector and fills the **Element Selector** field with it.
 
 ## Action Options
 

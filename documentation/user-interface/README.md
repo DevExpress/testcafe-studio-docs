@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Reference
+title: User Interface
 permalink: /documentation/user-interface/
 ---
 # User Interface
