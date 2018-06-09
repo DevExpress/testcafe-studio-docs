@@ -38,7 +38,9 @@ You can run an entire test directory/subdirectory, a specific fixture, an indivi
 
 **To run a coded test's file**, click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button next to the file in the **Explorer** panel. You can also run test fixtures and individual tests from the **Code Editor** by clicking the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) button.
 
-**To run several tests** from different fixtures and directories, select desired tests in the **Explorer** panel with Ctrl-click, then select **Run tests** from the context menu.
+**To run several tests** from different fixtures and directories, select desired tests in the **Explorer** panel using Ctrl-click or Command-click, then select **Run tests** from the context menu or click the ![The Run tests button](../../images/user-interface/context-menu/run-tests.png) **Run Tests** button next to any selected item.
+
+![Running multiple items](../../images/user-interface/running-multiple-items.png)
 
 After starting a test run, TestCafe Studio launches the specified browsers and executes tests in them simultaneously. The **Reports** panel displays the tests' progress.
 

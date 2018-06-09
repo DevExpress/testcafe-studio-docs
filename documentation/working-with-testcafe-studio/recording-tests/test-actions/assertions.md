@@ -106,7 +106,7 @@ Parameter              | Type                                              | Des
 
 ## Type of
 
-Asserts that the *Actual* type corresponds to a particular type.
+Asserts that the *Actual* belongs to a particular type.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
@@ -115,12 +115,12 @@ Parameter              | Type                                              | Des
 
 ## Not Type of
 
-Asserts that the *Actual* type is not correspond to a particular type.
+Asserts that the *Actual* does not belong to a particular type.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
 *Actual*             | Any Type &#124; Selector's Property | A value to verify.
-*Type Name*             | String | An unexpected type of the *Actual* value.
+*Type Name*             | String | A type to which the *Actual* value is not expected to belong.
 
 ## Greater than
 

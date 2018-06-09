@@ -11,7 +11,7 @@ This topic describes [on-page actions](README.md) options.
 * [Mouse Action Options](#mouse-action-options)
 * [Drag To Element Action Options](#drag-to-element-action-options)
 * [Click Action Options](#click-action-options)
-* [Typing Action Options](#typing-action-options)
+* [Type Text Action Options](#type-text-action-options)
 
 ## Basic Action Options
 
@@ -54,7 +54,7 @@ Option                      | Type    | Description
 *Caret Position*                     | Number  | The initial caret position if the action is performed on a text input field. A zero-based integer.
 *Speed*   | Number | The speed of action emulation. Defines how fast TestCafe Studio performs the action when running tests. A number between `1` (the maximum speed) and `0.01` (the minimum speed). If a test speed is also specified in [run configuration settings](../../../user-interface/run-configurations-dialog.md), the action speed setting overrides the test speed.
 
-## Typing Action Options
+## Type Text Action Options
 
 The following options are available for the [Type Text](README.md#type-text) action.
 

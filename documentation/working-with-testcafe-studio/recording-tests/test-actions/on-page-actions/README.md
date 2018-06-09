@@ -5,7 +5,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/test-acti
 ---
 # On-Page Actions
 
-The **On-Page Actions** category contains test actions that simulate user actions on a tested web page.
+The **On-Page Actions** category contains test actions that simulate user activity on a tested web page.
 
 * ![Action icon](../../../../../images/actions/action-click-icon.svg) [Click](#click)
 * ![Action icon](../../../../../images/actions/action-double-click-icon.svg) [Double Click](#double-click)
@@ -23,7 +23,7 @@ The **On-Page Actions** category contains test actions that simulate user action
 You can add these actions in two ways:
 
 * Add them to a test and specify its parameters manually.
-* Record them using the recorder (see [Recording Tests](../../README.md). You can record most of the on-page actions. When you interact with a tested web page, TestCafe Studio automatically adds corresponding on-page actions with their necessary parameters to a test.
+* [Record them](../../README.md). You can record most of the on-page actions by interacting with a tested web page. TestCafe Studio automatically adds corresponding on-page actions with the necessary parameters to a test.
 
 ## Action Parameters
 
@@ -126,8 +126,8 @@ Selects text within an input element.
 Parameter | Type  | Description
 --------- | ----- | -------------
 *Element Selector* | Selector | Identifies the webpage element whose text will be selected. See [Action Parameters](README.md#action-parameters).
-*Start Position* | Number | The start position of the selection. A zero-based integer.
-*End Position* | Number | The end position of the selection. A zero-based integer.
+*Start Position* | Number | The selection's start position. A zero-based integer.
+*End Position* | Number | The selection's end position. A zero-based integer.
 
 ## Select Editable Content
 
@@ -135,8 +135,8 @@ Selects text within a contenteditable element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*Start&nbsp;Selector* | Selector | Identifies the webpage element from which selection starts. The start position of selection is the first character of the element's text. See [Action Parameters](README.md#action-parameters).
-*End Selector* | Selector | Identifies the webpage element at which selection ends. The end position of selection is the last character of the element's text. See [Action Parameters](README.md#action-parameters).
+*Start&nbsp;Selector* | Selector | Identifies the webpage element from which selection starts. The selection's start position is the first character of the element's text. See [Action Parameters](README.md#action-parameters).
+*End Selector* | Selector | Identifies the webpage element at which selection ends. The selection's end position is the last character of the element's text. See [Action Parameters](README.md#action-parameters).
 
 You can also specify additional parameters for the action. See [Basic Action Options](action-options.md#basic-action-options).
 
@@ -150,9 +150,9 @@ Parameter | Type  | Description
 --------- | ----- | -------------
 *Start Selector* | Selector | Identifies the text area whose text will be selected. See [Action Parameters](README.md#action-parameters).
 *Start Line* | Number | The line number at which selection starts. A zero-based integer.
-*Start Position* | Number | The start position of selection within the line defined by the *Start Line* parameter. A zero-based integer.
+*Start Position* | Number | The selection's start position within the line defined by the *Start Line* parameter. A zero-based integer.
 *End Line* | Number | The line number at which selection ends. A zero-based integer.
-*End Position* | Number | The end position of selection within the line defined by the *End Line* parameter. A zero-based integer.
+*End Position* | Number | The selection's end position within the line defined by the *End Line* parameter. A zero-based integer.
 
 You can also specify additional parameters for the action. See [Basic Action Options](action-options.md#basic-action-options).
 

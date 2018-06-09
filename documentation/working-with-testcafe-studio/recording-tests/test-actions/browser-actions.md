@@ -5,7 +5,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/test-acti
 ---
 # Browser Actions
 
-The **Browser Actions** category contains actions that perform various actions with a browser window.
+The **Browser Actions** category contains actions that allow you to work with a browser window.
 
 * ![Action icon](../../../../images/actions/action-resize-window-icon.svg) [Resize Window](#resize-window)
 * ![Action icon](../../../../images/actions/action-maximize-window-icon.svg) [Maximize Window](#maximize-window)

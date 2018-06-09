@@ -15,16 +15,6 @@ Follow the steps below to write test code from scratch:
 
     ![Code Editor](../../images/working-with-testcafe-studio/code-editor.png)
 
-## Converting Recorded Tests to JavaScript Code
+## Converting Recorded Tests to JavaScript
 
-You can convert recorded tests to JavaScript code. This gives you more control and flexibility in your test.
-
-To convert a test fixture with recorded tests to code:
-
-1. Select the fixture in the **Explorer** panel and select **Convert to JavaScript Code** from the context menu.
-
-2. In the subsequent dialog, specify a name of the file where the test code should be added.
-
-    ![Convert to JavaScript Code Dialog](../../images/working-with-testcafe-studio/converted-tests.png)
-
-TestCafe Studio creates the `.js` file with tests in the same test directory and displays it in the **Explorer** panel.
+You can convert recorded tests to JavaScript. This gives you more control and flexibility in your test. See [Converting Fixtures to JavaScript](../user-interface/explorer-panel.md#converting-fixtures-to-javascript) for more information.

@@ -37,7 +37,7 @@ You can record a test in any local browser. TestCafe detects browsers on the loc
 
 You can modify record configuration options by clicking the ![Settings button](../../../images/working-with-testcafe-studio/settings-icon.png) button and using the [Record Configuration](../../user-interface/record-configuration-dialog.md) dialog.
 
-![Record Configuration Dialog](../../../images/working-with-testcafe-studio/record-configuration-dialog.png)
+![Record Configuration Dialog](../../../images/user-interface/dialogs/record-configuration-dialog.png)
 
 ## Creating Fixtures
 

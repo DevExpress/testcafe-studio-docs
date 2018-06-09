@@ -7,9 +7,9 @@ permalink: /documentation/user-interface/record-configuration-dialog.html
 
 The **Record Configuration** dialog allows you to modify [record configuration](../working-with-testcafe-studio/recording-tests/README.md#record-configurations) options. These options affect the test playback during recording. That is when you continue recording a test by clicking the ![Start recording a test](../../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the **Test Editor**'s toolbar, TestCafe Studio plays back the existing test action using the specified options and waits for adding new actions.
 
-To open dialog, click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button next to the **Record Configuration** drop-down menu on the main toolbar.
+To open the dialog, click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button next to the **Record Configuration** drop-down menu on the main toolbar.
 
-![Record Configuration Dialog](../../images/working-with-testcafe-studio/record-configuration-dialog.png)
+![Record Configuration Dialog](../../images/user-interface/dialogs/record-configuration-dialog.png)
 
 You can configure the following options:
 

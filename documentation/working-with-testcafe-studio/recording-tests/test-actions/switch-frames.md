@@ -12,7 +12,7 @@ The **Switch Frames** category contains actions that allows you to switch the te
 
 ## Switch Context to Iframe
 
-When you add the **Switch Context to iframe** action to a test, TestCafe Studio switches the test's browsing context to a specified iframe and performs the following actions in this iframe until reaches the [Switch Context to Main Window](#switch-to-main-window) action in the test.
+The **Switch Context to iframe** action switches the test's browsing context to a specified iframe. TestCafe Studio performs the subsequent test actions in this iframe until reaches the [Switch Context to Main Window](#switch-to-main-window) action in the test.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
@@ -20,6 +20,6 @@ Parameter | Type  | Description
 
 ## Switch Context to Main Window
 
-When you add the **Switch Context to Main Window** action to a test, TestCafe Studio switches the test's browsing context from an iframe back to the main window.
+The **Switch Context to Main Window** action switches the test's browsing context from an iframe back to the main window.
 
 > If you reorder the **Switch Frames** actions or move test actions between browsing contexts, make sure the actions relate to a desired context. Otherwise, they may be executed incorrectly.
