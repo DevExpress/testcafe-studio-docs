@@ -28,21 +28,35 @@ The **Assertions** category contains actions that perform different verification
 
 When you add an assertion to a test, you have to set up its parameters.
 
+### Actual Parameter
+
 Each assertion has an *Actual* parameter that takes a value or evaluted code expression that should be verified. If you need to verify a web page element's property, you can pass a [selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/)'s property to this parameter.
 
 When you add an assertion during recording, TestCafe Studio can generate an element property expression and fill the **Actual** field with it. To generate the expression, follow the steps:
 
 1. Add an assertion action to a test.
-2. Click the ![Element Picker](../../../../images/getting-started/element-picker-icon.png) button next to the **Actual** field and select a target element on the tested webpage using an element picker. TestCafe shows the property list for the picked element.
-3. Select a desired property from the property list. TestCafe Studio generates the element property expression and adds it to the **Actual** field. It also evaluates the specified expression and shows the result in the **Value** field.
 
-IMAGE or ANIMATION
+    ![Adding an action](../../../../images/working-with-testcafe-studio/creating-assertion/adding-action.png)
 
-Some of assertions have the **Expected** parameter that takes an expected value or code expression. You can enter a desired value or copy the actual value to the **Expected** field by clicking the ![Copy the value to the Expected field](../../../../images/getting-started/copy-value-icon.png) button.
+2. Click the ![Element Picker](../../../../images/getting-started/element-picker-icon.png) button next to the **Actual** field and pick a target element on the tested webpage using an element picker.
 
-ANIMATION
+     ![Selecting an element](../../../../images/working-with-testcafe-studio/creating-assertion/selecting-element.png)
+
+3. TestCafe shows the property list for the picked element. Select a desired property from the property list.
+
+    ![Selecting a property](../../../../images/working-with-testcafe-studio/creating-assertion/selecting-property.png)
+
+4. TestCafe Studio generates the element property expression and adds it to the **Actual** field. It also evaluates the specified expression and shows the result in the **Value** field.
+
+    ![Actual value](../../../../images/working-with-testcafe-studio/creating-assertion/actual-value.png)
+
+### Expected Parameter
+
+Some of assertions have the *Expected* parameter that takes an expected value or code expression. You can enter a desired value manually or copy the actual value to the **Expected** field by clicking the ![Copy the value to the Expected field](../../../../images/getting-started/copy-value-icon.png) button.
 
 When you specify the assertion parameters during recording, TestCafe Studio shows the assertion status icon (![Success icon](../../../../images/working-with-testcafe-studio/test-success-icon.svg) - the assertion passed, ![Failed icon](../../../../images/working-with-testcafe-studio/test-failed-icon.svg) - the assertion failed).
+
+![Assertion status](../../../../../images/working-with-testcafe-studio/creating-assertion/assertion-status.png)
 
 ## Assertion Options
 
