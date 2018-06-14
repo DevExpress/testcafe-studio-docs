@@ -20,7 +20,7 @@
     function onPlayerStateChange(event) {
         {% if jekyll.environment == "production" %}
         if (event.data == YT.PlayerState.PLAYING) {
-            gtag('config', 'UA-83678642-3', {
+            gtag('config', window.GA_PROPERTY_ID, {
                 'page_path': '/lp-take-a-tour'
             });
         }

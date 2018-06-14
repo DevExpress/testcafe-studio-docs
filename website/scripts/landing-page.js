@@ -63,10 +63,10 @@ $(function(){
     function makeClickCallback(gaId) {
         return function () {
             {% if jekyll.environment == "production" %}                                    
-                gtag('config', 'UA-83678642-3', {
+                gtag('config', window.GA_PROPERTY_ID, {
                     'page_path': '/download-ctp'
                 });
-                gtag('config', 'UA-83678642-3', {
+                gtag('config', window.GA_PROPERTY_ID, {
                     'page_path': '/download-ctp/' + gaId
                 });
             {% endif %} 
@@ -118,7 +118,7 @@ $(function(){
 {% if jekyll.environment == "production" %}
 $(function(){
     $('.get-ctp').on('click', function () {
-        gtag('config', 'UA-83678642-3', {
+        gtag('config', window.GA_PROPERTY_ID, {
             'page_path': '/get-ctp'
         });
     });
