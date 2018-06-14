@@ -6,3 +6,4 @@
   external: true
 - text: Pricing
   url: /#pricing
+  id: pricing-menu-item
