@@ -8,5 +8,7 @@ permalink: /documentation/user-interface/
 * [Explorer Panel](explorer-panel.md)
 * [Fixture Editor](fixture-editor.md)
 * [Record Configuration Dialog](record-configuration-dialog.md)
+* [Reports Panel](reports-panel.md)
+* [Report View](report-view.md)
 * [Run Configurations Dialog](run-configurations-dialog.md)
 * [Test Editor](test-editor.md)
