@@ -17,7 +17,7 @@ TestCafe Studio's *debug mode* helps you understand what is happening in your we
 
 You can activate the debug mode in one of the following ways:
 
-* Add the **Debug** action to a particular place in a test. When test execution reaches this action, it pauses.
+* Add the [Debug](recording-tests/test-actions/debug.md#debug) action to a particular place in a test. When test execution reaches this action, it pauses.
 
     ![Debug Action](../../images/working-with-testcafe-studio/debug-action.png)
 
@@ -49,7 +49,7 @@ TestCafe Studio can capture screenshots of a browser window during test runs. Yo
 
 There are two ways to take screenshots:
 
-* Use the **Screenshot** action to take a screenshot in a particular place in a test.
+* Use the [Take Screenshot](recording-tests/test-actions/browser-actions.md#take-screenshot) action to take a screenshot in a particular place in a test.
 
     ![Take Screenshot Action](../../images/working-with-testcafe-studio/take-screenshot-action.png)
 
