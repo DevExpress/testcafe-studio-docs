@@ -5,7 +5,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/test-acti
 ---
 # Test Actions
 
-Topics of this section contain information about test actions that you can use in tests.
+Topics of this section contain information about actions that you can use in tests.
 These actions are available in the **Test Editor**'s **Actions** panel and organized into the following categories:
 
 Category              | Description

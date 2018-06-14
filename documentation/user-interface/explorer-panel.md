@@ -47,11 +47,11 @@ You can create a new test in one of the following ways:
 
     ![New Test dialog](../../images/user-interface/dialogs/new-test-dialog.png)
 
-    Specify the test name in this dialog and click **Create**. TestCafe Studio automatically creates an empty test and open it in **Test Editor**.
+    Specify the test name in this dialog and click **Create**. TestCafe Studio creates an empty test and open it in **Test Editor**.
 
 ## Creating a File
 
-To create a new file, right-click a directory in which you want to create a file and select ![New file icon](../../images/user-interface/context-menu/new-file.png) **New File** from the context menu. The **New File** dialog appears. Specify the file name and extension in this dialog and click **Create**.
+To create a new file,  invoke the context menu for a directory in which you want to create a file and select ![New file icon](../../images/user-interface/context-menu/new-file.png) **New File** from the context menu. The **New File** dialog appears. Specify the file name and extension in this dialog and click **Create**.
 
 ![New File dialog](../../images/user-interface/dialogs/new-file-dialog.png)
 
@@ -61,7 +61,7 @@ The created file appears in the **Explorer** panel and opens in **Code Editor**.
 
 To run any runnable item (test, fixture or directory), hover the mouse on it and click the ![The Run test button](../../images/user-interface/context-menu/run-tests.png) **Run test** or **Run all tests** button appeared next to this item.
 
-To run several tests from different fixtures and directories, select desired tests using Ctrl-click or Command-click, then click the ![The Run tests button](../../images/user-interface/context-menu/run-tests.png) **Run Tests** button next to any selected item.
+To run several tests from different fixtures and directories, select desired tests using Shift-click, Ctrl-click, or Command-click, then click the ![The Run tests button](../../images/user-interface/context-menu/run-tests.png) **Run Tests** button next to any selected item.
 
 ![Running multiple items](../../images/user-interface/running-multiple-items.png)
 
@@ -89,7 +89,7 @@ TestCafe Studio creates the test file in the same test directory and displays it
 
 ## Viewing Test Code
 
-To view JavaScript and TypeScript files in **Code Editor**, select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code is revealed in **Code Editor**.
+To view JavaScript and TypeScript files in **Code Editor**, select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code opens in **Code Editor**.
 
 ## Showing Files in Windows Explorer/MacOS Finder
 
@@ -97,7 +97,7 @@ To view a fixture or directory in Windows Explorer and macOS Finder, invoke the 
 
 ## Deleting Directories, Fixtures and Tests
 
-To delete a directory, fixture or test, invoke the context menu for it and select ![Delete icon](../../images/user-interface/context-menu/delete.png) **Delete**. A confirmation dialog appears. Click **Yes** to delete this item.
+To delete a directory, fixture or test, invoke the context menu for it and select ![Delete icon](../../images/user-interface/context-menu/delete.png) **Delete**. A confirmation dialog appears. Click **Yes** to delete the selected item.
 
 To delete several tests from different fixtures and directories, select desired tests with Shift-click, Ctrl-click, or Command-click, then select ![Delete icon](../../images/user-interface/context-menu/delete.png) **Delete** from the context menu.
 
