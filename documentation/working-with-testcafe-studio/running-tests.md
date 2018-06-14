@@ -10,6 +10,7 @@ This topic describes how to execute tests and consists of the following sections
 * [Run Configurations](#run-configurations)
 * [Starting and Stopping Tests](#starting-and-stopping-tests)
 * [Running Tests in Remote Browsers](#running-tests-in-remote-browsers)
+* [Concurrent Test Execution](#concurrent-test-execution)
 
 ## Run Configurations
 
@@ -54,7 +55,7 @@ TestCafe Studio allows you to run tests on any device that has network access to
 
 Follow the steps below to run a test in remote browsers:
 
-1. Create a run configuration for the remote browsers. In the run configuration's settings, select the **Remote browser** checkbox and specify the number of remote browsers.
+1. Create a run configuration for the remote browsers. In the run configuration's settings, select the **Remote browser** checkbox and specify the number of remote browser instances.
 
     ![Remote Browser Configuration](../../images/working-with-testcafe-studio/remote-browser-configuration.png)
 
@@ -79,4 +80,6 @@ You can also use concurrency when testing against multiple browsers.
 
 In this case, tests are distributed across four Safari instances and the same tests also run in four Firefox instances.
 
-If you test against multiple [remote browsers](#running-tests-in-remote-browsers), open and connect all instances of one browser before you connect the next browser.
+When you run tests on a [remote browser](#running-tests-in-remote-browsers), the total number of browser instances should divide by the concurrency parameter `n`. Otherwise, an exception will be thrown.
+
+If you test against multiple remote browsers, open and connect all instances of one browser before you connect the next browser.

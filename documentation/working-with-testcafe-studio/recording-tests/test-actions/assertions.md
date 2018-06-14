@@ -81,7 +81,7 @@ Asserts that *Actual* is not equal to *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Any Type &#124; Selector's Property &#124; | A value to verify.
+*Actual*             | Any Type &#124; Selector's Property | A value to verify.
 *Expected*             | Any type | An unexpected value
 
 ## Ok
@@ -174,7 +174,7 @@ Parameter              | Type                                              | Des
 
 ## Within
 
-Asserts that *Actual* is within a range from *Start* to *Finish*. Bounds are inclusive.
+Asserts that *Actual* is within a range from *Start Value* to *Finish Value*. Bounds are inclusive.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
@@ -184,7 +184,7 @@ Parameter              | Type                                              | Des
 
 ## Not Within
 
-Asserts that *Actual* is not within a range from *Start* to *Finish*. Bounds are inclusive.
+Asserts that *Actual* is not within a range from *Start Value* to *Finish Value*. Bounds are inclusive.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------

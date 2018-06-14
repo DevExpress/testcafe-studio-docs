@@ -10,6 +10,8 @@ The **Switch Frames** category contains actions that allows you to switch the te
 * ![Action icon](../../../../images/actions/action-switch-to-iframe-icon.svg) [Switch Context to Iframe](#switch-context-to-iframe)
 * ![Action icon](../../../../images/actions/action-switch-to-main-window-icon.svg) [Switch Context to Main Window](#switch-context-to-main-window)
 
+When you interact with an iframe on the webpage during recording, TestCafe Studio automatically adds the **Switch Frames** actions to the test.
+
 ## Switch Context to Iframe
 
 The **Switch Context to iframe** action switches the test's browsing context to a specified iframe. TestCafe Studio performs the subsequent test actions in this iframe until reaches the [Switch Context to Main Window](#switch-to-main-window) action in the test.
@@ -22,4 +24,6 @@ Parameter | Type  | Description
 
 The **Switch Context to Main Window** action switches the test's browsing context from an iframe back to the main window.
 
-> If you reorder the **Switch Frames** actions or move test actions between browsing contexts, make sure the actions relate to a desired context. Otherwise, they may be executed incorrectly.
+> Be careful when you reorder the **Switch Frames** actions or move test actions between browsing contexts. TestCafe Studio shows warnings in these cases. After dragging, make sure the actions relate to appropriate contexts. Otherwise, they may be executed incorrectly.
+
+![Action icon](../../../../images/working-with-testcafe-studio/reordering-switch-frames-actions.png)
