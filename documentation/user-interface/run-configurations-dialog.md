@@ -10,16 +10,21 @@ The dialog opens when you click the ![Settings button](../../images/working-with
 
 ![Run Configurations Dialog](../../images/working-with-testcafe-studio/run-configurations-dialog.png)
 
-The dialog's left panel displays the list of available run configurations. When you select a configuration in the list, the dialog's right section displays the configuration settings organized into several categories.
+The dialog's left panel displays the list of available run configurations. When you select a configuration in the list, the dialog's right section displays the configuration settings organized into several categories:
 
-**General**
+* [General](#general)
+* [Browsers](#browsers)
+* [Review Fails and Debug](#review-fails-and-debug)
+* [Advanced Options](#advanced-options)
+
+## General
 
 Setting | Description
 ------- | -------------
 *Name* | The name of the test run configuration. It is displayed in the **Run Configurations** drop-down menu on the main toolbar.
 *Default report view* | The format of the test run report used by default in **Reports View**. The following report formats are available: *grid*, *json*, *list*, *minimal*, *spec*, *xunit*.
 
-**Browser**
+## Browsers
 
 This section lists locally installed browsers TestCafe Studio detects. Select those where tests should be run.
 
@@ -27,7 +32,7 @@ You can also select the **Remote browser** checkbox to run tests on remote machi
 
 If you select multiple browsers, tests run in them simultaneously. You can use the **Select All** and **Deselect All** buttons to set or remove selection for all the browsers.
 
-**Review Fails and Debug**
+## Review Fails and Debug
 
 Setting                                         | Description
 ----------------------------------------------- | -----------
@@ -37,7 +42,7 @@ Setting                                         | Description
 *Quarantine mode* | Enables the *quarantine mode* for tests that fail. In this mode, a failed test is executed several times. The test result depends on the outcome (passed or failed) that occurs most often. That is, if the test fails on most attempts, the result is failed. If the test result differs between test runs, the test is marked as unstable.
 *Pause the test when it fails* | Specifies whether to automatically activate the [debug mode](../working-with-testcafe-studio/debugging-tests.md#debugging-recorded-tests) when a test fails.
 
-**Advanced Options**
+## Advanced Options
 
 Setting | Description
 -------- | -------------
