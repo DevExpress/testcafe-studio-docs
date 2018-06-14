@@ -18,7 +18,7 @@ The **Switch Context to iframe** action switches the test's browsing context to 
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*Element&nbsp;Selector* | Selector | Identifies an iframe on the tested page. The parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function that returns the iframe. For more information on how to set up this parameter, see [Element Selector](on-page-actions/action-parameters#element-selector).
+*Element&nbsp;Selector* | Selector | Identifies an iframe on the tested page. The parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function that returns the iframe. For more information on how to set up this parameter, see [Element Selector](on-page-actions/action-parameters.md#element-selector).
 
 ## Switch Context to Main Window
 
