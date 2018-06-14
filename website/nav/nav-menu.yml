@@ -24,6 +24,8 @@
         content:
         - name: Action Options
           url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-options.md
+        - name: Action Parameters
+          url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md
       - name: Debug
         url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/debug.md
       - name: Browser Actions

@@ -42,7 +42,7 @@ When you add an assertion during recording, TestCafe Studio can generate an elem
 
      ![Selecting an element](../../../../images/working-with-testcafe-studio/creating-assertion/selecting-element.png)
 
-3. TestCafe shows the property list for the picked element. Select a desired property from the property list.
+3. TestCafe shows the property list for the picked element. Double-click a desired property from the property list.
 
     ![Selecting a property](../../../../images/working-with-testcafe-studio/creating-assertion/selecting-property.png)
 
@@ -72,8 +72,8 @@ Asserts that *Actual* is equal to *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Any Type &#124; Selector's Property | A value to verify.
-*Expected*             | Any type | An expected value.
+*[Actual](#actual-parameter)*             | Any Type &#124; Selector's Property | A value to verify.
+*[Expected](#expected-parameter)*             | Any type | An expected value.
 
 ## Not Equals
 
@@ -81,8 +81,8 @@ Asserts that *Actual* is not equal to *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Any Type &#124; Selector's Property | A value to verify.
-*Expected*             | Any type | An unexpected value
+*[Actual](#actual-parameter)*             | Any Type &#124; Selector's Property | A value to verify.
+*[Expected](#expected-parameter)*             | Any type | An unexpected value
 
 ## Ok
 
@@ -90,7 +90,7 @@ Asserts that *Actual* is true.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Any Type &#124; Selector's Property | A value that should be truthy.
+*[Actual](#actual-parameter)*             | Any Type &#124; Selector's Property | A value that should be truthy.
 
 ## Not Ok
 
@@ -98,7 +98,7 @@ Asserts that *Actual* is false.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Any Type &#124; Selector's Property | A value that should be falsy.
+*[Actual](#actual-parameter)*             | Any Type &#124; Selector's Property | A value that should be falsy.
 
 ## Contains
 
@@ -106,8 +106,8 @@ Asserts that *Actual* contains *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | String &#124; Array &#124; Object &#124; Selector's Property | A string that contains the *Expected* substring, an array that contains the *Expected* value or an object that contains the *Expected* property.
-*Expected*             | Any type | The expected value.
+*[Actual](#actual-parameter)*             | String &#124; Array &#124; Object &#124; Selector's Property | A string that contains the *Expected* substring, an array that contains the *Expected* value or an object that contains the *Expected* property.
+*[Expected](#expected-parameter)*            | Any type | The expected value.
 
 ## Not Contains
 
@@ -115,8 +115,8 @@ Asserts that *Actual* does not contain *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | String &#124; Array &#124; Object &#124; Selector's Property | A string that should not contain the *Expected* substring, an array that should not contain the *Expected* value or an object that should not contain the *Expected* property.
-*Expected*             | Any type | The expected value.
+*[Actual](#actual-parameter)*             | String &#124; Array &#124; Object &#124; Selector's Property | A string that should not contain the *Expected* substring, an array that should not contain the *Expected* value or an object that should not contain the *Expected* property.
+*[Expected](#expected-parameter)*             | Any type | The expected value.
 
 ## Type of
 
@@ -124,7 +124,7 @@ Asserts that the *Actual* belongs to a particular type.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Any Type &#124; Selector's Property  | A value to verify.
+*[Actual](#actual-parameter)*             | Any Type &#124; Selector's Property  | A value to verify.
 *Type Name*             | String | The expected type of the *Actual* value.
 
 ## Not Type of
@@ -133,7 +133,7 @@ Asserts that the *Actual* does not belong to a particular type.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Any Type &#124; Selector's Property | A value to verify.
+*[Actual](#actual-parameter)* | Any Type &#124; Selector's Property | A value to verify.
 *Type Name*             | String | A type to which the *Actual* value is not expected to belong.
 
 ## Greater than
@@ -142,8 +142,8 @@ Asserts that *Actual* is greater than *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Number &#124; Selector's Property | A value that should be greater than *Expected*.
-*Expected*             | Any type | The expected value.
+*[Actual](#actual-parameter)* | Number &#124; Selector's Property | A value that should be greater than *Expected*.
+*[Expected](#expected-parameter)*            | Any type | The expected value.
 
 ## Greater than or Equals to
 
@@ -151,8 +151,8 @@ Asserts that *Actual* is greater than or equal to *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Number &#124; Selector's Property | A value that should be greater than or equal to *Expected*.
-*Expected*             | Any type | The expected value.
+*[Actual](#actual-parameter)* | Number &#124; Selector's Property | A value that should be greater than or equal to *Expected*.
+*[Expected](#expected-parameter)*             | Any type | The expected value.
 
 ## Less than
 
@@ -160,8 +160,8 @@ Asserts that *Actual* is less than *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Number &#124; Selector's Property | A value that should be less than *Expected*.
-*Expected*             | Any type | The expected value.
+*[Actual](#actual-parameter)* | Number &#124; Selector's Property | A value that should be less than *Expected*.
+*[Expected](#expected-parameter)*             | Any type | The expected value.
 
 ## Less than or Equals to
 
@@ -169,8 +169,8 @@ Asserts that *Actual* is less than or equal to *Expected*.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Number &#124; Selector's Property | A value that should be less than or equal to *Expected*.
-*Expected*             | Any type | The expected value.
+*[Actual](#actual-parameter)* | Number &#124; Selector's Property | A value that should be less than or equal to *Expected*.
+*[Expected](#expected-parameter)*             | Any type | The expected value.
 
 ## Within
 
@@ -178,7 +178,7 @@ Asserts that *Actual* is within a range from *Start Value* to *Finish Value*. Bo
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | Number &#124; Selector's Property | A value to verify.
+*[Actual](#actual-parameter)* | Number &#124; Selector's Property | A value to verify.
 *Start Value*             | Number | A lower bound of range (included).
 *Finish Value*            | Number | An upper bound of range (included).
 
@@ -188,7 +188,7 @@ Asserts that *Actual* is not within a range from *Start Value* to *Finish Value*
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*                  | Number &#124; Selector's Property | A value to verify.
+*[Actual](#actual-parameter)* | Number &#124; Selector's Property | A value to verify.
 *Start Value*             | Number | A lower bound of range (included).
 *Finish Value*            | Number | An upper bound of range (included).
 
@@ -198,7 +198,7 @@ Asserts that *Actual* matches the *re* regular expression.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | String &#124; Selector's Property | A value to verify.
+*[Actual](#actual-parameter)* | String &#124; Selector's Property | A value to verify.
 *re*             | RegExp | A regular expression that is expected to match *Actual*.
 
 ## Not Match
@@ -207,5 +207,5 @@ Asserts that *Actual* does not match the *re* regular expression.
 
 Parameter              | Type                                              | Description
 ---------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------
-*Actual*             | String &#124; Selector's Property | A value to verify.
+*[Actual](#actual-parameter)* | String &#124; Selector's Property | A value to verify.
 *re*             | RegExp | A regular expression that is expected not to match *Actual*.

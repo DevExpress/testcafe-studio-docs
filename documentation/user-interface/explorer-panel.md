@@ -99,6 +99,6 @@ To view a fixture or directory in Windows Explorer and macOS Finder, invoke the 
 
 To delete a directory, fixture or test, invoke the context menu for it and select ![Delete icon](../../images/user-interface/context-menu/delete.png) **Delete**. A confirmation dialog appears. Click **Yes** to delete this item.
 
-To delete several tests from different fixtures and directories, select desired tests with Ctrl-click, then select ![Delete icon](../../images/user-interface/context-menu/delete.png) **Delete** from the context menu.
+To delete several tests from different fixtures and directories, select desired tests with Shift-click, Ctrl-click, or Command-click, then select ![Delete icon](../../images/user-interface/context-menu/delete.png) **Delete** from the context menu.
 
 ![Deleting multiple items](../../images//user-interface/deleting-multiple-items.png)
