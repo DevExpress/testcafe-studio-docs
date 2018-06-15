@@ -10,7 +10,7 @@
   url: /documentation/working-with-testcafe-studio/README.md
   content:
   - name: Organizing Tests
-    url: /documentation/working-with-testcafe-studio/organizing-tests.html
+    url: /documentation/working-with-testcafe-studio/organizing-tests.md
   - name: Recording Tests
     url: /documentation/working-with-testcafe-studio/recording-tests/
     content:
