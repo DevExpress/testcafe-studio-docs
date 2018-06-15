@@ -27,7 +27,7 @@ The progress bar and counter color indicates test run outcome.
 
 ## Viewing a Detailed Report
 
-To view a complete test run report, click the **Reports** panel row. This opens the **Report** view that presents details on the test run. To learn mode, see [Report View](report-view.md).
+To view a complete test run report, click the **Reports** panel row. This opens the **Report** view that presents details on the test run. To learn more, see [Report View](report-view.md).
 
 ## Stopping Test Run
 
@@ -49,4 +49,4 @@ To hide the **Reports** panel, use the IMAGE button.
 
 IMAGE
 
-This hides the panel content leaving only the header visible. You can bring the panel back later using the IMAGE button.
+This hides the panel content but leaves the header visible. You can bring the panel back later using the IMAGE button.

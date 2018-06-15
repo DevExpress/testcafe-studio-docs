@@ -35,6 +35,8 @@ TestCafe Studio provides the following report formats out of the box:
 * Minimal
 * Spec
 
+To learn how to make more report formats available, see [Getting More Report Formats](#getting-more-report-formats).
+
 You can select the default format in [run configuration](run-configuration-dialog.md) settings.
 
 ### Working with a Grid
@@ -66,7 +68,7 @@ IMAGE
 
 #### Examining Failed Tests
 
-If a test has failed, an arrow is displayed near its status allowing you to expand the grid row and see details about this fail.
+If a test has failed, an arrow is displayed near its status. This arrow allows you to expand the grid row and see details about this fail.
 
 IMAGE
 
@@ -76,11 +78,11 @@ The detail view includes the following:
 * the browser and operating system name,
 * the page screenshot (if the [Take a screenshot if a test fails](run-configurations-dialog.md) option is enabled).
 
-For [recorded tests](../working-with-testcafe-studio/organizing-tests.md#recorded-test-files), the detail view displays a link to a test action that caused the fail. When you follow the link, you are navigated to the test file. The failed action is automatically expanded and the error message is displayed in it.
+For [recorded tests](../working-with-testcafe-studio/organizing-tests.md#recorded-tests-files), the detail view displays a link to a test action that caused the fail. When you follow the link, you are navigated to the test file. The failed action is automatically expanded and the error message is displayed in it.
 
 IMAGE
 
-For [coded tests](../working-with-testcafe-studio/organizing-tests.md#coded-test-files), the report shows a place in code where the fail occurred and the call stack.
+For [coded tests](../working-with-testcafe-studio/organizing-tests.md#coded-tests-files), the report shows a place in code where the fail occurred and the call stack.
 
 IMAGE
 
@@ -118,7 +120,7 @@ IMAGE
 
 ## Exporting the Report
 
-TestCafe Studio allows you to export a report to an archive file. This archive includes the report in the serialized form and screenshots taken during the test run.
+TestCafe Studio allows you to export a report to an archive file. This archive includes the serialized report in the selected format (JSON if the grid view is selected) and screenshots taken during the test run.
 
 To export a report, use the IMAGE button.
 
@@ -146,4 +148,4 @@ Reporter plugins are npm packages. The reporter package name consists of two par
 
 You can search for available reporter packages on npm: [https://www.npmjs.com/search?q=testcafe-reporter](https://www.npmjs.com/search?q=testcafe-reporter).
 
-TestCafe Studio automatically detects reporter plugins installed on the local machine and adds them to the list.
+TestCafe Studio automatically detects reporter plugins installed on the local machine and adds them to the drop-down list in the **Report** view.
