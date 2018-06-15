@@ -49,7 +49,7 @@ Setting | Description
 *Reports path* | The directory's path where test run reports are saved.
 *Screenshots path* | The directory's path where screenshots captured during test execution are saved.
 *Selector timeout* | Specifies the time (in milliseconds) within which an element selector attempts to obtain a target DOM element.
-*Assertion timeout* | Specifies the time (in milliseconds) an [assertion](../working-with-testcafe-studio/recording-tests/test-actions/assetions.md) can take to pass before the test fails.
+*Assertion timeout* | Specifies the time (in milliseconds) an [assertion](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md) can take to pass before the test fails.
 *Speed* | Specifies the [test speed](../working-with-testcafe-studio/debugging-tests.md#test-speed) from 0.01 to 1.
 *Concurrency* | Specifies the number of browser instances to execute tests concurrently. See [Concurrent Test Execution](../working-with-testcafe-studio/running-tests.md#concurrent-test-execution).
 

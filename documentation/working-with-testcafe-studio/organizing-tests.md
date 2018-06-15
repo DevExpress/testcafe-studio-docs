@@ -32,11 +32,11 @@ You can also organize test files into *subdirectories*. To create a subdirectory
 
 ## Recorded Tests Files
 
-**Recorded tests** are tests you record visually or compose from test actions. These tests are stored in `*.testcafe` files. TestCafe Studio automatically creates a new `*.testcafe` file when you [start recording a test](recording-tests.md#starting-and-stopping-recording) for a new tested page.
+**Recorded tests** are tests you record visually or compose from test actions. These tests are stored in `*.testcafe` files. TestCafe Studio automatically creates a new `*.testcafe` file when you [start recording a test](recording-tests/README.md#starting-and-stopping-recording) for a new tested page.
 
 The `.testcafe` test file can contain one more recorded tests.
 
-See [Recording Tests](recording-tests.md) for information on how to record tests.
+See [Recording Tests](recording-tests/README.md) for information on how to record tests.
 
 ## Coded Tests Files
 

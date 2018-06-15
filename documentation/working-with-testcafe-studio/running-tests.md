@@ -68,9 +68,7 @@ Follow the steps below to run a test in remote browsers:
 
 To save time spent on testing, TestCafe allows you to execute tests concurrently. *Concurrency* is an optional mode that allows you to invoke multiple instances of the same browser. These instances constitute the pool of browsers against which tests run concurrently, i.e. each test runs in the first free instance.
 
-To enable concurrency and specify a number of browser instances, use the **Concurrency** option of the run configuration's settings.
-
-![Concurrency option](../../images/working-with-testcafe-studio/concurrency-option.png)
+To enable concurrency and specify a number of browser instances, use the **Concurrency** option of the run configuration's settings (see [Advanced Options](../user-interface/run-configurations-dialog.md#advanced-options)).
 
 > Concurrent test execution is not supported in Microsoft Edge. This is because there is no known way to start Edge in a new window and make it open a particular URL.
 

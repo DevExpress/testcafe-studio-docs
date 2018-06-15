@@ -25,7 +25,7 @@ The created directory appears in the **Explorer** panel.
 
 ## Creating a Fixture
 
-To create a new [fixture](../working-with-testcafe-studio/recording-tests.md#creating-fixtures), select a directory where you want to create it and click the  **Create a New Fixture** button or select the ![New fixture icon](../../images/user-interface/context-menu/new-fixture.png) **New Fixture** command from the context menu. The **New Fixture** dialog opens.
+To create a new [fixture](../working-with-testcafe-studio/recording-tests/README.md#creating-fixtures), select a directory where you want to create it and click the  **Create a New Fixture** button or select the ![New fixture icon](../../images/user-interface/context-menu/new-fixture.png) **New Fixture** command from the context menu. The **New Fixture** dialog opens.
 
 ![Creating a Fixture](../../images/user-interface/dialogs/new-fixture-dialog.png)
 
@@ -41,7 +41,7 @@ Finally, click the **Create** button. The new fixture appears in the **Explorer*
 
 You can create a new test in one of the following ways:
 
-* Record a test. To do this, select a fixture in which you want to create a test and click the **Record a New Test** button. TestCafe Studio automatically creates a new test, adds it to the fixture and starts [recording](../working-with-testcafe-studio/recording-tests/README.md).
+* Record a test. To do this, select a fixture in which you want to create a test and click the ![Record button](../../images/getting-started/record-test-icon.png) **Record a New Test** button. TestCafe Studio automatically creates a new test, adds it to the fixture and starts [recording](../working-with-testcafe-studio/recording-tests/README.md).
 
 * Create an empty test. To do this, select a fixture in which you want to create a test and select ![New test icon](../../images/user-interface/context-menu/new-test.png) **New Test** from the context menu. The **New Test** dialog appears.
 

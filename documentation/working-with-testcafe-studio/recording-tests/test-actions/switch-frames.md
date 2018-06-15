@@ -14,7 +14,7 @@ When you interact with an iframe on the webpage during recording, TestCafe Studi
 
 ## Switch Context to Iframe
 
-The **Switch Context to iframe** action switches the test's browsing context to a specified iframe. TestCafe Studio performs the subsequent test actions in this iframe until reaches the [Switch Context to Main Window](#switch-to-main-window) action in the test.
+The **Switch Context to iframe** action switches the test's browsing context to a specified iframe. TestCafe Studio performs the subsequent test actions in this iframe until reaches the [Switch Context to Main Window](#switch-context-to-main-window) action in the test.
 
 Parameter | Type  | Description
 --------- | ----- | -------------

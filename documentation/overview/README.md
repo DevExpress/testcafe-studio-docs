@@ -9,7 +9,7 @@ TestCafe Studio is a cross-platform IDE for end-to-end web testing that does not
 
 TestCafe Studio has the following features:
 
-* You can create, edit and maintain end-to-end tests with a visual recorder without writing code. See [Recording Tests](../working-with-testcafe-studio/recording-tests.md).
+* You can create, edit and maintain end-to-end tests with a visual recorder without writing code. See [Recording Tests](../working-with-testcafe-studio/recording-tests/README.md).
 
 * Produces a set of selectors for each page element. These selectors are generated during the test recording to identify page elements.
 

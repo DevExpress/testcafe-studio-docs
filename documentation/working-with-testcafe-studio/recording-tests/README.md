@@ -45,7 +45,7 @@ Recorded tests must be organized into categories called **fixtures**. A fixture 
 
 Follow the steps below to create a fixture:
 
-1. Open a [test directory](organizing-tests.md#test-directory).
+1. Open a [test directory](../organizing-tests.md#test-directory).
 2. Do any of the following:
     * In the **Explorer** panel, click **Create a New Fixture** button.
     * Right-click a test directory or subdirectory in the **Explorer** panel and select **New Fixture** from the context menu.
