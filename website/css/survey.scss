@@ -1,0 +1,17 @@
+---
+---
+.sv_main.sv_default_css .sv_container .sv_body {
+    border-top: none;
+}
+
+h1 {
+    margin-left: 28px;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+
+    .post-content {
+        margin-top: 0;
+    }
+}
