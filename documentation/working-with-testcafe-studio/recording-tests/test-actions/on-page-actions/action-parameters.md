@@ -7,7 +7,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/test-acti
 
 ## Element Selector
 
-Most of the on-page actions have the *Element Selector* parameter that specifies a target element. This parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function that returns a webpage element.
+Most of the on-page actions have the *Element Selector* parameter that specifies a target element. This parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function.
 
 You can set up the *Element Selector* parameter in one of the following ways:
 

@@ -15,7 +15,7 @@ You can configure the following options:
 
 Options           | Description
 ----------------- | -------------
-*Selector timeout*  | Specifies the time (in milliseconds) element selectors can obtain the target DOM elements.
-*Assertion timeout* | Specifies the time (in milliseconds) an assertion can take to pass before the test fails.
+*Selector timeout*  | Specifies the time (in milliseconds) [element selectors](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md#element-selector) can obtain the target DOM elements.
+*Assertion timeout* | Specifies the time (in milliseconds) an [assertion](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md) can take to pass before the test fails.
 *Speed*             | Specifies the test speed from 0.01 to 1.
 *Debug mode*        | Activates the [debug mode](../working-with-testcafe-studio/debugging-tests.md#debugging-recorded-tests).

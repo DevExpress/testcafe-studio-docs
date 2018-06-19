@@ -13,11 +13,11 @@ The panel shows the directory's content as a tree of subdirectories, files, and 
 
 You can manage test directories, files, fixtures, and tests using context menu commands. The available commands depend on the currently selected item in the panel.
 
-The panel also has a **Record a New Test** and **Create a New Fixture** button that allow you to start recording a test and create a fixture.
+The panel also has buttons for the frequently-used actions: **Record a New Test** and **Create a New Fixture**.
 
 ## Creating a Directory
 
-To create a new directory, invoke the context menu in a directory where you want to create it and select ![New directory icon](../../images/user-interface/context-menu/new-directory.png) **New Directory**. The **New Directory** dialog opens. Specify the directory name in this dialog and click **Create**.
+To create a new directory, invoke the context menu for a directory where you want to create it and select ![New directory icon](../../images/user-interface/context-menu/new-directory.png) **New Directory**. The **New Directory** dialog opens. Specify the directory name in this dialog and click **Create**.
 
 ![New Directory dialog](../../images/user-interface/dialogs/new-directory-dialog.png)
 
@@ -47,7 +47,7 @@ You can create a new test in one of the following ways:
 
     ![New Test dialog](../../images/user-interface/dialogs/new-test-dialog.png)
 
-    Specify the test name in this dialog and click **Create**. TestCafe Studio creates an empty test and open it in **Test Editor**.
+    Specify the test name in this dialog and click **Create**. TestCafe Studio creates an empty test and open it in the **Test** editor.
 
 ## Creating a File
 
@@ -89,7 +89,7 @@ TestCafe Studio creates the test file in the same test directory and displays it
 
 ## Viewing Test Code
 
-To view JavaScript and TypeScript files in **Code Editor**, select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code opens in **Code Editor**.
+To view JavaScript and TypeScript files in the **Code** editor, select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code opens in the **Code** editor.
 
 ## Showing Files in Windows Explorer/MacOS Finder
 
