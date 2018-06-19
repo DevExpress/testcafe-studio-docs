@@ -1,2 +1,0 @@
-{% capture url %}{{ include.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
-<a href="{{ url | prepend: site.baseurl }}" class="doc-lvl-{{ include.level }}{% if page.url contains url %} active{% endif %}" >{{ include.name }}</a>
