@@ -5,7 +5,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/test-acti
 ---
 # Browser Actions
 
-The **Browser Actions** category contains actions that allow you to work with a browser window.
+The **Browser Actions** category contains actions that control the browser window.
 
 * ![Action icon](../../../../images/actions/action-resize-window-icon.svg) [Resize Window](#resize-window)
 * ![Action icon](../../../../images/actions/action-maximize-window-icon.svg) [Maximize Window](#maximize-window)
@@ -19,21 +19,21 @@ Resizes the browser window to the specified dimensions.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*Width*  | Number | The new width, in pixels.
-*Height* | Number | The new height, in pixels.
+*Width*  | Number | The width (in pixels).
+*Height* | Number | The new height (in pixels).
 
 ## Maximize Window
 
-Resizes the browser window to the full screen.
+Resizes the browser window to fit the screen.
 
 ## Resize Window to Fit Device
 
-Resizes the browser window to the device's display dimensions.
+Resizes the browser window to fit the device's display dimensions.
 
 Parameter | Description
 --------- | -------------
-*Device* | String | The name of the device. You can select it from the drop-down list.
-*Portrait Orientation* | Boolean | Specifies whether to use dimensions of the screen with portrait orientation. If unchecked, dimensions of the screen with landscape orientation are used.
+*Device* | String | The device's name. You can select it from the drop-down list.
+*Portrait Orientation* | Boolean | Specifies whether to use the dimensions of a screen in portrait orientation. If unchecked, it uses the landscape orientation's dimensions.
 
 ## Navigate
 
@@ -49,4 +49,4 @@ Takes a screenshot of the tested webpage.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*Path*&nbsp;(optional) | String | The relative path and name of the screenshot file to be created. Resolved from the screenshot directory specified using the *Screenshot path* option of the run configuration (see [Run Configuration Dialog](../../../user-interface/run-configurations-dialog.md)).
+*Path*&nbsp;(optional) | String | The screenshot files' relative path and name. Resolved from the screenshot directory specified using the run configuration's *Screenshot path* option (see [Run Configuration Dialog](../../../user-interface/run-configurations-dialog.md)).
