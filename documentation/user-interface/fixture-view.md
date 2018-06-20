@@ -9,7 +9,7 @@ The **Fixture** view displays information about a fixture: the fixture name, tes
 
 ![Fixture view](../../images/user-interface/fixture-view.png)
 
-It also allows you to perform the following tasks:
+You can also perform the following tasks in this view:
 
 * [Recording New Tests](#recording-new-tests)
 * [Running the Fixture or Individual Tests](#running-the-fixture-or-individual-tests)
