@@ -6,11 +6,11 @@ permalink: /documentation/user-interface/run-configurations-dialog.html
 # Run Configurations Dialog
 
 The **Run Configurations** dialog allows you to create, modify, and delete [run configurations](../working-with-testcafe-studio/running-tests.md#run-configurations).
-The dialog opens when you click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button next to the **Run Configuration** drop-down menu on the main toolbar.
+This dialog opens when you click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button next to the **Run Configuration** drop-down menu on the main toolbar.
 
 ![Run Configurations Dialog](../../images/working-with-testcafe-studio/run-configurations-dialog.png)
 
-The dialog's left panel lists available run configurations. When you select a configuration, the dialog's right section displays its settings organized into several categories:
+The dialog's left panel lists the available run configurations. When you select a configuration, the dialog's right section displays its settings organized into several categories:
 
 * [General](#general)
 * [Browsers](#browsers)
@@ -26,11 +26,11 @@ Setting | Description
 
 ## Browsers
 
-This section lists locally installed browsers TestCafe Studio detects. Select those where tests should be run.
+This section lists locally installed browsers TestCafe Studio detects. You can select on which browsers you want to run tests.
 
 You can also select the **Remote browser** checkbox to run tests on remote machines. See [Running Tests in Remote Browsers](../working-with-testcafe-studio/running-tests.md#running-tests-in-remote-browsers).
 
-If you select multiple browsers, tests run in them simultaneously. You can use the **Select All** and **Deselect All** buttons to set or remove selection for all the browsers.
+Tests can run in multiple browsers simultaneously. You can use the **Select All** and **Deselect All** buttons to select or remove selection of all the browsers.
 
 ## Review Fails and Debug
 
