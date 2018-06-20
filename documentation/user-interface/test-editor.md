@@ -5,64 +5,57 @@ permalink: /documentation/user-interface/test-editor.html
 ---
 # Test Editor
 
-The **Test** editor allows you to view and modify existing tests, and create new ones.
+The **Test** editor allows you to view and modify existing tests, and create new ones. To open a test in the editor, double-click it in the [Explorer](explorer-panel.md) panel or click it in the [Fixture](fixture-editor.md) editor. When you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
 
-IMAGE
+The **Test** editor consists of the following parts:
 
-To open the desired test in the Test editor, double-click the test in the Explorer panel or click it in the Fixture editor.
+* The test area - Displays the current test's content.
+* The **Actions** panel - Lists [actions](../working-with-testcafe-studio/recording-tests/test-actions/README.md) you can add to the test.
+    The actions are organized into categories. You can expand or collapse the categories by clicking the arrows next to the categories' names.
+* The toolbar - Provides common information about the test (test name, fixture name, tested page's URL) and buttons for perfoming common tasks with it.
 
-When you [create an empty test](../../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens this test in the Test editor.
+![Test editor](../../images/user-interface/test-editor.png)
 
-The main area of the editor contains actions .
+This topic desribes typical tasks you can perform in the editor:
 
-You can add actions to the test, modify and delete actions, and change actions' order.
+* [Adding Actions to Tests](#adding-actions-to-tests)
+* [Recording Actions into the Current Test](#recording-actions-into-the-current-test)
+* [Modifying Actions' Parameters](#modifying-action-parameters)
+* [Changing Actions' Position](#changing-action-position)
+* [Deleting Actions](#deleting-actions)
+* [Renaming Tests](#renaming-tests)
+* [Running Tests](#running-tests)
 
-The Test editor consists of two parts:
+## Adding Actions to Tests
 
-* Main area - Contains actions that make up the current test.
-* Actions Panel - Lists all actions you can add to your tests.
+To add a new action to the test, click it in the **Actions** panel. The action is added to the end of the test. Then specify the action parameters.
 
-This topic desribes the editor and typical tasks you can perform in it.
+You can add actions after or during recording. In the last case, you can set some action parameters, like [Element Selector](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md#element-selector) or [Actual](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md#actual-parameter), by picking an element on a webpage.
 
-## Actions Panel
+## Recording Actions into the Current Test
 
-The Actions panel resides on the right of the Test editor. It contains actions that you can use in tests.
-All the actions are organized into categories. See Test Actions for more information.
+You can record [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) and add them to the current test. To do this, click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the toolbar to start recording and perform desired actions on the tested page. TestCafe Studio records your activity and inserts new actions after the existing ones.
 
-You can expand or collapse the categories by clicking the arrow next to the categories names.
+## Modifying Actions' Parameters
 
-## Main Area
+You can view and modify an action's parameters in the action parameters area. To view this area, click the ![Drag icon](../../images/user-interface/drag-item-icon.svg) button to the left of the action's name.
 
-## Working with a Test
+## Changing Actions' Position
 
-* Adding Actions to Tests
-* Recording Actions into the Current Test
-* Modifying Action Parameters
-* Changing Action Position
-* Deleting Actions
-* Renaming the Test
-* Running the Test
+To change an action's position, hover the mouse cursor over the ![Drag icon](../../images/user-interface/drag-item-icon.svg) button to the left of the action's name until the cursor icon changes to the ![Drag icon](../../images/user-interface/move-cursor-icon.png) icon, then click and drag the action to a new position.
 
-### Adding Actions to Tests
+## Deleting Actions
 
-To add a desired action to the test, click it in the Actions panel. TestCafe Studio adds this acton to the end of the test.
+To delete an action from the test, hover the mouse cursor over it and click the ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove action** button to the right of the action's row.
 
-If the action has parameters, TestCafe Studio expands action parameters area where you can set the parameters values.
+To delete all actions, click the ![Remove all actions icon](../../images/user-interface/remove-all-icon.svg) **Remove all actions** button on the editor's toobar.
 
-!!!!!!!!! When you add actions during recording,  ? should we say about recording mode and specifying parameters.
+## Renaming Tests
 
-### Recording Actions into the Current Test
+To rename the test, click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button on the editor's toolbar. This invokes the **Rename test** dialog when you can specify a new test name.
 
-You can record ... and insert them into the current test.
+![Rename test dialog](../../images/user-interface/dialogs/rename-test-dialog.png)
 
-To do this:
+## Running Tests
 
-
-
-
-
-
-
-
-
-
+To run the test, click the ![Run tests button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button on the editor's toolbar.
