@@ -19,8 +19,13 @@ function sendDataToServer(survey) {
     survey.sendResult('71291f50-3920-411d-a19b-d77a30454393');
 }
 
+function competeSurvey(survey) {
+    $('#surveyHeader').css('display', 'none');
+    sendDataToServer(survey);
+}
+
 var survey = new Survey.Model(surveyJSON);
 $("#surveyContainer").Survey({
     model: survey,
-    onComplete: sendDataToServer
+    onComplete: competeSurvey
 });
