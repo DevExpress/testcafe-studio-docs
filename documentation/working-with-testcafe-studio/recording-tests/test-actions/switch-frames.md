@@ -5,7 +5,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/test-acti
 ---
 # Switch Frames
 
-The **Switch Frames** category contains actions that allows you to switch the test's [browsing context](https://html.spec.whatwg.org/multipage/browsers.html#windows) to iframes or back to the main window.
+The **Switch Frames** category contains actions that allow you to switch the test's [browsing context](https://html.spec.whatwg.org/multipage/browsers.html#windows) to iframes or back to the main window.
 
 * ![Action icon](../../../../images/actions/action-switch-to-iframe-icon.svg) [Switch Context to Iframe](#switch-context-to-iframe)
 * ![Action icon](../../../../images/actions/action-switch-to-main-window-icon.svg) [Switch Context to Main Window](#switch-context-to-main-window)
@@ -14,7 +14,7 @@ When you interact with an iframe on the webpage during recording, TestCafe Studi
 
 ## Switch Context to Iframe
 
-The **Switch Context to iframe** action switches the test's browsing context to a specified iframe. TestCafe Studio performs the subsequent test actions in this iframe until reaches the [Switch Context to Main Window](#switch-context-to-main-window) action in the test.
+The **Switch Context to iframe** action switches the test's browsing context to a specified iframe. TestCafe Studio performs the subsequent test actions in this iframe until it reaches the [Switch Context to Main Window](#switch-context-to-main-window) action in the test.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
@@ -24,6 +24,6 @@ Parameter | Type  | Description
 
 The **Switch Context to Main Window** action switches the test's browsing context from an iframe back to the main window.
 
-> Be careful when you reorder the **Switch Frames** actions or move test actions between browsing contexts. TestCafe Studio shows warnings in these cases. After dragging, make sure the actions relate to appropriate contexts. Otherwise, they may be executed incorrectly.
+> TestCafe Studio displays warnings when you reorder **Switch Frames** actions or move test actions between browsing contexts. After dragging, make sure the actions relate to their appropriate contexts. Otherwise, they can be executed incorrectly.
 
 ![Action icon](../../../../images/working-with-testcafe-studio/reordering-switch-frames-actions.png)
