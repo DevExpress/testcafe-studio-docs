@@ -13,11 +13,11 @@ This topic provides information about debugging tests and consists of the follow
 
 ## Debugging Recorded Tests
 
-TestCafe Studio's *debug mode* helps you understand what is happening in your web page during testing. In this mode, TestCafe Studio pauses the test and allows you to debug the tested page using the browser's developer tools. You can check the web page state, DOM elements' location, their CSS styles, etc.
+TestCafe Studio's *debug mode* helps you understand what is happening on your web page during testing. In this mode, TestCafe Studio pauses the test and allows you to debug the tested page using the browser's developer tools. You can check the web page's state, DOM elements' location, their CSS styles, etc.
 
 You can activate the debug mode in one of the following ways:
 
-* Add the [Debug](recording-tests/test-actions/debug.md#debug) action to a particular place in a test. When test execution reaches this action, it pauses.
+* Add the [Debug](recording-tests/test-actions/debug.md#debug) action to a particular stage of a test. The test is paused when the test reaches this action.
 
     ![Debug Action](../../images/working-with-testcafe-studio/debug-action.png)
 
@@ -39,13 +39,13 @@ During debugging, the browser window displays a footer with the following button
 
 ![Browser Footer](../../images/working-with-testcafe-studio/footer.png)
 
-### Features Useful for Debugging
+### Debugging Features
 
 TestCafe Studio includes features that help you find the cause of issues in your tests.
 
 #### Screenshots
 
-TestCafe Studio can capture screenshots of a browser window during test runs. You can analyze these screenshots to determine the cause of issues.
+TestCafe Studio can capture screenshots during a test. You can analyze these screenshots to determine the cause of issues.
 
 There are two ways to take screenshots:
 
@@ -53,25 +53,23 @@ There are two ways to take screenshots:
 
     ![Take Screenshot Action](../../images/working-with-testcafe-studio/take-screenshot-action.png)
 
-* Turn on the *Take a screenshot if a test fails* option for a desired run configuration in the **Run Configurations** dialog. This option enables TestCafe Studio to take a screenshot when a test fails.
+* Turn on the *Take a screenshot if a test fails* option for a run configuration in the **Run Configurations** dialog to take a screenshot when a test fails.
 
     ![Take Screenshot Option](../../images/working-with-testcafe-studio/screenshot-option.png)
 
-TestCafe Studio stores the screenshots in a directory specified in the **Run Configurations** dialog and displays them in test reports.
+TestCafe Studio stores the screenshots in the directory specified in the **Run Configurations** dialog and displays them in test reports.
 
 ![Screenshots](../../images/working-with-testcafe-studio/screenshots-in-report.png)
 
 #### Test Speed
 
-Tests are executed at full speed with minimum delays between actions by default. This makes it hard to identify problems visually when running a test.
-
-TestCafe Studio allows you to change test speed in one of the following ways:
+Tests are executed at full speed with minimum delays between actions. You can adjust the speed in one of the following ways:
 
 * Use the **Set Test Speed** action. The action parameter allows you to specify the test speed from 1 to 0.01.
 
     ![SEt Test Speed Action](../../images/working-with-testcafe-studio/set-test-speed-action.png)
 
-* Change the **Speed** option's value in the **Advanced Options** section of the **Run Configurations** dialog.
+* Change the **Speed** option's value in the **Run Configurations** dialog's **Advanced Options** section.
 
     ![Speed Option](../../images/working-with-testcafe-studio/speed-option.png)
 
