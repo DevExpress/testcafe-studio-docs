@@ -38,28 +38,32 @@ $(function(){
     var downloadLinks = {
         win: {
             name: 'Windows',
-            url: 'http://testcafe.devexpress.com/TryStudio/windows',
+            url: 'https://go.devexpress.com/DevExpressDownload_TestCafeStudio_Win.aspx',
             gaId: 'windows'
         },
         macos: {
             name: 'macOS',
-            url: 'http://testcafe.devexpress.com/TryStudio/macos',
+            url: 'https://go.devexpress.com/DevExpressDownload_TestCafeStudio_Mac.aspx',
             gaId: 'macos'
         },
         linux64: {
             name: 'Linux x64',
-            url: 'http://testcafe.devexpress.com/TryStudio/linux64',
+            url: 'https://go.devexpress.com/DevExpressDownload_TestCafeStudio_Linux64.aspx',
             gaId: 'linux64'
         },
         linux32: {
             name: 'Linux x32',
-            url: 'http://testcafe.devexpress.com/TryStudio/linux32',
+            url: 'https://go.devexpress.com/DevExpressDownload_TestCafeStudio_Linux32.aspx',
             gaId: 'linux32'
         }
     };
 
     var altOsSpans = ['.alt-os-1', '.alt-os-2', '.alt-os-3'];
 
+    function getRedirectUrl(downloadLink) {
+        return '/thanks-for-downloading-ctp/?downloadLink=' + encodeURIComponent(downloadLink);
+    }
+    
     function makeClickCallback(gaId) {
         return function () {
             {% if jekyll.environment == "production" %}                                    
@@ -81,12 +85,12 @@ $(function(){
                 $('.primary-os')
                     .append(link.name)
                     .closest('a')
-                    .attr('href', link.url)
+                    .attr('href', getRedirectUrl(link.url))
                     .on('click', makeClickCallback(link.gaId));
             }
             else {
                 var htmlLink = $('<a>')
-                    .attr('href', link.url)
+                    .attr('href', getRedirectUrl(link.url))
                     .text(link.name)
                     .on('click', makeClickCallback(link.gaId));
 
