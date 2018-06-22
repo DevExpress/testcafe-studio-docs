@@ -1,0 +1,58 @@
+---
+layout: docs
+title: Fixture Editor
+permalink: /documentation/user-interface/fixture-editor.html
+---
+# Fixture Editor
+
+The **Fixture** editor allows you to view and modify a fixture. The editor opens when you double-click the fixture in the [Explorer](explorer-panel.md) panel.
+
+The editor consists of the following parts:
+
+* The toolbar -Provides information about the fixture (the name and tested webpage's URL) and buttons for performing [typical tasks](#typical-tasks) with the fixture.
+
+    The webpage's URL is clickable and leads to the webpage opened in the browser.
+
+* The test list - Displays tests included to the fixture. The tests' rows are clickable and lead to the [Test](test-editor.md) editor.
+
+![Fixture editor](../../images/user-interface/fixture-editor.png)
+
+## Typical Tasks
+
+You can perform the following tasks in the editor:
+
+* [Record New Tests](#record-new-tests)
+* [Run the Fixture or Individual Tests](#run-the-fixture-or-individual-tests)
+* [Convert the Fixture to JavaScript](#convert-the-fixture-to-JavaScript)
+* [Modify the Fixture's Properties](#modfy-the-fixtures-properties)
+* [Delete Tests](#delete-tests)
+
+### Record New Tests
+
+Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record a new test** button on the editor's toolbar to start recording a new test and add it to the fixture.
+
+### Run the Fixture or Single Test
+
+Click the ![Run tests button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run all tests** button on the editor's toolbar to run the whole fixture.
+
+To run a single test, hover the mouse cursor over the test's row and click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button displayed to the right of it.
+
+### Convert the Fixture to JavaScript
+
+Click the ![Convert icon](../../images/user-interface/js-icon.svg) **Convert to JavaScript** button on the editor's toolbar to convert the fixture to JavaScript. The **Convert to JavaScript** dialog appears and allows you to specify a .js file's name to be created.
+
+![Convert to JavaScript Code Dialog](../../images//user-interface/dialogs/convert-dialog.png)
+
+TestCafe Studio creates the test file in the same test directory and displays it in the **Explorer** panel.
+
+## Modify the Fixture's Properties
+
+Click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button on the editor's toolbar to modify the fixture's properties. This invokes the **Modify fixture** dialog where you can change the fixture name, file name, target webpage and authentication credentials. To save the changes, click **OK**.
+
+![Modify fixture dialog](../../images/user-interface/dialogs/modify-fixture-dialog.png)
+
+### Delete Tests
+
+Click the ![Remove all tests icon](../../images/user-interface/remove-all-icon.svg) **Remove all tests** button on the editor's toobar to delete all the fixture's tests.
+
+To delete a single test from the fixture, hover the mouse cursor over the test's row and click the ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove test** button to the right of it.

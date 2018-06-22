@@ -51,5 +51,5 @@
     url: /documentation/user-interface/run-configurations-dialog.md
   - name: Test Editor
     url: /documentation/user-interface/test-editor.md
-  - name: Fixture View
-    url: /documentation/user-interface/fixture-view.md
+  - name: Fixture Editor
+    url: /documentation/user-interface/fixture-editor.md
