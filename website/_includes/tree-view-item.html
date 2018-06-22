@@ -1,4 +1,4 @@
-<div class="tree-view-item" data-url="{{ include.url | prepend: site.baseurl }}">
-    <div class="icon{% if include.content %} expandable{% if page.url contains include.url %} expanded{% endif %}{% endif %}"></div>
+<div class="tree-view-item{% if include.content %} expandable{% if page.url contains include.url %} expanded{% endif %}{% endif %}" data-url="{{ include.url | prepend: site.baseurl }}">
+    <div class="tree-view-icon"></div>
     <div class="text item-level-{{ include.level }}">{{ include.name }}</div>
 </div>

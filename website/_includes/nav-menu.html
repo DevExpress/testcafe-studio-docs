@@ -1,59 +1,87 @@
 <nav class="doc-main-nav">
-    <div class="doc-main-nav-content">
-        {% for menuItem in site.data.nav-menu %}
-        {% capture itemUrl %}{{ menuItem.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
-        <div class="accordion-item{% if menuItem.content %} expandable{% if page.url contains itemUrl %} expanded{% endif %}{% endif %}">
-            <div class="title" data-url="{{ itemUrl | prepend: site.baseurl }}">
-                {{ menuItem.name }}
-            </div>
-            {% if menuItem.content and page.url contains itemUrl%}
-            <div class="item-panel">
-                <nav class="nav-tree-view">
-                    <div class="tree-view-content">
-                        {% include tree-view.html content=menuItem.content level=0 %}
+        <div class="doc-main-nav-content">
+            {% for menuItem in site.data.nav-menu %}
+            {% capture itemUrl %}{{ menuItem.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
+            <div class="accordion-item{% if menuItem.content %} expandable{% if page.url contains itemUrl %} expanded{% endif %}{% endif %}"
+                 data-url="{{ itemUrl | prepend: site.baseurl }}">
+                <div class="title-container">
+                    <div class="icon"></div>
+                    <div class="title">
+                        {{ menuItem.name }}
                     </div>
-                </nav>
+                </div>
+                {% if menuItem.content and page.url contains itemUrl%}
+                <div class="item-panel">
+                    <nav class="nav-tree-view">
+                        <div class="tree-view-content">
+                            {% include tree-view.html content=menuItem.content level=0 %}
+                        </div>
+                    </nav>
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
+            <div class="splitter"></div>
+            {% endfor %}
         </div>
-        <div class="splitter"></div>
-        {% endfor %}
-    </div>
-</nav>
-
-<script>
-    var navBar = document.getElementsByClassName('doc-main-nav')[0];
-
-    navBar.addEventListener('click', function (e) {
-        var $target    = $(e.target);
-        var $itemPanel = $target.closest('.item-panel');
-
-        if ($itemPanel.length)
-            return;
-
-        var $item = $target.closest('.title');
-
-        if (!$item.length)
-            return;
-
-        var $currentExpanded = $('.accordion-item.expandable.expanded');
-
-        if (!$currentExpanded.length || $currentExpanded[0] !== $item[0])
-            window.location.href = $item[0].dataset.url;
-    });
-
-    var treeView = document.getElementsByClassName('nav-tree-view')[0];
-
-    if (treeView) {
-        treeView.addEventListener('click', function (e) {
-            var $target       = $(e.target);
-            var $treeViewItem = $target.closest('.tree-view-item');
-
-            if (!$treeViewItem.length)
+    </nav>
+    
+    <script>
+        var navBar = document.getElementsByClassName('doc-main-nav')[0];
+    
+        navBar.addEventListener('click', function (e) {
+            var $target    = $(e.target);
+            var $itemPanel = $target.closest('.item-panel');
+    
+            if ($itemPanel.length)
                 return;
-
-            window.location.href = $treeViewItem[0].dataset.url;
+    
+            var $item = $target.closest('.title-container');
+    
+            if (!$item.length)
+                return;
+    
+            var $accordionItem   = $item.closest('.accordion-item');
+            var $currentExpanded = $('.accordion-item.expandable.expanded');
+    
+            if (!$currentExpanded.length || $currentExpanded[0] !== $accordionItem[0])
+                window.location.href = $accordionItem[0].dataset.url;
         });
-    }
-
-</script>
+    
+        var treeView     = document.getElementsByClassName('nav-tree-view')[0];
+        var currentUrl   = window.location.href;
+        var selectedItem = null;
+    
+        function getSelectedItem (items) {
+            var itemsLength = items.length;
+    
+            for (var i = itemsLength - 1; i >= 0; i--) {
+                if (currentUrl.indexOf(items[i].dataset.url) >= 0)
+                    return items[i];
+            }
+    
+            return null;
+        }
+    
+        if (treeView) {
+            treeView.addEventListener('click', function (e) {
+                var $target       = $(e.target);
+                var $treeViewItem = $target.closest('.tree-view-item');
+    
+                if (!$treeViewItem.length)
+                    return;
+    
+                var $currentSelected = $('.tree-view-item.expandable.expanded').last();
+    
+                if (!$currentSelected.length || $currentSelected[0] !== $treeViewItem[0])
+                    window.location.href = $treeViewItem[0].dataset.url;
+            });
+    
+            selectedItem = getSelectedItem(document.getElementsByClassName('tree-view-item'));
+        }
+    
+        if (!selectedItem)
+            selectedItem = getSelectedItem(document.getElementsByClassName('accordion-item'));
+    
+        if (selectedItem)
+            selectedItem.classList.add('highlighted');
+    </script>
