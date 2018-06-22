@@ -71,16 +71,14 @@ body {
   user-select: none;
 
   .doc-main-nav-content {
-    padding: 0 10px 0 29px;
-
     .accordion-item {
       cursor: pointer;
 
       .title-container {
-        margin: 8px 0;
+        padding: 8px 0;
 
         .title {
-          margin-left: 10px;
+          margin-left: 30px;
           padding: 2px 0 3px;
           border: none;
           outline: none;
@@ -135,8 +133,8 @@ body {
         margin-left: 0;
         margin-bottom: 0;
 
-        .tree-view-item{
-          margin-left: 3px;
+        .tree-view-item {
+          margin-left: 33px;
         }
 
         ul {
@@ -162,9 +160,9 @@ body {
         .text {
           display: inline-block;
           color: rgba(42, 56, 82, 255);
-          width: calc(100% - 21px);
+          width: calc(100% - 31px);
           padding: 5px 0 6px 6px;
-          margin-left: 6px;
+          margin: 0 10px 0 6px;
         }
 
         .tree-view-icon {
