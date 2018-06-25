@@ -13,7 +13,7 @@ The editor consists of the following parts:
 
     You can click the webpage's URL to open the webpage in the browser.
 
-* The test list - Displays tests included to the fixture. The tests' rows are clickable and lead to the [Test](test-editor.md) editor.
+* The test list - Displays tests included to the fixture. You can click a test's row to open the test in the [Test](test-editor.md) editor.
 
 ![Fixture editor](../../images/user-interface/fixture-editor.png)
 
