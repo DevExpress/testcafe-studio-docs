@@ -9,9 +9,9 @@ The **Test** editor allows you to view and modify existing tests, and create new
 
 The **Test** editor consists of the following parts:
 
-* The toolbar - Provides information about the test (the test name, fixture name, tested page's URL) and buttons for perfoming [typical tasks](#typical-tasks) with it.
+* The toolbar - Provides information about the test (the test name, fixture name, tested page's URL) and buttons for perfoming [common tasks](#common-tasks) .
 
-    The fixture name is clickable and leads to the [Fixture](#fixture-editor) editor. The webpage's URL is clickable and leads to the webpage opened in the browser.
+    You can click the fixture name to open the fixture in the [Fixture](#fixture-editor) editor. You can also click the webpage's URL to view the webpage in the browser.
 
 * The test area - Displays the current test's content.
 * The **Actions** panel - Lists [actions](../working-with-testcafe-studio/recording-tests/test-actions/README.md) you can add to the test.
@@ -19,12 +19,12 @@ The **Test** editor consists of the following parts:
 
 ![Test editor](../../images/user-interface/test-editor.png)
 
-## Typical Tasks
+## Common Tasks
 
 You can perform the following tasks in the editor:
 
 * [Add Actions to Tests](#add-actions-to-tests)
-* [Record Actions into the Current Test](#record-actions-into-the-current-test)
+* [Record Actions](#record-actions)
 * [Run Tests](#run-tests)
 * [Modify Actions' Parameters](#modify-action-parameters)
 * [Change Actions' Position](#change-action-position)
@@ -39,7 +39,7 @@ IMAGE
 
 You can add actions after or during recording. In the last case, you can pick an element on a webpage to set it as an action parameter ([Element Selector](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md#element-selector) or [Actual Parameter](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md#actual-parameter)).
 
-### Record Actions into the Current Test
+### Record Actions
 
 You can record [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) and append them to the current test.
 

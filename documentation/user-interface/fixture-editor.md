@@ -9,15 +9,15 @@ The **Fixture** editor allows you to view and modify a fixture. The editor opens
 
 The editor consists of the following parts:
 
-* The toolbar -Provides information about the fixture (the name and tested webpage's URL) and buttons for performing [typical tasks](#typical-tasks) with the fixture.
+* The toolbar - Provides information about the fixture (the name and tested webpage's URL) and buttons for performing [common tasks](#common-tasks).
 
-    The webpage's URL is clickable and leads to the webpage opened in the browser.
+    You can click the webpage's URL to open the webpage in the browser.
 
 * The test list - Displays tests included to the fixture. The tests' rows are clickable and lead to the [Test](test-editor.md) editor.
 
 ![Fixture editor](../../images/user-interface/fixture-editor.png)
 
-## Typical Tasks
+## Common Tasks
 
 You can perform the following tasks in the editor:
 
@@ -33,7 +33,7 @@ Click the ![Record button](../../images/working-with-testcafe-studio/record-test
 
 ### Run the Fixture or Single Test
 
-Click the ![Run tests button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run all tests** button on the editor's toolbar to run the whole fixture.
+Click the ![Run tests button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run all tests** button on the editor's toolbar to run the entire fixture.
 
 To run a single test, hover the mouse cursor over the test's row and click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button displayed to the right of it.
 
