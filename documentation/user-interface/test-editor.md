@@ -55,7 +55,7 @@ Click the action's row to expand the action parameters area that allows you to v
 
 ### Change an Action's Position
 
-Hover the mouse cursor over the ![Drag icon](../../images/user-interface/drag-item-icon.svg) button to the left of the action's name until the cursor icon changes to the ![Drag icon](../../images/user-interface/move-cursor-icon.png) icon, then click and drag the action to a new position.
+Hover the mouse cursor over the ![Drag icon](../../images/user-interface/drag-item-icon.svg) button to the left of the action's name until the cursor icon changes to the ![Drag icon](../../images/user-interface/move-cursor-icon.png) icon, then drag the action to a new position.
 
 ### Rename Tests
 
