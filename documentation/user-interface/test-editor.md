@@ -5,7 +5,7 @@ permalink: /documentation/user-interface/test-editor.html
 ---
 # Test Editor
 
-The **Test** editor allows you to view and modify existing tests, and create new tests. The editor opens when you double-click the test in the [Explorer](explorer-panel.md) panel or click it in the [Fixture](fixture-editor.md) editor. If you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
+The **Test** editor allows you to view and modify existing tests, and create new tests. The editor opens when you double-click the test's item in the [Explorer](explorer-panel.md) panel or click the test's row in the [Fixture](fixture-editor.md) editor. If you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
 
 The **Test** editor consists of the following parts:
 
@@ -37,13 +37,13 @@ Click an action in the **Actions** panel to add the action to the test. TestCafe
 
 IMAGE
 
-You can add actions after or during recording. In the last case, you can pick an element on a webpage to set it as an action parameter ([Element Selector](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md#element-selector) or [Actual Parameter](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md#actual-parameter)).
+You can add actions after or during recording. In the last case, you can pick an element on a webpage to set it as an action parameter (for example, [Element Selector](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md#element-selector) for [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) or [Actual Parameter](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md#actual-parameter) for [assertions](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md)).
 
 ### Record Actions
 
 You can record [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) and append them to the current test.
 
-Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the toolbar to start recording and wait while TestCafe Studio plays back the existing actions, then perform new actions on the tested page. TestCafe Studio records your activity and inserts new actions after the existing actions.
+Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the toolbar to start recording and wait while TestCafe Studio plays back the existing actions. Next, perform new actions on the tested page. TestCafe Studio records your activity and inserts new actions after the existing actions.
 
 ### Run Tests
 
@@ -65,6 +65,6 @@ Click the ![Rename button](../../images/working-with-testcafe-studio/settings-ic
 
 ### Delete Actions
 
-Hover the mouse cursor over it and click the ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove action** button to the right of the action's row to delete a single action from the test.
+Click the ![Remove all actions icon](../../images/user-interface/remove-all-icon.svg) **Remove all actions** button on the editor's toobar to delete all actions from the test.
 
-To delete all actions, click the ![Remove all actions icon](../../images/user-interface/remove-all-icon.svg) **Remove all actions** button on the editor's toobar.
+To delete a single action, hover the mouse cursor over the action's row and click the ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove action** button to the right of it.

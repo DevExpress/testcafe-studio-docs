@@ -39,7 +39,7 @@ To run a single test, hover the mouse cursor over the test's row and click the !
 
 ### Convert the Fixture to JavaScript
 
-Click the ![Convert icon](../../images/user-interface/js-icon.svg) **Convert to JavaScript** button on the editor's toolbar to convert the fixture to JavaScript. The **Convert to JavaScript** dialog appears and allows you to specify a .js file's name to be created.
+Click the ![Convert icon](../../images/user-interface/js-icon.svg) **Convert to JavaScript** button on the editor's toolbar to convert the fixture to a .js file. The **Convert to JavaScript** dialog appears and allows you to specify the file's name.
 
 ![Convert to JavaScript Code Dialog](../../images//user-interface/dialogs/convert-dialog.png)
 
