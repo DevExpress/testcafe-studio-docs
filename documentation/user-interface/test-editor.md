@@ -5,7 +5,7 @@ permalink: /documentation/user-interface/test-editor.html
 ---
 # Test Editor
 
-The **Test** editor allows you to view and modify existing tests, and create new ones. The editor opens when you double-click the test in the [Explorer](explorer-panel.md) panel or click it in the [Fixture](fixture-editor.md) editor. If you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
+The **Test** editor allows you to view and modify existing tests, and create new tests. The editor opens when you double-click the test in the [Explorer](explorer-panel.md) panel or click it in the [Fixture](fixture-editor.md) editor. If you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
 
 The **Test** editor consists of the following parts:
 
@@ -43,7 +43,7 @@ You can add actions after or during recording. In the last case, you can pick an
 
 You can record [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) and append them to the current test.
 
-Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the toolbar to start recording and wait while TestCafe Studio plays back the existing actions, then perform new actions on the tested page. TestCafe Studio records your activity and inserts new actions after the existing ones.
+Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the toolbar to start recording and wait while TestCafe Studio plays back the existing actions, then perform new actions on the tested page. TestCafe Studio records your activity and inserts new actions after the existing actions.
 
 ### Run Tests
 
