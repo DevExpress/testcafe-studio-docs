@@ -26,8 +26,8 @@ You can perform the following tasks in the editor:
 * [Add Actions to Tests](#add-actions-to-tests)
 * [Record Actions](#record-actions)
 * [Run Tests](#run-tests)
-* [Modify Actions' Parameters](#modify-action-parameters)
-* [Change Actions' Position](#change-action-position)
+* [Modify Actions' Parameters](#modify-actions-parameters)
+* [Change Actions' Position](#change-actions-position)
 * [Rename Tests](#rename-tests)
 * [Delete Actions](#delete-actions)
 
