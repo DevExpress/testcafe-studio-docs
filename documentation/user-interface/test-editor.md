@@ -35,15 +35,17 @@ You can perform the following tasks in the editor:
 
 Click an action in the **Actions** panel to add the action to the test. TestCafe Studio adds the action to the end of the test and allows you to specify the action's parameters.
 
-IMAGE
+![Add new actions](../../images/working-with-testcafe-studio/add-new-actions.png)
 
-You can add actions after or during recording. In the last case, you can pick an element on a webpage to set it as an action parameter (for example, [Element Selector](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md#element-selector) for [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) or [Actual Parameter](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md#actual-parameter) for [assertions](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md)).
+You can add actions after or during recording. In the last case, you can pick an element on a webpage to set it as an action parameter (for example, [Element Selector](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md#element-selector) for [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) or [Actual](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md#actual-parameter) for [assertions](../working-with-testcafe-studio/recording-tests/test-actions/assertions.md)).
 
 ### Record Actions
 
 You can record [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) and append them to the current test.
 
 Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the toolbar to start recording and wait while TestCafe Studio plays back the existing actions. Next, perform new actions on the tested page. TestCafe Studio records your activity and inserts new actions after the existing actions.
+
+To stop recording, close the browser or click the ![Stop recording button](../../images/working-with-testcafe-studio/stop-recording-icon.png) button on the editor's toolbar.
 
 ### Run Tests
 
