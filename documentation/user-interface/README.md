@@ -10,4 +10,3 @@ permalink: /documentation/user-interface/
 * [Record Configuration Dialog](record-configuration-dialog.md)
 * [Run Configurations Dialog](run-configurations-dialog.md)
 * [Test Editor](test-editor.md)
-

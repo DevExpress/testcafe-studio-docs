@@ -22,9 +22,9 @@ The editor consists of the following parts:
 You can perform the following tasks in the editor:
 
 * [Record New Tests](#record-new-tests)
-* [Run the Fixture or Individual Tests](#run-the-fixture-or-individual-tests)
-* [Convert the Fixture to JavaScript](#convert-the-fixture-to-JavaScript)
-* [Modify the Fixture's Properties](#modfy-the-fixtures-properties)
+* [Run the Fixture or Single Test](#run-the-fixture-or-single-test)
+* [Convert the Fixture to JavaScript](#convert-the-fixture-to-javascript)
+* [Modify the Fixture's Properties](#modify-the-fixtures-properties)
 * [Delete Tests](#delete-tests)
 
 ### Record New Tests
