@@ -11,7 +11,7 @@ This topic provides information on how to organize your test files.
 * [Recorded Tests Files](#recorded-tests-files)
 * [Coded Tests Files](#coded-tests-files)
 
-The image below demonstrates the **Explorer** panel that allows you to manage your test files.
+The image below demonstrates the [Explorer](../user-interface/explrer-panel.md) panel that allows you to manage your test files.
 
 ![Explorer panel](../../images/working-with-testcafe-studio/explorer-panel.png)
 

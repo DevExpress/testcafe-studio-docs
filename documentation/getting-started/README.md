@@ -24,7 +24,7 @@ You can install TestCafe Studio on MacOS, Windows or Linux. See [Installing Test
 
 First, create a directory to store your tests.
 Go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory.
-You can view the directory's contents in the **Explorer** panel.
+You can view the directory's contents in the [Explorer](../user-interface/explorer-panel.md) panel.
 
 ![The Explorer panel](../../images/getting-started/explorer-panel.png)
 
@@ -52,7 +52,7 @@ To stop the recording, close the browser window or click ![Stop recording](../..
 
 ## View the Recorded Test
 
-TestCafe Studio displays the recorded test in the **Test Editor**.
+TestCafe Studio displays the recorded test in the [Test](../user-interface/test-editor.md) editor.
 
 ![The recorded test](../../images/getting-started/recorded-test.png)
 
@@ -61,20 +61,20 @@ For example, you can change the selector that identifies the action's element by
 
 ![Choosing the selector](../../images/getting-started/choosing-the-selector.png)
 
-The **Test Editor** also allows you to reorder, delete and [add new actions](#add-new-actions-to-the-test).
+The **Test** editor also allows you to reorder, delete and [add new actions](#add-new-actions-to-the-test).
 
 ## Add New Actions to the Test
 
-You can continue the recording to add more steps to the test. The Test Editor also contains an **Actions** panel with specific actions that can be added to the test during and after recording.
+You can continue the recording to add more steps to the test. The **Test** editor also contains an **Actions** panel with specific actions that can be added to the test during and after recording.
 
 This step adds an assertion that checks if the **Thank you** page displays the name you entered as **Your name**. You can add the assertion while recording to select which object to verify on the tested page.
 
 To continue recording the test, click the ![Record test actions](../../images/getting-started/record-test-icon.png) **Record test actions** button on the toolbar.
 TestCafe Studio replays the previous actions and waits for new ones.
 Click the button ![Equals assertion](../../images/getting-started/assertion-eql-icon.svg) in the **Actions** panel's **Assertions** section.
-New actions are added to the end of the test.
+The assertion is added to the end of the test.
 
-Next, specify the assertion parameters in the **Test Editor**:
+Next, specify the assertion parameters in the **Test** editor:
 
 1. Click the button ![Pick a target element](../../images/getting-started/element-picker-icon.png) next to the **Actual** field to select an element whose property you are going to check. This displays the tested webpage where you can select the target element. Hover over the page header that says *'Thank you, ...'* to show the **Element Selector** popup that contains a CSS selector identifying the page header.
 

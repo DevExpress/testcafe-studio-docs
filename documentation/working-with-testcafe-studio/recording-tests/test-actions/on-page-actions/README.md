@@ -99,7 +99,7 @@ Parameter | Type  | Description
 
 You can also specify additional parameters for the action. See [Drag To Element Action Options](action-options.md#drag-to-element-action-options).
 
-> You can use the Test Editor to add this action to the test - you cannot record this action.
+> You can use the [Test](../../../../user-interface/test-editor.md) editor to add this action to the test - you cannot record this action.
 
 ## Select Text
 
@@ -122,7 +122,7 @@ Parameter | Type  | Description
 
 You can also specify additional parameters for the action. See [Basic Action Options](action-options.md#basic-action-options).
 
-> You can use the Test Editor to add this action to the test - you cannot record this action.
+> You can use the [Test](../../../../user-interface/test-editor.md) editor to add this action to the test - you cannot record this action.
 
 ## Select Text Area Content
 
@@ -138,7 +138,7 @@ Parameter | Type  | Description
 
 You can also specify additional parameters for the action. See [Basic Action Options](action-options.md#basic-action-options).
 
-> You can use the Test Editor to add this action to the test - you cannot record this action.
+> You can use the [Test](../../../../user-interface/test-editor.md) editor to add this action to the test - you cannot record this action.
 
 ## Wait
 
@@ -148,7 +148,7 @@ Parameter | Type  | Description
 --------- | ----- | -------------
 *Timeout* | Number | The pause duration (in milliseconds).
 
-> You can use the Test Editor to add this action to the test - you cannot record this action.
+> You can use the [Test](../../../../user-interface/test-editor.md) editor to add this action to the test - you cannot record this action.
 
 ## Hover
 
@@ -160,4 +160,4 @@ Parameter | Type  | Description
 
 You can also specify additional parameters for the action. See [Mouse Action Options](action-options.md#mouse-action-options).
 
-> You can use the Test Editor to add this action to the test - you cannot record this action.
+> You can use the [Test](../../../../user-interface/test-editor.md) editor to add this action to the test - you cannot record this action.

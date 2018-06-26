@@ -23,15 +23,15 @@ The **Test** editor consists of the following parts:
 
 You can perform the following tasks in the editor:
 
-* [Add Actions to Tests](#add-actions-to-tests)
+* [Add Actions Manually](#add-actions-manually)
 * [Record Actions](#record-actions)
 * [Run Tests](#run-tests)
 * [Modify Actions' Parameters](#modify-actions-parameters)
-* [Change Actions' Position](#change-actions-position)
+* [Change Actions' Position](#change-an-actions-position)
 * [Rename Tests](#rename-tests)
 * [Delete Actions](#delete-actions)
 
-### Add Actions to Tests
+### Add Actions Manually
 
 Click an action in the **Actions** panel to add the action to the test. TestCafe Studio adds the action to the end of the test and allows you to specify the action's parameters.
 
