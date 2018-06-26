@@ -21,7 +21,7 @@ body {
     background-color: #f8f8f8;
     height: 80px;
     box-shadow: 0px 2px 20px rgba(0,0,0,0.1);
-    
+
     a:hover {
         text-decoration: none;
     }
@@ -48,7 +48,7 @@ body {
     }
 
     .search-button {
-        background-image: url("/images/search-icon.svg");        
+        background-image: url("/images/search-icon.svg");
     }
 
     .separator {
@@ -58,128 +58,145 @@ body {
 }
 
 .doc-main-nav {
-    display: inline-block;
-    background-color: #f2f3f4;
-    height: calc(100% - 80px);
-    width: 270px;
-    overflow: auto;
+  display: inline-block !important;
+  background-color: #f2f3f4;
+  height: calc(100% - 80px) !important;
+  width: 270px;
+  overflow: auto;
+  border-right: 1px solid #E7E8EB;
 
-    ul {
-        font-size: 18px;
-        list-style-type: none;
-        margin-left: 0;
-        margin-bottom: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
-        & > li:first-of-type a {
-            padding-top: 13px;
+  .doc-main-nav-content {
+    .accordion-item {
+      cursor: pointer;
+
+      .title-container {
+        padding: 8px 0;
+
+        .title {
+          margin-left: 30px;
+          padding: 2px 0 3px;
+          border: none;
+          outline: none;
+          font-size: 18px;
+          color: #2A3852;
+        }
+      }
+
+      &.expandable {
+        .icon {
+          width: 10px;
+          height: 6px;
+          background-repeat: no-repeat;
+          background-image: url("/images/accordion-arrow-down.png");
+          float: right;
+          margin: 13px 10px 0;
         }
 
-        & > li a {
-            padding-top: 12px;
-            padding-bottom: 12px;
-        }
+        &.expanded {
+          .icon {
+            background-image: url("/images/accordion-arrow-up.png");
+          }
 
-        ul {
-            font-size: 14px;
-
-            & > li a {
-                padding-top: 8px;
-                padding-bottom: 8px;
-            }
-            
-            & > li:first-of-type a {
-                padding-top: 8px;
-                padding-bottom: 8px;
-            }
+          .item-panel {
+            display: block;
+          }
         }
+      }
+
+      &.highlighted {
+        .title-container {
+          background-color: #DEE0E3;
+        }
+      }
+
+      .item-panel {
+        display: none;
+        overflow: hidden;
+      }
     }
 
-    a {
-        color: rgba(42, 56, 82, 255);
-        padding-left: 30px;
-        padding-right: 10px;
-        display: block;
+    .nav-tree-view {
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      overflow: auto;
+      margin-bottom: 8px;
 
-        &.active {
-            background-color: #0090c5;
-            color:white;
-        }
-
-        &:hover {
-            text-decoration: none;
-        }
-    }
-}
-
-.doc-secondary-nav {
-    display: inline-block;
-    width: 272px;
-    height: calc(100% - 80px);
-    vertical-align: top;
-    background-color: #e7e8eb;
-    margin-left: -4px;
-    overflow: auto;
-
-    ul {
+      ul {
         font-size: 14px;
-        font-weight: bold;
         list-style-type: none;
         margin-left: 0;
         margin-bottom: 0;
 
-        & > li:first-of-type a {
-            padding-top: 14px;
-        }
-
-        & > li a {
-            padding-top: 9px;
-            padding-bottom: 9px;
+        .tree-view-item {
+          margin-left: 33px;
         }
 
         ul {
-            font-weight: normal;
+          & > li .tree-view-item {
+            padding-left: 13px;
+          }
 
-            & > li:first-of-type a {
-                padding-top: 3px;
-            }
-
-            & > li a {
-                padding-top: 5px;
-                padding-bottom: 4px;
-            }
-            
-            & > li:last-of-type a {
-                padding-bottom: 10px;
+          ul {
+            & > li .tree-view-item {
+              padding-left: 26px;
             }
 
             ul {
-                & > li a {
-                    padding-left: 50px;
-                }
-
-                ul {
-                    & > li a {
-                        padding-left: 70px;
-                    }
-                }
+              & > li .tree-view-item {
+                padding-left: 39px;
+              }
             }
+          }
         }
+      }
+
+      .tree-view-item {
+        .text {
+          display: inline-block;
+          color: rgba(42, 56, 82, 255);
+          width: calc(100% - 31px);
+          padding: 5px 0 6px 6px;
+          margin: 0 10px 0 6px;
+        }
+
+        .tree-view-icon {
+          display: inline-block;
+          float: left;
+          width: 9px;
+          height: 9px;
+          background-repeat: no-repeat;
+          margin-top: 11px;
+        }
+
+        &.expandable {
+          .tree-view-icon{
+            background-image: url("/images/tree-view-arrow-right.png");
+          }
+
+          &.expanded .tree-view-icon {
+            background-image: url("/images/tree-view-arrow-down.png");
+          }
+        }
+
+        &.highlighted {
+          .text{
+            background-color: #DEE0E3;
+          }
+        }
+      }
     }
 
-    a {
-        color: rgba(42, 56, 82, 255);
-        padding-left: 30px;
-        padding-right: 20px;
-        display: block;
-
-        &.active {
-            background-color: white;
-        }
-
-        &:hover {
-            text-decoration: none;
-        }
+    .splitter {
+      height: 1px;
+      background-color: #dedfe2;
     }
+  }
 }
 
 main {
@@ -187,12 +204,8 @@ main {
     vertical-align: top;
     margin-left: -4px;
     height: calc(100% - 80px);
-    width: calc(100% - 270px);
+    width: calc(100% - 271px);
     overflow-y: auto;
-
-    &.main-small {
-        width: calc(100% - 272px - 270px);
-    }
 
     .post-content {
         margin-bottom: 100px;
@@ -270,7 +283,7 @@ footer {
         .video-section {
             border-bottom: 1px solid #dcddde;
             padding: 10px 0;
-            
+
             &:last-child {
                 border-bottom: none;
             }
@@ -291,7 +304,7 @@ footer {
                         font-size: 16px;
                         width: 250px;
                     }
-                    
+
                     .video-duration {
                         font-size: 16px;
                     }
@@ -336,7 +349,7 @@ footer {
                 .section-name {
                     line-height: 36px;
                 }
-                
+
                 .section-content {
                     width: 560px;
 

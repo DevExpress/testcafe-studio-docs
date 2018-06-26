@@ -56,7 +56,11 @@
   {% if page.url contains '/details/' %}{% assign isDetailsPage = true %}{% else %}{% assign isDetailsPage = false %}{% endif %}
 
   {% if isDocumentation %}
-  <link rel="stylesheet" href="{{ "/css/docs.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/docs.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/docs.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/17.1.4/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/17.1.4/css/dx.ios7.default.css" />
+    <script defer type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.3.min.js"></script>
   {% endif %}
   
   {% if isLandingPage %}

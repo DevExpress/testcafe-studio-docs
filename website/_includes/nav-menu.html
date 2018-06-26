@@ -1,44 +1,76 @@
+
 <nav class="doc-main-nav">
-	<div class="doc-main-nav-content">
-		<ul>
-			{% for menuItem in site.data.nav-menu %}
-				<li>
-					{% capture mainItemUrl %}{{ menuItem.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
-					{% include nav-menu-item.html url=menuItem.url name=menuItem.name level=0 %}
-					{% if page.url contains mainItemUrl and menuItem.content %}
-						<ul>
-							{% for secondaryItem in menuItem.content %}
-								<li>
-									{% include nav-menu-item-highlighted.html url=secondaryItem.url name=secondaryItem.name level=1 %}
-								</li>
-							{% endfor %}
-						</ul>
-					{% endif %}
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</nav>
-
-
-{% for menuItem in site.data.nav-menu %}
-	{% for secondaryItem in menuItem.content %}
-		{% capture url %}{{ secondaryItem.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
-		{% if page.url contains url and secondaryItem.content %}
-		<script>
-			document.addEventListener('DOMContentLoaded', function (e) {
-				var main = document.querySelector('main');
-				var doc  = document.querySelector('.doc');
-
-				main.className += ' main-small';
-				doc.className  += ' doc-small';
-			});
-		</script>
-		<nav class="doc-secondary-nav">	
-			<div class="doc-secondary-nav-content">
-				{% include nav-menu-folder.html toc=secondaryItem.content level=2 %}
-			</div>
-		</nav>
-		{% endif %}
-	{% endfor %}
-{% endfor %}	
+        <div class="doc-main-nav-content">
+            {% for menuItem in site.data.nav-menu %}
+            {% capture itemUrl %}{{ menuItem.url | remove: "README.md" | replace: ".md", ".html" }}{% endcapture %}
+            <div class="accordion-item{% if menuItem.content %} expandable{% if page.url contains itemUrl %} expanded{% endif %}{% endif %}"
+                 data-url="{{ itemUrl | prepend: site.baseurl }}">
+                <div class="title-container">
+                    <div class="icon"></div>
+                    <div class="title">
+                        {{ menuItem.name }}
+                    </div>
+                </div>
+                {% if menuItem.content and page.url contains itemUrl%}
+                <div class="item-panel">
+                    <nav class="nav-tree-view">
+                        <div class="tree-view-content">
+                            {% include tree-view.html content=menuItem.content level=0 %}
+                        </div>
+                    </nav>
+                </div>
+                {% endif %}
+            </div>
+            <div class="splitter"></div>
+            {% endfor %}
+        </div>
+    </nav>
+    
+    <script>
+        var navBar     = document.getElementsByClassName('doc-main-nav')[0];
+        var currentUrl = window.location.href;
+    
+        function getSelectedItem (items) {
+            var itemsLength = items.length;
+    
+            for (var i = itemsLength - 1; i >= 0; i--) {
+                if (currentUrl.indexOf(items[i].dataset.url) >= 0)
+                    return items[i];
+            }
+    
+            return null;
+        }
+    
+        var selectedItem = getSelectedItem(document.getElementsByClassName('tree-view-item')) ||
+                           getSelectedItem(document.getElementsByClassName('accordion-item'));
+    
+        if (selectedItem)
+            selectedItem.classList.add('highlighted');
+    
+        navBar.addEventListener('click', function (e) {
+            var $target             = $(e.target);
+            var $currentHighlighted = $('.doc-main-nav').find('.highlighted');
+    
+            if ($target.closest('.item-panel').length) {
+                var $treeViewItem = $target.closest('.tree-view-item');
+    
+                if (!$treeViewItem.length)
+                    return;
+    
+                if (!$currentHighlighted.length || $currentHighlighted[0] !== $treeViewItem[0])
+                    window.location.href = $treeViewItem[0].dataset.url;
+            }
+            else {
+                var $item = $target.closest('.title-container');
+    
+                if (!$item.length)
+                    return;
+    
+                var $accordionItem = $item.closest('.accordion-item');
+    
+                if (!$currentHighlighted.length || $currentHighlighted[0] !== $accordionItem[0])
+                    window.location.href = $accordionItem[0].dataset.url;
+            }
+        });
+    </script>
+    
