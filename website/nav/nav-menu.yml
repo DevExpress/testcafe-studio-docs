@@ -12,7 +12,26 @@
   - name: Organizing Tests
     url: /documentation/working-with-testcafe-studio/organizing-tests.md
   - name: Recording Tests
-    url: /documentation/working-with-testcafe-studio/recording-tests.md
+    url: /documentation/working-with-testcafe-studio/recording-tests/
+    content:
+    - name: Test Actions
+      url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/README.md
+      content:
+      - name: Assertions
+        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/assertions.md
+      - name: On-Page Actions
+        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md
+        content:
+        - name: Action Options
+          url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-options.md
+        - name: Action Parameters
+          url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md
+      - name: Debug
+        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/debug.md
+      - name: Browser Actions
+        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/browser-actions.md
+      - name: Switch Frames
+        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/switch-frames.md
   - name: Writing Test Code
     url: /documentation/working-with-testcafe-studio/writing-test-code.md
   - name: Running Tests
@@ -21,3 +40,12 @@
     url: /documentation/working-with-testcafe-studio/reports.md
   - name: Debugging Tests
     url: /documentation/working-with-testcafe-studio/debugging-tests.md
+- name: User Interface
+  url: /documentation/user-interface/README.md
+  content:
+  - name: Explorer Panel
+    url: /documentation/user-interface/explorer-panel.md
+  - name: Record Configuration Dialog
+    url: /documentation/user-interface/record-configuration-dialog.md
+  - name: Run Configurations Dialog
+    url: /documentation/user-interface/run-configurations-dialog.md
