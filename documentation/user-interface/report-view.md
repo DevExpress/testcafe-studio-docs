@@ -22,7 +22,7 @@ IMAGE
 
 ## Analyzing Test Results
 
-The **Report** view can present data in different formats. They include machine-readable formats like JSON or formats that better fit for human examination like a grid view. To select a format, use a drop-down list in the report header.
+The **Report** view can present data in different formats. They include machine-readable formats like JSON or formats that better fit for human examination like a grid view. Use a drop-down list in the report header to select a format.
 
 IMAGE
 
@@ -35,7 +35,7 @@ TestCafe Studio provides the following report formats out of the box:
 * Minimal
 * Spec
 
-To learn how to make more report formats available, see [Getting More Report Formats](#getting-more-report-formats).
+See [Getting More Report Formats](#getting-more-report-formats) to learn how to make more report formats available.
 
 You can select the default format in [run configuration](run-configuration-dialog.md) settings.
 
@@ -62,7 +62,7 @@ The grid displays the following info about each test:
 
 You can click a test or fixture name to navigate to this test or fixture.
 
-To see the screenshots taken during the test run with the [Take Screenshot](../working-with-testcafe-studio/recording-tests/test-actions/browser-actions.md#take-screenshot) action, click the IMAGE button in the **Screenshots** column.
+Click the IMAGE button in the **Screenshots** column to see screenshots taken with the [Take Screenshot](../working-with-testcafe-studio/recording-tests/test-actions/browser-actions.md#take-screenshot) action during the test run.
 
 IMAGE
 
@@ -88,7 +88,7 @@ IMAGE
 
 #### Sorting Data
 
-To sort tests by a column, click the column header. To toggle sort order, click the header one more time.
+Click the column header to sort tests by a column. To toggle sort order, click the header one more time.
 
 IMAGE
 
