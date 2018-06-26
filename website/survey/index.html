@@ -1,9 +1,13 @@
+---
+---
 <!DOCTYPE html>
 <html>
   <head>
     {% include head.html %}
     <link rel="stylesheet" href="{{ "/css/docs.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/article.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/survey.css" | prepend: site.baseurl }}">
+    <link href="https://surveyjs.azureedge.net/1.0.28/survey.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <div class="page-content-wrapper">
@@ -12,9 +16,10 @@
 
       <article>
         <div class="post-content">
-
-        {{ content }}
-        
+            <script defer src="https://surveyjs.azureedge.net/1.0.28/survey.jquery.min.js"></script>
+            <script defer src="/scripts/survey.js"></script>
+            <h1 id="surveyHeader">Your Feedback Matters</h1>
+            <div id="surveyContainer"></div>
         </div>
         {% include footer.html %}
       </article>
@@ -26,3 +31,4 @@
   </body>
 
 </html>
+
