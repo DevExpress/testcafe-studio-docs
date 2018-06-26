@@ -30,12 +30,12 @@ You can run an entire test directory/subdirectory, a specific fixture, an indivi
 
 **To run the entire test directory or subdirectory**, click the ![Run all tests button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run all tests** button next to the directory in the [Explorer](../user-interface/explorer-panel.md) panel.
 
-**To run a fixture**, click the ![Run all tests button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run all tests** button next to the fixture in the **Explorer** panel or on the [Fixture](../user-interface/fixture-editor.md) editor's toolbar.
+**To run a fixture**, click the ![Run all tests button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run all tests** button next to the fixture in the **Explorer** panel or on the [Fixture Editor](../user-interface/fixture-editor.md)'s toolbar.
 
 **To run an individual test**, do any of the following:
 
-* Click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button on the [Test](../user-interface/test-editor.md) editor's toolbar.
-* Click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button next to the test in the **Fixture** editor or **Explorer** panel.
+* Click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button on the [Test Editor](../user-interface/test-editor.md)'s toolbar.
+* Click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button next to the test in the **Fixture Editor** or **Explorer** panel.
 
 **To run a coded test's file**, click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button next to the file in the **Explorer** panel. You can also run test fixtures and individual tests from the **Code Editor** by clicking the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) button.
 

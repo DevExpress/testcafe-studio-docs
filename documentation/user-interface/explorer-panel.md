@@ -47,7 +47,7 @@ You can create a new test in one of the following ways:
 
     ![New Test dialog](../../images/user-interface/dialogs/new-test-dialog.png)
 
-    Specify the test name in this dialog and click **Create**. TestCafe Studio creates an empty test and open it in the [Test](test-editor.md) editor.
+    Specify the test name in this dialog and click **Create**. TestCafe Studio creates an empty test and open it in the [Test Editor](test-editor.md).
 
 ## Creating a File
 
@@ -55,7 +55,7 @@ To create a new file,  invoke the context menu in the directory where you want t
 
 ![New File dialog](../../images/user-interface/dialogs/new-file-dialog.png)
 
-The created file appears in the **Explorer** panel and opens in the **Code** editor.
+The created file appears in the **Explorer** panel and opens in the **Code Editor**.
 
 ## Running Tests
 
@@ -89,7 +89,7 @@ TestCafe Studio creates the test file in the same test directory and displays it
 
 ## Viewing Test Code
 
-To view JavaScript and TypeScript files in the **Code** editor, select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code opens in the **Code** editor.
+To view JavaScript and TypeScript files in the **Code Editor**, select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code opens in the **Code Editor**.
 
 ## Showing Files in Windows Explorer/MacOS Finder
 
