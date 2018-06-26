@@ -429,7 +429,7 @@ a:hover {
 
 .pricing-section {
     background-color:#f8f8f8;
-    min-height: 313px;
+    min-height: 343px;
 
     .pricing-top {
         padding-top: 52px;
@@ -467,10 +467,11 @@ a:hover {
     min-height: 421px;
 
     .get-ctp-header {
-        color: rgba(14, 36, 53, 255);
+        color: #fff;
         font-size: 60px;
         font-weight: bold;
         padding-top: 44px;
+        line-height: 72px;
     }
     .get-ctp-subheader {
         color: rgba(248, 248, 248, 255);
@@ -480,7 +481,7 @@ a:hover {
     .download-button {
         display: inline-block;
         line-height: 68px;
-        margin-top: 35px;
+        margin-top: 42px;
         background-color: #006a90;
         border: none;
         border-radius: 8px;
