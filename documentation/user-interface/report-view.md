@@ -78,7 +78,7 @@ The detail view includes the following:
 * the browser and operating system name,
 * the page screenshot (if the [Take a screenshot if a test fails](run-configurations-dialog.md) option is enabled).
 
-For [recorded tests](../working-with-testcafe-studio/organizing-tests.md#recorded-tests-files), the detail view displays a link to a test action that caused the fail. When you follow the link, you are navigated to the test file. The failed action is automatically expanded and the error message is displayed in it.
+For [recorded tests](../working-with-testcafe-studio/organizing-tests.md#recorded-tests-files), the detail view displays a link to a test action that caused the fail. Click this link to navigate to the test file. The failed action will be automatically expanded and the error message will be displayed in it.
 
 IMAGE
 
@@ -114,7 +114,7 @@ IMAGE
 
 ## Rerunning Tests
 
-You can rerun tests from the **Report** view. To rerun all tests in the test run, use the IMAGE button. If there are failed tests, you can rerun them separately using the IMAGE button.
+You can rerun tests from the **Report** view. To rerun all tests in the test run, use the IMAGE button. If there are failed tests, you can use the IMAGE button to rerun them separately.
 
 IMAGE
 
@@ -122,13 +122,13 @@ IMAGE
 
 TestCafe Studio allows you to export a report to an archive file. This archive includes the serialized report in the selected format (JSON if the grid view is selected) and screenshots taken during the test run.
 
-To export a report, use the IMAGE button.
+Use the IMAGE button to export a report.
 
 IMAGE
 
 ## Removing the Report
 
-To delete a test run report, click the IMAGE button in the grid view header.
+Click the IMAGE button in the grid view header to delete a test run report.
 
 IMAGE
 
@@ -138,13 +138,13 @@ Note that this action cannot be undone.
 
 You can install [TestCafe reporter plugins](https://devexpress.github.io/testcafe/documentation/using-testcafe/common-concepts/reporters.html) to add more report formats to TestCafe Studio.
 
-Download and install these plugins from [npm](https://www.npmjs.com/) using the following console command.
+Use the following console command to download and install plugins from [npm](https://www.npmjs.com/).
 
 ```sh
 npm install -g <reporter-plugin-name>
 ```
 
-Reporter plugins are npm packages. The reporter package name consists of two parts - the `testcafe-reporter-` prefix and the name of a reporter itself; for example,  `testcafe-reporter-list`.
+Reporter plugins are npm packages. The reporter package name consists of two parts - the `testcafe-reporter-` prefix and the reporter's name itself; for example,  `testcafe-reporter-list`.
 
 You can search for available reporter packages on npm: [https://www.npmjs.com/search?q=testcafe-reporter](https://www.npmjs.com/search?q=testcafe-reporter).
 
