@@ -8,7 +8,7 @@ permalink: /documentation/working-with-testcafe-studio/debugging-tests.html
 This topic provides information about debugging tests and consists of the following sections:
 
 * [Debugging Recorded Tests](#debugging-recorded-tests)
-  * [Features Useful for Debugging](#features-useful-for-debugging)
+  * [Debugging Features](#debugging-features)
 * [Debugging Coded Tests](#debugging-coded-tests)
 
 ## Debugging Recorded Tests
@@ -17,7 +17,7 @@ TestCafe Studio's *debug mode* helps you understand what is happening on your we
 
 You can activate the debug mode in one of the following ways:
 
-* Add the [Debug](recording-tests/test-actions/debug.md#debug) action to a particular stage of a test. The test is paused when the test reaches this action.
+* Add the [Debug](recording-tests/test-actions/debug.md#debug) action to a particular position of a test. The test is paused when the test reaches this action.
 
     ![Debug Action](../../images/working-with-testcafe-studio/debug-action.png)
 

@@ -20,7 +20,7 @@ Resizes the browser window to the specified dimensions.
 Parameter | Type  | Description
 --------- | ----- | -------------
 *Width*  | Number | The width (in pixels).
-*Height* | Number | The new height (in pixels).
+*Height* | Number | The height (in pixels).
 
 ## Maximize Window
 

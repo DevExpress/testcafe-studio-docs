@@ -18,7 +18,7 @@ TestCafe Studio can run tests in all desktop and mobile browsers (with or withou
 
 ![Run Congiruation Menu](../../images/working-with-testcafe-studio/run-configuration-list.png)
 
-To modify configurations or create a new one, click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button and use the [Run Configurations](../user-interface/run-configurations-dialog.md) dialog. You can select one or multiple browsers and specify their options.
+To modify configurations or create a new one, click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button and use the [Run Configurations](../user-interface/run-configurations-dialog.md) dialog. You can select one or multiple browsers and specify options that affect test execution for each configuration.
 
 ![Run Configurations Dialog](../../images/working-with-testcafe-studio/run-configurations-dialog.png)
 
@@ -70,9 +70,9 @@ TestCafe allows you to execute tests concurrently. *Concurrency* is an optional 
 
 To enable concurrency and specify the number of browser instances, use the run configuration's **Concurrency** option (see [Advanced Options](../user-interface/run-configurations-dialog.md#advanced-options)).
 
-> Microsoft Edge does not support concurrent tests. This is because there is no known way to start Edge in a new window and make it open a URL.
+> TestCafe Studio cannot run concurrent tests in Microsoft Edge. This is because there is no known way to start Edge in a new window and make it open a URL.
 
-You can also use concurrency when testing multiple browsers.
+You can also use the *Concurrency* option when testing a webpage in multiple browsers.
 
 ![Concurrency against multiple browsers](../../images/working-with-testcafe-studio/concurrency-multiple-browsers.png)
 

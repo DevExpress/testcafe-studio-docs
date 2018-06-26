@@ -11,7 +11,7 @@ TestCafe Studio has the following features:
 
 * You can create, edit and maintain end-to-end tests in a visual recorder without writing code. See [Recording Tests](../working-with-testcafe-studio/recording-tests/README.md).
 
-* Produces a set of selectors for each page element. These selectors are generated during the test to identify page elements.
+* Produces selectors to identify webpage elements. These selectors are generated automatically when a test is recorded.
 
 * Provides a set of assertions which allows you to perform verifications.
 

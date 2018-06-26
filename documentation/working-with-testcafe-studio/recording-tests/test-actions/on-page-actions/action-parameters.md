@@ -7,7 +7,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/test-acti
 
 ## Element Selector
 
-On-page actions have the *Element Selector* parameter that specifies a target element. This parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function.
+The *Element Selector* parameter specifies a target element for an [on-page action](README.md). This parameter accepts a [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) function.
 
 You can set up the *Element Selector* parameter in one of the following ways:
 
@@ -23,7 +23,7 @@ You can set up the *Element Selector* parameter in one of the following ways:
 
 * **Generate a selector by picking an element on a webpage**
 
-   You can select a target element on the tested webpage using an element picker when you add an on-page action from the *Actions* panel. To do this, click the ![Element Picker](../../../../../images/getting-started/element-picker-icon.png) button next to the **Element Selector** field and select the element on the webpage. TestCafe Studio generates the element selector and adds it to the **Element Selector** field.
+  You can use an element picker to select a target element on the tested webpage during recording. To do this, click the ![Element Picker](../../../../../images/getting-started/element-picker-icon.png) button next to the **Element Selector** field and select the element on the webpage. TestCafe Studio generates the element selector and adds it to the **Element Selector** field.
 
     ![Picking an element](../../../../../images/working-with-testcafe-studio/picking-element.gif)
 

@@ -27,37 +27,37 @@ You can add these actions in two ways:
 
 ## Click
 
-Click a webpage element (left mouse button).
+Clicks a webpage element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Identifies the clicked webpage element.
+*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Specifies which web element should be clicked.
 
 You can also specify additional parameters for the action. See [Click Action Options](action-options.md#click-action-options).
 
 ## Double Click
 
-Double-click a webpage element (left mouse button).
+Double-clicks a webpage element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Identifies the double-clicked webpage element.
+*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Specifies which web element should be double-clicked.
 
 You can also specify additional parameters for the action. See [Click Action Options](action-options.md#click-action-options).
 
 ## Right Click
 
-Click a webpage element (right mouse button).
+Right-clicks a webpage element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Identifies the right-clicked webpage element.
+*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Specifies which web element should be right-clicked.
 
 You can also specify additional parameters for the action. See [Click Action Options](action-options.md#click-action-options).
 
 ## Type Text
 
-Type text within an input element.
+Types text within an input element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
@@ -68,21 +68,21 @@ You can also specify additional parameters for the action. See [Typing Action Op
 
 ## Press Key
 
-Press the specified keyboard key.
+Presses the specified keyboard key.
 
 Parameter | Type | Description
 --------- | ----- | -------------
-*Key* | String | The sequence of pressed keys and key combinations.
+*Key* | String | The sequence of keys and key combinations to be pressed.
 
 You can also specify additional parameters for the action. See [Basic Action Options](action-options.md#basic-action-options).
 
 ## Drag
 
-Drag a webpage element to the specified location.
+Drags a webpage element to the specified location.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Identifies the webpage element being dragged.
+*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Specifies which webpage element should be dragged.
 *DragOffsetX* | Number | The drop coordinates' X-offset from the mouse pointer's initial position.
 *DragOffsetY* | Number | The drop coordinates' Y-offset from the mouse pointer's initial position.
 
@@ -90,20 +90,20 @@ You can also specify additional parameters for the action. See [Mouse Action Opt
 
 ## Drag To Element
 
-Drag a webpage element to another element.
+Drags a webpage element to another element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Identifies the webpage element being dragged.
+*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Specifies which webpage element should be dragged.
 *Destination Selector* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Identifies the webpage element that serves as the drop location.
 
 You can also specify additional parameters for the action. See [Drag To Element Action Options](action-options.md#drag-to-element-action-options).
 
-> You can add this action to the test only in the Test Editor.
+> You can use the Test Editor to add this action to the test - you cannot record this action.
 
 ## Select Text
 
-Select text within an input element.
+Selects text within an input element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
@@ -113,7 +113,7 @@ Parameter | Type  | Description
 
 ## Select Editable Content
 
-Select text within a contenteditable element.
+Selects text within a contenteditable element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
@@ -122,15 +122,15 @@ Parameter | Type  | Description
 
 You can also specify additional parameters for the action. See [Basic Action Options](action-options.md#basic-action-options).
 
-> You can add this action to the test only in the Test Editor.
+> You can use the Test Editor to add this action to the test - you cannot record this action.
 
 ## Select Text Area Content
 
-Select text within a text element area.
+Selects text within a `<textarea>` element.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
-*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Identifies the text that should be selected.
+*[Element Selector](action-parameters.md#element-selector)* | [Selector](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors/) | Identifies the `<textarea>` element whose text should be selected.
 *Start Line* | Number | The line number at which selection starts. A zero-based integer.
 *Start Position* | Number | The selection's start position within the line defined by the *Start Line* parameter. A zero-based integer.
 *End Line* | Number | The line number at which selection ends. A zero-based integer.
@@ -138,21 +138,21 @@ Parameter | Type  | Description
 
 You can also specify additional parameters for the action. See [Basic Action Options](action-options.md#basic-action-options).
 
-> You can add this action to the test only in the Test Editor.
+> You can use the Test Editor to add this action to the test - you cannot record this action.
 
 ## Wait
 
-Pause test execution for the specified period of time.
+Pauses test execution for the specified period of time.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
 *Timeout* | Number | The pause duration (in milliseconds).
 
-> You can add this action to the test only in the Test Editor.
+> You can use the Test Editor to add this action to the test - you cannot record this action.
 
 ## Hover
 
-Hover over a webpage element with the mouse pointer.
+Hovers over a webpage element with the mouse pointer.
 
 Parameter | Type  | Description
 --------- | ----- | -------------
@@ -160,4 +160,4 @@ Parameter | Type  | Description
 
 You can also specify additional parameters for the action. See [Mouse Action Options](action-options.md#mouse-action-options).
 
-> You can add this action to the test only in the Test Editor.
+> You can use the Test Editor to add this action to the test - you cannot record this action.
