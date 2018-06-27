@@ -7,7 +7,7 @@ permalink: /documentation/user-interface/reports-panel.html
 
 The **Reports** panel shows test run progress and results.
 
-IMAGE
+![Reports Panel](../../images/user-interface/reports-panel/reports-panel.png)
 
 Each row in the **Reports** panel corresponds to a single test run. A test run can consist of an individual test, all tests from a particular directory or fixture, or an arbitrary group of tests. For more information, see [Running Tests](../working-with-testcafe-studio/running-tests.md).
 
@@ -25,28 +25,22 @@ The progress bar and counter color indicates test run outcome.
 * red - some test failed;
 * gray - undefined (for instance, a test run was interrupted).
 
-## Viewing a Detailed Report
+## View a Detailed Report
 
 Click a **Reports** panel row to view a complete test run report. This opens the **Report** view that presents details on the test run. To learn more, see [Report View](report-view.md).
 
-## Stopping Test Run
+## Stop Test Run
 
-To stop a test run, use the IMAGE **Stop** button displayed when a test run is in progress.
+Use the ![Stop Test](../../images/user-interface/reports-panel/stop-task-icon.svg) **Stop** button to stop a test run. This button is only displayed when a test run is in progress.
 
-IMAGE
+## Clear Results
 
-## Clearing Results
-
-To remove all test run results from the **Reports** panel, use the IMAGE **Clear reports** button in the panel header.
-
-IMAGE
+Click the ![Clear Reports](../../images/user-interface/reports-panel/clear-reports-icon.svg) **Clear reports** button in the panel header to remove all test run results from the **Reports** panel.
 
 Note that this operation cannot be undone.
 
-## Hiding Reports Panel
+## Hide Reports Panel
 
-To hide the **Reports** panel, use the IMAGE button.
+Use the ![Collapse Panel](../../images/user-interface/reports-panel/collapse-panel-down-icon.svg) **Collapse Panel** button to hide the **Reports** panel.
 
-IMAGE
-
-This hides the panel content but leaves the header visible. You can use the IMAGE button to bring the panel back later.
+This hides the panel content but leaves the header visible. You can use the ![Expand Panel](../../images/user-interface/reports-panel/expand-panel-up-icon.svg) **Expand Panel** button to bring the panel back later.
