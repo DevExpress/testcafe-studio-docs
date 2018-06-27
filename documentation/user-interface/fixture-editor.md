@@ -5,7 +5,7 @@ permalink: /documentation/user-interface/fixture-editor.html
 ---
 # Fixture Editor
 
-The **Fixture** editor allows you to view and modify a fixture. The editor opens when you double-click the fixture in the [Explorer](explorer-panel.md) panel.
+The **Fixture Editor** allows you to view and modify a fixture. The editor opens when you double-click the fixture in the [Explorer](explorer-panel.md) panel.
 
 The editor consists of the following parts:
 
@@ -13,7 +13,7 @@ The editor consists of the following parts:
 
     You can click the webpage's URL to open the webpage in the browser.
 
-* The test list - Displays tests included to the fixture. You can click a test's row to open the test in the [Test](test-editor.md) editor.
+* The test list - Displays tests included to the fixture. You can click a test's row to open the test in the [Test Editor](test-editor.md).
 
 ![Fixture editor](../../images/user-interface/fixture-editor.png)
 

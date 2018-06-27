@@ -5,13 +5,13 @@ permalink: /documentation/user-interface/test-editor.html
 ---
 # Test Editor
 
-The **Test** editor allows you to view and modify existing tests, and create new tests. The editor opens when you double-click the test's item in the [Explorer](explorer-panel.md) panel or click the test's row in the [Fixture](fixture-editor.md) editor. If you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
+The **Test Editor** allows you to view and modify existing tests, and create new tests. The editor opens when you double-click the test's item in the [Explorer](explorer-panel.md) panel or click the test's row in the [Fixture Editor](fixture-editor.md). If you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
 
-The **Test** editor consists of the following parts:
+The **Test Editor** consists of the following parts:
 
 * The toolbar - Provides information about the test (the test name, fixture name, tested page's URL) and buttons for perfoming [common tasks](#common-tasks) .
 
-    You can click the fixture name to open the fixture in the [Fixture](#fixture-editor) editor. You can also click the webpage's URL to view the webpage in the browser.
+    You can click the fixture name to open the fixture in the **Fixture Editor**. You can also click the webpage's URL to view the webpage in the browser.
 
 * The test area - Displays the current test's content.
 * The **Actions** panel - Lists [actions](../working-with-testcafe-studio/recording-tests/test-actions/README.md) you can add to the test.
@@ -23,15 +23,15 @@ The **Test** editor consists of the following parts:
 
 You can perform the following tasks in the editor:
 
-* [Add Actions to Tests](#add-actions-to-tests)
+* [Add Actions Manually](#add-actions-manually)
 * [Record Actions](#record-actions)
 * [Run Tests](#run-tests)
 * [Modify Actions' Parameters](#modify-actions-parameters)
-* [Change Actions' Position](#change-actions-position)
+* [Change Actions' Position](#change-an-actions-position)
 * [Rename Tests](#rename-tests)
 * [Delete Actions](#delete-actions)
 
-### Add Actions to Tests
+### Add Actions Manually
 
 Click an action in the **Actions** panel to add the action to the test. TestCafe Studio adds the action to the end of the test and allows you to specify the action's parameters.
 
