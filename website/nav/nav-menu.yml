@@ -45,11 +45,15 @@
   content:
   - name: Explorer Panel
     url: /documentation/user-interface/explorer-panel.md
+  - name: Fixture Editor
+    url: /documentation/user-interface/fixture-editor.md
   - name: Record Configuration Dialog
     url: /documentation/user-interface/record-configuration-dialog.md
+  - name: Report View
+    url: /documentation/user-interface/report-view.md  
+  - name: Reports Panel
+    url: /documentation/user-interface/reports-panel.md  
   - name: Run Configurations Dialog
     url: /documentation/user-interface/run-configurations-dialog.md
   - name: Test Editor
     url: /documentation/user-interface/test-editor.md
-  - name: Fixture Editor
-    url: /documentation/user-interface/fixture-editor.md
