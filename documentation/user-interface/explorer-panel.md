@@ -47,7 +47,7 @@ You can create a new test in one of the following ways:
 
     ![New Test dialog](../../images/user-interface/dialogs/new-test-dialog.png)
 
-    Specify the test name in this dialog and click **Create**. TestCafe Studio creates an empty test and open it in the [Test Editor](test-editor.md).
+    Specify the test name in this dialog and click **Create**. TestCafe Studio creates an empty test and opens it in the [Test Editor](test-editor.md).
 
 ## Creating a File
 
