@@ -65,7 +65,7 @@ The **Test Editor** also allows you to reorder, delete and [add new actions](#ad
 
 ## Add New Actions to the Test
 
-You can continue the recording to add more steps to the test. The **Test Editor** also contains an **Actions** panel with specific actions that can be added to the test during and after recording.
+You can continue the recording to add more steps to the test. The [Test Editor](../user-interface/test-editor.md) also contains an **Actions** panel with specific actions that can be added to the test during and after recording.
 
 This step adds an assertion that checks if the **Thank you** page displays the name you entered as **Your name**. You can add the assertion while recording to select which object to verify on the tested page.
 
@@ -106,10 +106,10 @@ You can select one or several browsers for each configuration and specify additi
 ![The Run Configurations dialog](../../images/getting-started/run-configurations-dialog.png)
 
 To run the recorded test in all the installed browsers, use the *all* configuration. Select it in the **Run Configuration** menu and click the ![Run test](../../images/getting-started/action-run-icon.png) **Run test** button on the toolbar. TestCafe Studio executes the test in several browsers simultaneously.
-The **Reports** panel displays the test's progress.
+The [Reports panel](../user-interface/reports-panel.md) displays the test's progress.
 
 ## View the Test Results
 
-The **Reports** panel displays the test result after the test is completed. To see a complete test report in the **Report** tab, click the corresponding entry in the **Reports** panel.
+The [Reports panel](../user-interface/reports-panel.md) displays the test result after the test is completed. To see a complete test report in the [Report view](../user-interface/report-view.md), click the corresponding entry in the **Reports** panel.
 
 ![Report](../../images/getting-started/report.png)

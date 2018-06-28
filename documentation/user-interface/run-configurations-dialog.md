@@ -22,7 +22,7 @@ The dialog's left panel lists the available run configurations. When you select 
 Setting | Description
 ------- | -------------
 *Name* | The configuration's name. It is displayed in the **Run Configurations** drop-down menu on the main toolbar.
-*Default report view* | The test report's format used in the **Reports** view. The available formats are *grid*, *json*, *list*, *minimal*, *spec*, *xunit*.
+*Default report view* | The test report's format used in the [Report view](report-view.md). The available formats are *grid*, *json*, *list*, *minimal*, *spec*, *xunit*.
 
 ## Browsers
 
