@@ -43,7 +43,7 @@ You can run an entire test directory/subdirectory, a specific fixture, an indivi
 
 ![Running multiple items](../../images/user-interface/running-multiple-items.png)
 
-After starting a test, TestCafe Studio launches the specified browsers and executes tests in them simultaneously. The **Reports** panel displays the tests' progress.
+After starting a test, TestCafe Studio launches the specified browsers and executes tests in them simultaneously. The [Reports panel](../user-interface/reports-panel.md) displays the tests' progress.
 
 Click the ![Stop recording button](../../images/working-with-testcafe-studio/stop-recording-icon.png) button in the **Reports** panel **to stop the test**.
 

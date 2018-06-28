@@ -5,7 +5,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/test-acti
 ---
 # Test Actions
 
-This section contains information about actions in the [Test Editor](../../../../user-interface/test-editor.md)'s **Actions** panel. These actions are organized into the following categories:
+This section contains information about actions in the [Test Editor](../../../user-interface/test-editor.md)'s **Actions** panel. These actions are organized into the following categories:
 
 Category              | Description
 --------------------- | --------------

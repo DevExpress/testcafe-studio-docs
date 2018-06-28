@@ -7,7 +7,7 @@ permalink: /documentation/working-with-testcafe-studio/recording-tests/
 
 Tests consist of [test actions](test-actions/README.md) to be performed with a tested page.
 
-TestCafe Studio provides a set of actions that you can use in tests. These actions are organized into different categories in the [Test Editor](../user-interface/test-editor.md)'s **Actions** panel. For example, **On-Page Actions** simulate user actions - clicks, key presses, drags, etc. on your tested page. The actions in the **Assertions** category allow you to perform different verifications.
+TestCafe Studio provides a set of actions that you can use in tests. These actions are organized into different categories in the [Test Editor](../../user-interface/test-editor.md)'s **Actions** panel. For example, **On-Page Actions** simulate user actions - clicks, key presses, drags, etc. on your tested page. The actions in the **Assertions** category allow you to perform different verifications.
 
 ![Actions Panel](../../../images/working-with-testcafe-studio/actions-panel.png)
 
@@ -73,7 +73,7 @@ To create an empty test:
 
     ![Creating a Test](../../../images/working-with-testcafe-studio/creating-test.png)
 
-TestCafe Studio creates a test with the specified name and opens it in the **Test Editor**. Next, add actions to the test from the **Actions** panel manually or record them. To start recording, click the ![Record test actions button](../../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the **Test Editor**'s toolbar.
+TestCafe Studio creates a test with the specified name and opens it in the [Test Editor](../../user-interface/test-editor.md). Next, add actions to the test from the **Actions** panel manually or record them. To start recording, click the ![Record test actions button](../../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the **Test Editor**'s toolbar.
 
 ## Starting and Stopping Recording
 
@@ -85,7 +85,7 @@ Do any of the following **to start recording** a new test:
 
 TestCafe Studio creates a new test, adds it to the fixture and starts recording test actions. See [During Recording](#during-recording).
 
-**To stop recording**, close the browser or click the ![Stop recording button](../../../images/working-with-testcafe-studio/stop-recording-icon.png) button on the **Test Editor**'s toolbar.
+**To stop recording**, close the browser or click the ![Stop recording button](../../../images/working-with-testcafe-studio/stop-recording-icon.png) button on the [Test Editor](../../user-interface/test-editor.md)'s toolbar.
 
 **To continue recording**, click the ![Start recording a test](../../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the **Test Editor**'s toolbar. TestCafe plays back the previous actions and waits for new ones.
 
@@ -107,7 +107,7 @@ You can do the following during test recording:
 
 ### Modifying Tests
 
-You can view and modify recorded tests in the **Test Editor** both during and after recording by performing the following tasks:
+You can view and modify recorded tests in the [Test Editor](../../user-interface/test-editor.md) both during and after recording by performing the following tasks:
 
 * View and [modify action parameters](../../user-interface/test-editor.md#modify-actions-parameters).
 * [Add new actions](../../user-interface/test-editor.md#add-actions-manually).
