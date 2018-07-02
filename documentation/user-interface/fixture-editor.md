@@ -55,4 +55,4 @@ Click the ![Settings button](../../images/working-with-testcafe-studio/settings-
 
 Click the ![Remove all tests icon](../../images/user-interface/remove-all-icon.svg) **Remove all tests** button on the editor's toolbar to delete all the fixture's tests.
 
-To delete a single test from the fixture, hover the mouse cursor over the test's row and click the ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove test** button.
+To delete a single test from the fixture, hover the mouse cursor over the test's row and click the row's ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove test** button.
