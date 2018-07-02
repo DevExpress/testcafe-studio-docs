@@ -5,17 +5,17 @@ permalink: /documentation/user-interface/test-editor.html
 ---
 # Test Editor
 
-The **Test Editor** allows you to view and modify existing tests, and create new tests. The editor opens when you double-click the test's item in the [Explorer](explorer-panel.md) panel or click the test's row in the [Fixture Editor](fixture-editor.md). If you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
+The **Test Editor** allows you to create new tests and view and modify tests. To open the editor, double-click the test's item in the [Explorer](explorer-panel.md) panel or click the test's row in the [Fixture Editor](fixture-editor.md). If you [create an empty test](../working-with-testcafe-studio/recording-tests/README.md#creating-tests) or start [recording a new test](../working-with-testcafe-studio/recording-tests/README.md#starting-and-stopping-recording), TestCafe Studio automatically opens the test in the editor.
 
 The **Test Editor** consists of the following parts:
 
-* The toolbar - Provides information about the test (the test name, fixture name, tested page's URL) and buttons for perfoming [common tasks](#common-tasks) .
+* The toolbar - Provides information about the test (the test name, fixture name, tested page's URL) and buttons for performing [common tasks](#common-tasks).
 
     You can click the fixture name to open the fixture in the **Fixture Editor**. You can also click the webpage's URL to view the webpage in the browser.
 
 * The test area - Displays the current test's content.
 * The **Actions** panel - Lists [actions](../working-with-testcafe-studio/recording-tests/test-actions/README.md) you can add to the test.
-    The actions are organized into categories. You can expand or collapse the categories by clicking the arrows next to the categories' names.
+    The actions are organized into categories. You can click the arrows next to the categories' names to expand or collapse the categories.
 
 ![Test editor](../../images/user-interface/test-editor.png)
 
@@ -33,7 +33,7 @@ You can perform the following tasks in the editor:
 
 ### Add Actions Manually
 
-Click an action in the **Actions** panel to add the action to the test. TestCafe Studio adds the action to the end of the test and allows you to specify the action's parameters.
+Click an action in the **Actions** panel to add it to the test. TestCafe Studio adds the action to the end of the test and allows you to specify the action's parameters.
 
 ![Add new actions](../../images/working-with-testcafe-studio/add-new-actions.png)
 
@@ -43,7 +43,7 @@ You can add actions after or during recording. In the last case, you can pick an
 
 You can record [on-page actions](../working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md) and append them to the current test.
 
-Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the toolbar to start recording and wait while TestCafe Studio plays back the existing actions. Next, perform new actions on the tested page. TestCafe Studio records your activity and inserts new actions after the existing actions.
+Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record test actions** button on the toolbar to start recording and wait while TestCafe Studio plays back the existing actions. Next, perform new actions on the tested page. TestCafe Studio records your activity and inserts new actions after the previous actions.
 
 To stop recording, close the browser or click the ![Stop recording button](../../images/working-with-testcafe-studio/stop-recording-icon.png) button on the editor's toolbar.
 
@@ -67,6 +67,6 @@ Click the ![Rename button](../../images/working-with-testcafe-studio/settings-ic
 
 ### Delete Actions
 
-Click the ![Remove all actions icon](../../images/user-interface/remove-all-icon.svg) **Remove all actions** button on the editor's toobar to delete all actions from the test.
+Click the ![Remove all actions icon](../../images/user-interface/remove-all-icon.svg) **Remove all actions** button on the editor's toolbar to delete all the actions from the test.
 
-To delete a single action, hover the mouse cursor over the action's row and click the ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove action** button to the right of it.
+To delete a single action, hover the mouse cursor over the action's row and click the row's ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove action** button.
