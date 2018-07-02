@@ -69,4 +69,4 @@ Click the ![Rename button](../../images/working-with-testcafe-studio/settings-ic
 
 Click the ![Remove all actions icon](../../images/user-interface/remove-all-icon.svg) **Remove all actions** button on the editor's toolbar to delete all the actions from the test.
 
-To delete a single action, hover the mouse cursor over the action's row and click the ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove action** button.
+To delete a single action, hover the mouse cursor over the action's row and click the row's ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove action** button.
