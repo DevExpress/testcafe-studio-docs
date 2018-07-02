@@ -29,13 +29,13 @@ You can perform the following tasks in the editor:
 
 ### Record New Tests
 
-Click the ![Record button](../../images/working-with-testcafe-studio/record-test-icon.png) **Record a new test** button on the editor's toolbar to start recording a new test and add it to the fixture.
+Click the ![Record button](../../images/guides/record-test-icon.png) **Record a new test** button on the editor's toolbar to start recording a new test and add it to the fixture.
 
 ### Run the Fixture or Single Test
 
-Click the ![Run tests button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run all tests** button on the editor's toolbar to run the entire fixture.
+Click the ![Run tests button](../../images/guides/action-run-icon.png) **Run all tests** button on the editor's toolbar to run the entire fixture.
 
-To run a single test, hover the mouse cursor over the test's row and click the ![Run test button](../../images/working-with-testcafe-studio/action-run-icon.png) **Run test** button displayed to the right of it.
+To run a single test, hover the mouse cursor over the test's row and click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button displayed to the right of it.
 
 ### Convert the Fixture to JavaScript
 
@@ -47,7 +47,7 @@ TestCafe Studio creates the test file in the same test directory and displays it
 
 ## Modify the Fixture's Properties
 
-Click the ![Settings button](../../images/working-with-testcafe-studio/settings-icon.png) button on the editor's toolbar to modify the fixture's properties. This invokes the **Modify fixture** dialog where you can change the fixture name, file name, target webpage, and authentication credentials. To save the changes, click **OK**.
+Click the ![Settings button](../../images/guides/settings-icon.png) button on the editor's toolbar to modify the fixture's properties. This invokes the **Modify fixture** dialog where you can change the fixture name, file name, target webpage, and authentication credentials. To save the changes, click **OK**.
 
 ![Modify fixture dialog](../../images/user-interface/dialogs/modify-fixture-dialog.png)
 

@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: On-Page Actions
-permalink: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/
+permalink: /documentation/guides/record-tests/test-actions/on-page-actions/
 ---
 # On-Page Actions
 

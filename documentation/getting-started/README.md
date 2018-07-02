@@ -18,7 +18,7 @@ This tutorial uses the [TestCafe Studio sample page](http://devexpress.github.io
 
 ## Install TestCafe Studio
 
-You can install TestCafe Studio on MacOS, Windows or Linux. See [Installing TestCafe Studio](../installing-testcafe-studio/README.md) for more information.
+You can install TestCafe Studio on MacOS, Windows or Linux. See [Installation](../guides/installation.md) for more information.
 
 ## Record Test Actions
 
@@ -46,7 +46,7 @@ Perform the following actions on the webpage:
 
 TestCafe Studio adds your actions to the test. You can view the recorded actions in TestCafe Studio at any time.
 
-![Recording the test](../../images/getting-started/recording-the-test.png)
+![Record the test](../../images/getting-started/recording-the-test.png)
 
 To stop the recording, close the browser window or click ![Stop recording](../../images/getting-started/stop-recording-icon.png) on the toolbar.
 
@@ -59,7 +59,7 @@ TestCafe Studio displays the recorded test in the [Test Editor](../user-interfac
 Click an action in the editor to view or change its parameters.
 For example, you can change the selector that identifies the action's element by selecting an alternative selector from the list of generated selectors or using your own.
 
-![Choosing the selector](../../images/getting-started/choosing-the-selector.png)
+![Choose the selector](../../images/getting-started/choosing-the-selector.png)
 
 The **Test Editor** also allows you to reorder, delete and [add new actions](#add-new-actions-to-the-test).
 
