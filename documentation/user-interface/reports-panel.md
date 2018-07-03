@@ -7,7 +7,7 @@ permalink: /documentation/user-interface/reports-panel.html
 
 The **Reports** panel shows a test run's progress and result.
 
-![Reports Panel](../../images/working-with-testcafe-studio/reports-panel.png)
+![Reports Panel](../../images/guides/reports-panel.png)
 
 Each row in the **Reports** panel corresponds to a single test run. A test run can consist of an individual test, all tests from a particular directory or fixture, or an arbitrary group of tests. Refer to [Running Tests](../working-with-testcafe-studio/running-tests.md) for more information.
 
