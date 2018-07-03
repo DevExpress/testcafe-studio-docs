@@ -41,24 +41,9 @@ You can select the default format in the [run configuration](run-configuration-d
 
 ### Work with a Grid
 
-The Grid view displays test run results in the tabular form. 
+The grid view displays test run results in the tabular form. 
 
 ![Grid View](../../images/user-interface/report-view/grid-view.png)
-
-The top of the grid view displays general info about the test run:
-
-* the total number of executed tests, the number of passed and failed tests,
-* date and time when the test run was started and when it was completed,
-* test run duration,
-* names of browsers and operating systems used to run the tests.
-
-The grid also displays the following information about each test:
-
-* test status (passed or failed),
-* test name,
-* fixture name,
-* test run duration,
-* the number of errors occurred during the test run.
 
 You can click a test or fixture name to navigate to this test or fixture.
 
@@ -68,15 +53,9 @@ Click the ![Screenshot Icon](../../images/user-interface/report-view/screenshot-
 
 #### Examine Failed Tests
 
-An arrow is displayed near a test's status to indicate if it failed. This arrow allows you to expand the grid row and see details about this failure.
+An arrow is displayed near a failed test's status. This arrow allows you to expand the grid row and see details about this failure.
 
 ![Failed Test](../../images/user-interface/report-view/failed-test.png)
-
-The detail view includes the following:
-
-* the error message,
-* the browser and operating system name,
-* the page screenshot (if the [Take a screenshot if a test fails](run-configurations-dialog.md) option is enabled).
 
 For [recorded tests](../working-with-testcafe-studio/organizing-tests.md#recorded-tests-files), the detail view displays a link to a test action that caused the failure. Click this link to navigate to the test file. The failed action is automatically expanded and displays the error message.
 
