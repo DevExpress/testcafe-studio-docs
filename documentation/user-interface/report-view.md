@@ -22,11 +22,11 @@ The **Report** view displays a detailed report about a test run. It allows you t
 
 ## Analyze Test Results
 
-The **Report** view can present data in different formats. They include machine-readable formats like JSON or formats that better fit for human examination like a grid view. Use a drop-down list in the report header to select a format.
+The **Report** view can display data in different formats. You can use the report header's drop-down list to select a format.
 
 ![Drop-Down Format List](../../images/user-interface/report-view/drop-down-format-list.png)
 
-TestCafe Studio provides the following report formats out of the box:
+TestCafe Studio provides the following report formats:
 
 * Grid view
 * JSON
@@ -35,13 +35,13 @@ TestCafe Studio provides the following report formats out of the box:
 * Minimal
 * Spec
 
-See [Get More Report Formats](#get-more-report-formats) to learn how to make more report formats available.
+See [Get More Report Formats](#get-more-report-formats) for information on how to make add more report formats.
 
-You can select the default format in [run configuration](run-configuration-dialog.md) settings.
+You can select the default format in the [run configuration](run-configuration-dialog.md) settings.
 
 ### Work with a Grid
 
-Grid view is the most powerful report format to study and analyze.
+The Grid view is the most powerful report format to study and analyze.
 
 ![Grid View](../../images/user-interface/report-view/grid-view.png)
 
@@ -52,7 +52,7 @@ The top of the grid view displays general info about the test run:
 * test run duration,
 * names of browsers and operating systems used to run the tests.
 
-The grid displays the following info about each test:
+The grid also displays the following information about each test:
 
 * test status (passed or failed),
 * test name,
@@ -68,7 +68,7 @@ Click the ![Screenshot Icon](../../images/user-interface/report-view/screenshot-
 
 #### Examine Failed Tests
 
-If a test has failed, an arrow is displayed near its status. This arrow allows you to expand the grid row and see details about this fail.
+An arrow is displayed near a test's status to indicate if it failed. This arrow allows you to expand the grid row and see details about this failure.
 
 ![Failed Test](../../images/user-interface/report-view/failed-test.png)
 
@@ -78,11 +78,11 @@ The detail view includes the following:
 * the browser and operating system name,
 * the page screenshot (if the [Take a screenshot if a test fails](run-configurations-dialog.md) option is enabled).
 
-For [recorded tests](../working-with-testcafe-studio/organizing-tests.md#recorded-tests-files), the detail view displays a link to a test action that caused the fail. Click this link to navigate to the test file. The failed action will be automatically expanded and the error message will be displayed in it.
+For [recorded tests](../working-with-testcafe-studio/organizing-tests.md#recorded-tests-files), the detail view displays a link to a test action that caused the failure. Click this link to navigate to the test file. The failed action is automatically expanded and displays the error message.
 
 ![Test Editor with Failed Action](../../images/user-interface/report-view/test-editor-failed.png)
 
-For [coded tests](../working-with-testcafe-studio/organizing-tests.md#coded-tests-files), the report shows a place in code where the fail occurred and the call stack.
+For [coded tests](../working-with-testcafe-studio/organizing-tests.md#coded-tests-files), the report shows a place in code where the failure occurred and the call stack.
 
 ![Failed Coded Test](../../images/user-interface/report-view/failed-coded-test.png)
 
@@ -92,7 +92,7 @@ Click the column header to sort tests by a column. To toggle sort order, click t
 
 #### Search for Tests
 
-Use the search bar in the grid header to search for a test by its name or a fixture name.
+The search bar in the grid header allows you to search for a test by its name or a fixture name.
 
 ![Searching for Tests](../../images/user-interface/report-view/searching-for-test.png)
 
@@ -115,7 +115,7 @@ You can rerun tests from the **Report** view. To rerun all tests in the test run
 
 ## Export the Report
 
-TestCafe Studio allows you to export a report to an archive file. This archive includes the serialized report in the selected format (JSON if the grid view is selected) and screenshots taken during the test run.
+TestCafe Studio allows you to export a report to an archive file. This archive includes the serialized report in the selected format (JSON if grid view is selected) and screenshots taken during the test run.
 
 Use the ![Export Report Icon](../../images/user-interface/report-view/export-report-icon.svg) **Export report** button to export a report.
 
@@ -129,7 +129,7 @@ Note that this action cannot be undone.
 
 You can install [TestCafe reporter plugins](https://devexpress.github.io/testcafe/documentation/using-testcafe/common-concepts/reporters.html) to add more report formats to TestCafe Studio.
 
-Use the following console command to download and install plugins from [npm](https://www.npmjs.com/).
+Use the following console command to download and install plugins from [npm](https://www.npmjs.com/):
 
 ```sh
 npm install -g <reporter-plugin-name>
@@ -137,6 +137,6 @@ npm install -g <reporter-plugin-name>
 
 Reporter plugins are npm packages. The reporter package name consists of two parts - the `testcafe-reporter-` prefix and the reporter's name itself; for example,  `testcafe-reporter-list`.
 
-You can search for available reporter packages on npm: [https://www.npmjs.com/search?q=testcafe-reporter](https://www.npmjs.com/search?q=testcafe-reporter).
+You can search for more reporter packages on npm: [https://www.npmjs.com/search?q=testcafe-reporter](https://www.npmjs.com/search?q=testcafe-reporter).
 
-TestCafe Studio automatically detects reporter plugins installed on the local machine and adds them to the drop-down list in the **Report** view.
+TestCafe Studio automatically detects reporter plugins on the local machine and adds them to the **Report** view's drop-down list.
