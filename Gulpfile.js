@@ -134,7 +134,17 @@ function buildWebsite (mode, cb) {
 // * Google Analytics is enabled in production mode only.
 
 gulp.task('build-website-production', ['prepare-website'], function (cb) {
-    buildWebsite('production', cb);
+    return new Promise(function (resolve) {
+        buildWebsite('production', resolve);
+    })
+    .then( function () {
+        // NOTE: Jekyll generates a folder named 'Images' 
+        // starting from the capital letter (for some reason).
+        // This is a quick fix for this.
+        return new Promise(function (resolve) {
+            fs.rename('site/deploy/Images', 'site/deploy/images', resolve);
+        });
+    });
 });
 
 gulp.task('build-website-development', ['prepare-website'], function (cb) {
