@@ -1,45 +1,45 @@
 - name: Overview
   url: /documentation/overview/README.md
-- name: Installing TestCafe Studio
-  url: /documentation/installing-testcafe-studio/README.md
 - name: Getting Started
   url: /documentation/getting-started/README.md
 - name: Video Tutorials
   url: /documentation/video-tutorials/README.md
-- name: Working with TestCafe Studio
-  url: /documentation/working-with-testcafe-studio/README.md
+- name: Guides
+  url: /documentation/guides/README.md
   content:
-  - name: Organizing Tests
-    url: /documentation/working-with-testcafe-studio/organizing-tests.md
-  - name: Recording Tests
-    url: /documentation/working-with-testcafe-studio/recording-tests/
+  - name: Installation
+    url: /documentation/guides/installation.md
+  - name: Organize Tests
+    url: /documentation/guides/organize-tests.md
+  - name: Record Tests
+    url: /documentation/guides/record-tests/
     content:
     - name: Test Actions
-      url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/README.md
+      url: /documentation/guides/record-tests/test-actions/README.md
       content:
       - name: Assertions
-        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/assertions.md
+        url: /documentation/guides/record-tests/test-actions/assertions.md
       - name: On-Page Actions
-        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/README.md
+        url: /documentation/guides/record-tests/test-actions/on-page-actions/README.md
         content:
         - name: Action Options
-          url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-options.md
+          url: /documentation/guides/record-tests/test-actions/on-page-actions/action-options.md
         - name: Action Parameters
-          url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/on-page-actions/action-parameters.md
+          url: /documentation/guides/record-tests/test-actions/on-page-actions/action-parameters.md
       - name: Debug
-        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/debug.md
+        url: /documentation/guides/record-tests/test-actions/debug.md
       - name: Browser Actions
-        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/browser-actions.md
+        url: /documentation/guides/record-tests/test-actions/browser-actions.md
       - name: Switch Frames
-        url: /documentation/working-with-testcafe-studio/recording-tests/test-actions/switch-frames.md
-  - name: Writing Test Code
-    url: /documentation/working-with-testcafe-studio/writing-test-code.md
-  - name: Running Tests
-    url: /documentation/working-with-testcafe-studio/running-tests.md
+        url: /documentation/guides/record-tests/test-actions/switch-frames.md
+  - name: Write Test Code
+    url: /documentation/guides/write-test-code.md
+  - name: Run Tests
+    url: /documentation/guides/run-tests.md
   - name: Reports
-    url: /documentation/working-with-testcafe-studio/reports.md
-  - name: Debugging Tests
-    url: /documentation/working-with-testcafe-studio/debugging-tests.md
+    url: /documentation/guides/reports.md
+  - name: Debug Tests
+    url: /documentation/guides/debug-tests.md
 - name: User Interface
   url: /documentation/user-interface/README.md
   content:
