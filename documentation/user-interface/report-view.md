@@ -35,13 +35,13 @@ TestCafe Studio provides the following report formats:
 * Minimal
 * Spec
 
-See [Get More Report Formats](#get-more-report-formats) for information on how to make add more report formats.
+See [Get More Report Formats](#get-more-report-formats) for information on how to add more report formats.
 
 You can select the default format in the [run configuration](run-configuration-dialog.md) settings.
 
 ### Work with a Grid
 
-The Grid view is the most powerful report format to study and analyze.
+The Grid view displays test run results in the tabular form. 
 
 ![Grid View](../../images/user-interface/report-view/grid-view.png)
 
