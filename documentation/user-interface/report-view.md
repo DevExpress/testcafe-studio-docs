@@ -41,13 +41,13 @@ You can select the default format in the [run configuration](run-configuration-d
 
 ### Work with a Grid
 
-The grid view displays test run results in the tabular form. 
+The grid view displays test run results in the tabular form.
 
 ![Grid View](../../images/user-interface/report-view/grid-view.png)
 
 You can click a test or fixture name to navigate to this test or fixture.
 
-Click the ![Screenshot Icon](../../images/user-interface/report-view/screenshot-icon.svg) button in the **Screenshots** column to see screenshots taken with the [Take Screenshot](../working-with-testcafe-studio/recording-tests/test-actions/browser-actions.md#take-screenshot) action during the test run.
+Click the ![Screenshot Icon](../../images/user-interface/report-view/screenshot-icon.svg) button in the **Screenshots** column to see screenshots taken with the [Take Screenshot](../guides/record-tests/test-actions/browser-actions.md#take-screenshot) action during the test run.
 
 ![Screenshots Window](../../images/user-interface/report-view/screenshots-window.png)
 
@@ -57,11 +57,11 @@ An arrow is displayed near a failed test's status. This arrow allows you to expa
 
 ![Failed Test](../../images/user-interface/report-view/failed-test.png)
 
-For [recorded tests](../working-with-testcafe-studio/organizing-tests.md#recorded-tests-files), the detail view displays a link to a test action that caused the failure. Click this link to navigate to the test file. The failed action is automatically expanded and displays the error message.
+For [recorded tests](../guides/organize-tests.md#recorded-tests-files), the detail view displays a link to a test action that caused the failure. Click this link to navigate to the test file. The failed action is automatically expanded and displays the error message.
 
 ![Test Editor with Failed Action](../../images/user-interface/report-view/test-editor-failed.png)
 
-For [coded tests](../working-with-testcafe-studio/organizing-tests.md#coded-tests-files), the report shows a place in code where the failure occurred and the call stack.
+For [coded tests](../guides/organize-tests.md#coded-tests-files), the report shows a place in code where the failure occurred and the call stack.
 
 ![Failed Coded Test](../../images/user-interface/report-view/failed-coded-test.png)
 
