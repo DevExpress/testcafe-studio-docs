@@ -122,9 +122,7 @@ $(function(){
 {% if jekyll.environment == "production" %}
 $(function(){
     $('.get-ctp').on('click', function () {
-        gtag('config', window.GA_PROPERTY_ID, {
-            'page_path': '/get-ctp'
-        });
+        gtag('event', 'top-download-clicked');
     });
 });
 {% endif %}    
