@@ -99,9 +99,9 @@ You can do the following during test recording:
 
 * Add actions from the **Actions** panel to the test. To do this, click a desired action in the **Actions** panel. The action is added to the end of the test. Then specify the action parameters.
 
-    When you add an on-page action or assertion, you can visually select a target element on the tested page. To do this, click the ![Element picker](../../../images/guides/element-picker-icon.png) button in the action parameters' area and click an element on the page.
+    When you add an [on-page action](test-actions/on-page-actions/README.md) or [assertion](test-actions/assertions.md), you can visually select a target element on the tested page using an element picker. To do this, click the ![Element picker](../../../images/guides/element-picker-icon.png) button in the action parameters' area and click an element on the page.
 
-    You can also choose a desired property from the auto-generated property list and see the assertion status for assertion.
+    You can also choose a desired property from the auto-generated property list and see the assertion status for assertion. See [Assertion Parameters](test-actions/assertions.md#assertion-parameters).
 
 * View and modify the recorded actions. See [Modify Tests](#modify-tests).
 

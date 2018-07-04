@@ -50,6 +50,10 @@ When you add an assertion during recording, TestCafe Studio can generate an elem
 
     ![Actual value](../../../../images/guides/creating-assertion/actual-value.png)
 
+> You can modify the selector that identifies the target element. Click the ![Choose the selector](../../images/getting-started/id-bar-icon.png) arrow button next to the **Actual** field to view auto-generated selectors.
+
+![Generated selectors](../../../../images/guides/creating-assertion/generated-selectors.png)
+
 ### Expected Parameter
 
 Some assertions have the *Expected* parameter that takes an expected value or code expression. You can enter a value manually or copy the value to the **Expected** field by clicking the ![Copy the value to the Expected field](../../../../images/getting-started/copy-value-icon.png) button.
