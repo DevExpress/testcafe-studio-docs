@@ -82,13 +82,13 @@ This step adds an [Equals](../guides/record-tests/test-actions/assertions.md#equ
 
     TestCafe Studio generates the element property expression and adds it to the **Actual** field. It also evaluates the specified expression and shows the result in the **Value** field.
 
-5. Specify the object property's expected value in the **Expected** field. You can click the ![Copy the value to the Expected field](../../images/getting-started/copy-value-icon.png) button to add the current property value to the field.
+5. Specify the element property's expected value in the **Expected** field. You can click the ![Copy the value to the Expected field](../../images/getting-started/copy-value-icon.png) button to add the current property value to the field.
 
     ![Assertion](../../images/getting-started/assertion.png)
 
 6. Click the ![Stop recording](../../images/getting-started/stop-recording-icon.png) button on the **Test Editor**'s toolbar to stop the recording.
 
- > If you add the assertion when the recording is stopped, you can enter the assertion's parameters only manually. The element picker, property list, and assertion's status verification are available only during recording.
+ > If you add the assertion when the recording is stopped, you should enter the assertion's parameters manually. The element picker, property list, and assertion's status verification are available only during recording.
 
 ## Run the Test
 
