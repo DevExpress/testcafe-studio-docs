@@ -84,7 +84,7 @@ This step adds an [Equals](../guides/record-tests/test-actions/assertions.md#equ
 
 6. Click the ![Stop recording](../../images/getting-started/stop-recording-icon.png) button on the **Test Editor**'s toolbar to stop the recording.
 
- > If add the assertion when the recording is stopped, you can enter the assertions' parameters only manually. The element picker, property list, and assertion status' verification are available only during recording.
+ > If add the assertion when the recording is stopped, you can enter the assertion's parameters only manually. The element picker, property list, and assertion's status verification are available only during recording.
 
 ## Run the Test
 
