@@ -32,7 +32,11 @@ You can install TestCafe Studio on MacOS, Windows or Linux. See [Installation](.
 
     Click **Create**. The new fixture is added to the test directory.
 
-3. Start recording a test. To do this, click the ![Record button](../../images/getting-started/record-test-icon.png) **Record a New Test** button in the **Explorer** panel. TestCafe Studio launches the default browser with the tested site and starts recording your activity on the webpage.
+3. Select a browser where you want to test the webpage in the [Record Configurations](../guides/record-tests/README.md#record-configurations) drop-down menu on the toolbar.
+
+    ![Record configuration](../../images/getting-started/record-configuration.png)
+
+4. Start recording a test. To do this, click the ![Record button](../../images/getting-started/record-test-icon.png) **Record a New Test** button in the **Explorer** panel. TestCafe Studio launches the browser with the tested site and starts recording your activity on the webpage.
 
     Perform the following actions on the webpage:
 
@@ -44,7 +48,7 @@ You can install TestCafe Studio on MacOS, Windows or Linux. See [Installation](.
 
     ![Record the test](../../images/getting-started/recording-the-test.png)
 
-4. Close the browser window or click ![Stop recording](../../images/getting-started/stop-recording-icon.png) on the toolbar to stop the recording.
+5. Close the browser window or click ![Stop recording](../../images/getting-started/stop-recording-icon.png) on the toolbar to stop the recording.
 
 ## View the Recorded Test
 
@@ -62,11 +66,11 @@ TestCafe Studio provides a set of [assertions](../guides/record-tests/test-actio
 
 This step adds an [Equals](../guides/record-tests/test-actions/assertions.md#equals) assertion to the test. The assertion should check if the **Thank you** page displays the name you entered as **Your name**. Follow the steps to add the assertion:
 
-1. Click the ![Record test actions](../../images/getting-started/record-test-icon.png) **Record test actions** button on the **Test Editor**'s toolbar to continue recording the test. TestCafe Studio replays the previous test actions and waits for new ones.
+1. Click the ![Record test actions](../../images/getting-started/record-test-icon.png) **Record test actions** button on the **Test Editor**'s toolbar to continue recording the test. TestCafe Studio replays the previous test actions and waits for you to add new actions.
 
 2. Click the ![Equals assertion](../../images/getting-started/assertion-eql-icon.svg) button in the **Actions** panel's **Assertions** section to add the assertion to the test. TestCafe Studio adds the assertion to the end of the test and allows you to specify the assertion's parameters.
 
-3. Select an element whose property you are going to check. To do this, click the ![Pick a target element](../../images/getting-started/element-picker-icon.png) button next to the **Actual** field. This displays the tested webpage where you can select the target element. Hover the mouse cursor over the page header that says *'Thank you, ...'*. The selector popup displays the [Element Selector](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) that identifies the page header.
+3. Select an element whose property you are going to check. To do this, click the ![Pick a target element](../../images/getting-started/element-picker-icon.png) button next to the **Actual** field. This displays the browser with a tested webpage. Hover the mouse cursor over the page header that says *'Thank you, ...'*. The selector popup displays the [Element Selector](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) that identifies the page header.
 
     ![The Element Selector popup](../../images/getting-started/selector-popup.png)
 
@@ -84,7 +88,7 @@ This step adds an [Equals](../guides/record-tests/test-actions/assertions.md#equ
 
 6. Click the ![Stop recording](../../images/getting-started/stop-recording-icon.png) button on the **Test Editor**'s toolbar to stop the recording.
 
- > If add the assertion when the recording is stopped, you can enter the assertion's parameters only manually. The element picker, property list, and assertion's status verification are available only during recording.
+ > If you add the assertion when the recording is stopped, you can enter the assertion's parameters only manually. The element picker, property list, and assertion's status verification are available only during recording.
 
 ## Run the Test
 
