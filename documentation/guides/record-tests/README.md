@@ -60,7 +60,7 @@ TestCafe Studio creates the fixture and opens it in the [Fixture Editor](../../u
 
 After the fixture is created, you can start recording tests.
 
-> If you start recording a test from the **Welcome** page, TestCafe Studio automatically creates a new fixture.
+> If you start recording a test from the [Welcome Page](../../user-interface/welcome-page.md), TestCafe Studio automatically creates a new fixture.
 
 ## Create Tests
 

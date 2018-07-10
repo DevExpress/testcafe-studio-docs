@@ -22,7 +22,7 @@ A test directory is a file system directory used as the root of your test-relate
 You can create a test directory anywhere on your computer and then open it in TestCafe Studio in one of the following ways:
 
 * Go to the **File** menu and click **Open Test Directory**.
-* On the **Welcome** page, click **Open Folder**.
+* On the [Welcome Page](../user-interface/welcome-page.md), click **Open Folder**.
 
 The **Explorer** panel displays the directory's content.
 
