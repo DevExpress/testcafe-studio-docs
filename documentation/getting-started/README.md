@@ -7,10 +7,11 @@ permalink: /documentation/getting-started/
 
 This Getting Started tutorial describes how to record a test for the [TestCafe Studio sample page](http://devexpress.github.io/testcafe/example), run the test and analyze the results.
 
-The tutorial consists of the following sections:
+The tutorial consists of the following steps:
 
 * [Install TestCafe Studio](#install-testcafe-studio)
-* [Record Test Actions](#record-test-actions)
+* [Start Recording a Test](#start-recording-a-test)
+* [Interact with the Tested Webpage](#interact-with-the-tested-webpage)
 * [View the Recorded Test](#view-the-recorded-test)
 * [Add an Assertion to the Test](#add-an-assertion-to-the-test)
 * [Run the Test](#run-the-test)
@@ -20,11 +21,15 @@ The tutorial consists of the following sections:
 
 You can install TestCafe Studio on MacOS, Windows or Linux. See [Installation](../guides/installation.md) for more information.
 
-## Record Test Actions
+## Start Recording a Test
 
-1. First, create a [test directory](../guides/organize-tests.md#test-directory) to store your tests. Then go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory. You can view the directory's contents in the [Explorer](../user-interface/explorer-panel.md) panel.
+When you open TestCafe Stuido at the first time, it shows the **Welcome** page that allows you to start recording a test quickly. Enter the tested site's URL ([http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)) and click the ![Record button](../../images/getting-started/record-test-icon.png) **Start recording a test** button. TestCafe Studio creates a test, launches a browser with the tested site and starts recording your activity on the webpage (see [Interact with the Tested Page](#interact-with-the-tested-page)).
 
-    ![The Explorer panel](../../images/getting-started/explorer-panel.png)
+![The Welcome page](../../images/getting-started/explorer-panel.png)
+
+You can also organize your tests and start the recording from the [Explorer](../user-interface/explorer-panel.md) panel. Follow the steps:
+
+1. First, create a [test directory](../guides/organize-tests.md#test-directory) to store your tests. Then go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory. You can view the directory's contents in the **Explorer** panel.
 
 2. Create a [fixture](../guides/record-tests/README.md#create-fixtures) for the sample webpage tests. To do this, click the ![Create a New Fixture button](../../images/getting-started/create-new-fixture-icon.svg) **Create a New Fixture** button in the **Explorer** panel. This invokes the **New Fixture** dialog where you can specify the fixture name and the tested page's URL ([http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)).
 
@@ -38,17 +43,19 @@ You can install TestCafe Studio on MacOS, Windows or Linux. See [Installation](.
 
 4. Start recording a test. To do this, click the ![Record button](../../images/getting-started/record-test-icon.png) **Record a New Test** button in the **Explorer** panel. TestCafe Studio launches the browser with the tested site and starts recording your activity on the webpage.
 
-    Perform the following actions on the webpage:
+## Interact with the Tested Webpage
 
-    1. Enter a name in the **Your name** field.
-    2. Check the **Support for testing on remote devices** and **Advanced traffic and markup analysis** checkboxes.
-    3. Click the **Submit** button.
+Perform the following actions on the tested webpage opened in the browser:
 
-    TestCafe Studio adds your actions to the test. You can view the recorded actions in TestCafe Studio at any time.
+1. Enter a name in the **Your name** field.
+2. Check the **Support for testing on remote devices** and **Advanced traffic and markup analysis** checkboxes.
+3. Click the **Submit** button.
 
-    ![Record the test](../../images/getting-started/recording-the-test.png)
+TestCafe Studio adds your actions to the test. You can view the recorded actions in TestCafe Studio at any time.
 
-5. Close the browser window or click ![Stop recording](../../images/getting-started/stop-recording-icon.png) on the toolbar to stop the recording.
+![Record the test](../../images/getting-started/recording-the-test.png)
+
+To stop the recording, close the browser window or click ![Stop recording](../../images/getting-started/stop-recording-icon.png) on the toolbar.
 
 ## View the Recorded Test
 
