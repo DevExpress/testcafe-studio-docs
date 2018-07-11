@@ -12,27 +12,30 @@ The **Welcome** page introduces you to TestCafe Studio. The page is shown every 
 The page allows you to perform the following tasks:
 
 * [Start Recording a Test](#start-recording-a-test)
-* [Open a Test Directory](#open-a-test-directory)
-* [Open Recent Directories](#open-recent-directories)
-* [Open Examples](#open-examples)
+* [Open Test Directories](#open-test-directories)
+* [Open Recent Test Directories](#open-recent-test-directories)
 * [Navigate to Documentation and Video Tutorials](#navigate-to-documentation-and-video-tutorials)
 
 ## Start Recording a Test
 
 Enter a tested site's URL to the page's input field and click the ![Start recording a test](../../images/guides/record-test-icon.png) **Start recording a test** button to start the recording. TestCafe Studio creates a test, launches a browser with the tested site and starts recording your activity on the webpage. TestCafe Studio adds your actions to the test. You can view the test in the [Test Editor](test-editor.md).
 
-## Open a Test Directory
+To stop the recording, close the browser.
 
-To open a directory in TestCafe Studio, click the **Open Directory** button and navigate to the directory. TestCafe Studio opens the directory and shows its content in the [Explorer](explorer-panel.md) panel.
+## Open Test Directories
 
-## Open Recent Directories
+The page's **Start** section contains buttons that allow you to:
 
-The page lists recently opened test directories. Click a desired directory in the list to open it in TestCafe Studio. You can view the directory's content in the [Explorer](explorer-panel.md) panel.
+* create a new [test directory](../guides/organize-tests.md#test-directory).
+* open an existing test directory.
+* open the directory with example tests: [recorded](../guides/organize-tests.md#recorded-test-files) and [coded](../guides/organize-tests.md#coded-test-files).
 
-## Open Examples
+After you open a test directory in TestCafe Studio, you can view the directory's content in the [Explorer](explorer-panel.md) panel.
 
-Click **Open Examples** to open the test directory with example tests.
+## Open Recent Test Directories
+
+The page's **Recent** section lists recently opened test directories. Click a desired directory in the list to open it in TestCafe Studio. You can view the directory's content in the [Explorer](explorer-panel.md) panel.
 
 ## Navigate to Documentation and Video Tutorials
 
-The page also provides links to TestCafe Studio documentation and [video tutorials](../video-tutorials/README.md).
+The page also provides links to the documentation and [video tutorials](../video-tutorials/README.md).
