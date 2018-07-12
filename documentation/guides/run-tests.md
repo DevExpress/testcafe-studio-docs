@@ -37,7 +37,7 @@ You can run an entire test directory/subdirectory, a specific fixture, an indivi
 * Click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button on the [Test Editor](../user-interface/test-editor.md)'s toolbar.
 * Click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button next to the test in the **Fixture Editor** or **Explorer** panel.
 
-**To run a coded test's file**, click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button next to the file in the **Explorer** panel. You can also run test fixtures and individual tests from the **Code Editor** by clicking the ![Run test button](../../images/guides/action-run-icon.png) button.
+**To run a coded test's file**, click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button next to the file in the **Explorer** panel. You can also run test fixtures and individual tests from the [Code Editor](../user-interface/code-editor.md) by clicking the ![Run test button](../../images/guides/action-run-icon.png) button.
 
 **To run several tests** from different fixtures and directories, select the tests in the **Explorer** panel using Shift-click, Ctrl-click, or Command-click, then select **Run tests** from the context menu or click the ![The Run tests button](../../images/user-interface/context-menu/run-tests.png) **Run Tests** button next to any selected item.
 

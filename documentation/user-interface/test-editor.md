@@ -5,7 +5,7 @@ permalink: /documentation/user-interface/test-editor.html
 ---
 # Test Editor
 
-The **Test Editor** allows you to create new tests and view and modify tests. To open the editor, double-click the test's item in the [Explorer](explorer-panel.md) panel or click the test's row in the [Fixture Editor](fixture-editor.md). If you [create an empty test](../guides/record-tests/README.md#create-tests) or start [recording a new test](../guides/record-tests/README.md#start-and-stop-recording), TestCafe Studio automatically opens the test in the editor.
+The **Test Editor** allows you to create new [recorded tests](../guides/organize-tests.md#recorded-test-files) and view and modify tests. To open the editor, double-click the test's item in the [Explorer](explorer-panel.md) panel or click the test's row in the [Fixture Editor](fixture-editor.md). If you [create an empty test](../guides/record-tests/README.md#create-tests) or start [recording a new test](../guides/record-tests/README.md#start-and-stop-recording), TestCafe Studio automatically opens the test in the editor.
 
 The **Test Editor** consists of the following parts:
 
