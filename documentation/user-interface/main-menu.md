@@ -46,6 +46,6 @@ The **View** menu provides the following commands:
 
 The **Help** menu provides the following commands:
 
-* **Welcome** - Displays the [Welcome](welcome-page.md) page.
+* **Welcome** - Displays the **Welcome** page.
 * **Follow TestCafe Studio on Twitter** - Opens the [TestCafe Studio's page](https://twitter.com/TestCafeStudio) on the Twitter website.
 * **About** - Opens the **About** window that provides TestCafe Studio's version and copyright.
