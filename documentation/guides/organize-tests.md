@@ -22,7 +22,7 @@ A test directory is a file system directory used as the root of your test-relate
 You can create a test directory anywhere on your computer and then open it in TestCafe Studio in one of the following ways:
 
 * Go to the **File** menu and click **Open Test Directory**.
-* On the **Welcome** page, click **Open Folder**.
+* On the [Welcome Page](../user-interface/welcome-page.md), click **Open Folder**.
 
 The **Explorer** panel displays the directory's content.
 
@@ -34,7 +34,7 @@ You can also organize test files into *subdirectories*. To create a subdirectory
 
 **Recorded tests** are tests you record visually or compose from test actions. These tests are stored in `*.testcafe` files. TestCafe Studio automatically creates a new `*.testcafe` file when you [start recording a test](record-tests/README.md#starting-and-stopping-recording) for a new tested page.
 
-The `.testcafe` test file can contain one more recorded tests.
+The `.testcafe` test file can contain one or more recorded tests.
 
 See [Record Tests](record-tests/README.md) for information on how to record tests.
 

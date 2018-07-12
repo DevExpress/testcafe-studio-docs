@@ -50,10 +50,12 @@
   - name: Record Configuration Dialog
     url: /documentation/user-interface/record-configuration-dialog.md
   - name: Report View
-    url: /documentation/user-interface/report-view.md  
+    url: /documentation/user-interface/report-view.md
   - name: Reports Panel
-    url: /documentation/user-interface/reports-panel.md  
+    url: /documentation/user-interface/reports-panel.md
   - name: Run Configurations Dialog
     url: /documentation/user-interface/run-configurations-dialog.md
   - name: Test Editor
     url: /documentation/user-interface/test-editor.md
+  - name: Welcome Page
+    url: /documentation/user-interface/welcome-page.md
