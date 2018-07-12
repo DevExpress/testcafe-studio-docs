@@ -23,7 +23,7 @@ You can install TestCafe Studio on MacOS, Windows or Linux. See [Installation](.
 
 ## Start Recording a Test
 
-When you open TestCafe Stuido at the first time, it shows the [Welcome Page](../user-interface/welcome-page.md) that allows you to start recording a test quickly. Enter the tested site's URL ([http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)) and click the ![Record button](../../images/getting-started/record-test-icon.png) **Start recording a test** button. TestCafe Studio creates a test, launches a browser with the tested site and starts recording your activity on the webpage (see [Interact with the Tested Page](#interact-with-the-tested-page)).
+When you open TestCafe Stuido at the first time, it shows the **Welcome** page that allows you to start recording a test quickly. Enter the tested site's URL ([http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)) and click the ![Record button](../../images/getting-started/record-test-icon.png) **Start recording a test** button. TestCafe Studio creates a test, launches a browser with the tested site and starts recording your activity on the webpage (see [Interact with the Tested Page](#interact-with-the-tested-page)).
 
 ![The Welcome page](../../images/getting-started/welcome-page.png)
 
