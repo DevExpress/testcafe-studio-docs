@@ -23,15 +23,15 @@ You can install TestCafe Studio on MacOS, Windows or Linux. See [Installation](.
 
 ## Start Recording a Test
 
-When you open TestCafe Stuido at the first time, it shows the **Welcome** page that allows you to start recording a test quickly. Enter the tested site's URL ([http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)) and click the ![Record button](../../images/getting-started/record-test-icon.png) **Start recording a test** button. TestCafe Studio creates a test, launches a browser with the tested site and starts recording your activity on the webpage (see [Interact with the Tested Page](#interact-with-the-tested-page)).
+TestCafe Studio displays the **Welcome** page when you open it for the first time. You can specify the tested site's URL ([http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)) and click the ![Record button](../../images/getting-started/record-test-icon.png) **Start recording a test** button on this page to start recording a test. TestCafe Studio creates a test, launches a browser with the tested site and starts recording your activity on the webpage (see [Interact with the Tested Page](#interact-with-the-tested-page)).
 
 ![The Welcome page](../../images/getting-started/welcome-page.png)
 
-You can also organize your tests and start the recording from the [Explorer](../user-interface/explorer-panel.md) panel. Follow the steps:
+You can also organize your tests and start the recording from the [Explorer](../user-interface/explorer-panel.md) panel. To do this, follow the steps below:
 
-1. First, create a [test directory](../guides/organize-tests.md#test-directory) to store your tests. Then go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory. You can view the directory's contents in the **Explorer** panel.
+1. First, create a [test directory](../guides/organize-tests.md#test-directory) to store your tests. Next, go to TestCafe Studio, open the **File** menu, click **Open Tests Directory** and navigate to the created directory. You can view the directory's contents in the **Explorer** panel.
 
-2. Create a [fixture](../guides/record-tests/README.md#create-fixtures) for the sample webpage tests. To do this, click the ![Create a New Fixture button](../../images/getting-started/create-new-fixture-icon.svg) **Create a New Fixture** button in the **Explorer** panel. This invokes the **New Fixture** dialog where you can specify the fixture name and the tested page's URL ([http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)).
+2. Create a [fixture](../guides/record-tests/README.md#create-fixtures) for the sample webpage tests. To do this, click the ![Create a New Fixture button](../../images/getting-started/create-new-fixture-icon.svg) **Create a New Fixture** button in the **Explorer** panel. This invokes the **New Fixture** dialog where you can specify the fixture's name and the tested page's URL ([http://devexpress.github.io/testcafe/example](http://devexpress.github.io/testcafe/example)).
 
     ![The New Fixture dialog](../../images/getting-started/new-fixture-dialog.png)
 
@@ -45,7 +45,7 @@ You can also organize your tests and start the recording from the [Explorer](../
 
 ## Interact with the Tested Webpage
 
-Perform the following actions on the tested webpage opened in the browser:
+Perform the following actions on the tested webpage:
 
 1. Enter a name in the **Your name** field.
 2. Check the **Support for testing on remote devices** and **Advanced traffic and markup analysis** checkboxes.
@@ -63,7 +63,7 @@ TestCafe Studio displays the recorded test in the [Test Editor](../user-interfac
 
 ![The recorded test](../../images/getting-started/recorded-test.png)
 
-The editor allows you to modify the test: reorder and delete actions, add new actions, modify actions' parameters. For example, you can change the [Element Selector](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) parameter that specifies the action's target element: select an alternative selector from auto-generated selectors or enter your own.
+The editor allows you to reorder and delete actions, add new actions, and modify actions' parameters. For example, you can change the [Element Selector](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) parameter that specifies the action's target element: select an alternative selector from auto-generated selectors or enter your own.
 
 ![Choose the selector](../../images/getting-started/choosing-the-selector.png)
 
@@ -77,7 +77,7 @@ This step adds an [Equals](../guides/record-tests/test-actions/assertions.md#equ
 
 2. Click the ![Equals assertion](../../images/getting-started/assertion-eql-icon.svg) button in the **Actions** panel's **Assertions** section to add the assertion to the test. TestCafe Studio adds the assertion to the end of the test and allows you to specify the assertion's parameters.
 
-3. Select an element whose property you are going to check. To do this, click the ![Pick a target element](../../images/getting-started/element-picker-icon.png) button next to the **Actual** field. This displays the browser with a tested webpage. Hover the mouse cursor over the page header that says *'Thank you, ...'*. The selector popup displays the [Element Selector](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) that identifies the page header.
+3. Select an element whose property you are going to check. To do this, click the ![Pick a target element](../../images/getting-started/element-picker-icon.png) button next to the **Actual** field. This displays the browser with a tested webpage. Hover the mouse pointer over the page header that says *'Thank you, ...'*. The selector popup displays the [Element Selector](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) that identifies the page header.
 
     ![The Element Selector popup](../../images/getting-started/selector-popup.png)
 

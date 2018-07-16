@@ -50,7 +50,7 @@ When you add an assertion during recording, TestCafe Studio can generate an elem
 
     ![Actual value](../../../../images/guides/creating-assertion/actual-value.png)
 
-> You can modify the selector that identifies the target element. Click the ![Choose the selector](../../../../images/getting-started/id-bar-icon.png) arrow button next to the **Actual** field to view auto-generated selectors.
+> You can modify the selector that identifies the target element. Click the ![Choose the selector](../../../../images/getting-started/id-bar-icon.png) arrow button next to the **Actual** field to view the auto-generated selectors.
 
 ![Generated selectors](../../../../images/guides/creating-assertion/generated-selectors.png)
 
