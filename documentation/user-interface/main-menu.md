@@ -45,7 +45,7 @@ The **Edit** menu provides the following commands:
 * **Copy** - Copies selected text to the clipboard.
 * **Paste** - Pastes a text from the clipboard to a current cursor position in a text editor.
 * **Select All** - Selects all text in an editor.
-* **Start Dictaion** *(available on MacOS)* - Enables a dictation keyword phrase.
+* **Start Dictation** *(available on MacOS)* - Enables a dictation keyword phrase.
 * **Emoji & Symbols** *(available on MacOS)* - Allows you to insert emojis and symbols to an editor.
 
 ## View
