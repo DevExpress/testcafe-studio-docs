@@ -21,4 +21,4 @@ TestCafe Studio has the following features:
 
 * Generates a report with overall results and details for each test after they are completed. See [Reports](../guides/reports.md).
 
-* Contains a powerful Code Editor with syntax highlight, code completion and parameter hints. You can write code from scratch, or convert recorded tests to JavaScript to edit them later. See [Write Test Code](../guides/write-test-code.md).
+* Contains a powerful [Code Editor](../user-interface/code-editor.md) with syntax highlight, code completion and parameter hints. You can write code from scratch, or convert recorded tests to JavaScript to edit them later. See [Write Test Code](../guides/write-test-code.md).

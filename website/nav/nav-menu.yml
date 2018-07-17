@@ -43,16 +43,20 @@
 - name: User Interface
   url: /documentation/user-interface/README.md
   content:
+  - name: Code Editor
+    url: /documentation/user-interface/code-editor.md
   - name: Explorer Panel
     url: /documentation/user-interface/explorer-panel.md
   - name: Fixture Editor
     url: /documentation/user-interface/fixture-editor.md
+  - name: Main Menu
+    url: /documentation/user-interface/main-menu.md
   - name: Record Configuration Dialog
     url: /documentation/user-interface/record-configuration-dialog.md
   - name: Report View
-    url: /documentation/user-interface/report-view.md  
+    url: /documentation/user-interface/report-view.md
   - name: Reports Panel
-    url: /documentation/user-interface/reports-panel.md  
+    url: /documentation/user-interface/reports-panel.md
   - name: Run Configurations Dialog
     url: /documentation/user-interface/run-configurations-dialog.md
   - name: Test Editor

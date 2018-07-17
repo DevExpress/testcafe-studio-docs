@@ -89,7 +89,7 @@ TestCafe Studio creates the test file in the same test directory and displays it
 
 ## View Test Code
 
-To view JavaScript and TypeScript files in the **Code Editor**, select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code opens in the **Code Editor**.
+To view JavaScript and TypeScript files in the [Code Editor](code-editor.md), select a fixture or test in the **Explorer** panel, then select ![Show code icon](../../images/user-interface/context-menu/show-code.png) **Show Code** from the context menu. The fixture code opens in the **Code Editor**.
 
 ## Show Files in Windows Explorer/MacOS Finder
 
