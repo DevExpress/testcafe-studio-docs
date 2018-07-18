@@ -101,7 +101,7 @@ You can do the following during test recording:
 
     When you add an [on-page action](test-actions/on-page-actions/README.md) or [assertion](test-actions/assertions.md), you can visually select a target element on the tested page using an element picker. To do this, click the ![Element picker](../../../images/guides/element-picker-icon.png) button in the action parameters' area and click an element on the page.
 
-    You can also choose a desired property from the auto-generated property list and see the assertion status for assertion. See [Assertion Parameters](test-actions/assertions.md#assertion-parameters).
+    When you create an assertion, you can also choose a desired property from the auto-generated property list and see the assertion's status. See [Assertion Parameters](test-actions/assertions.md#assertion-parameters).
 
 * View and modify the recorded actions. See [Modify Tests](#modify-tests).
 
