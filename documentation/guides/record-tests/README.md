@@ -35,13 +35,13 @@ You can record a test in any local browser. TestCafe detects browsers on the loc
 
 ![Record Congiruation Menu](../../../images/guides/record-configuration-list.png)
 
-You can modify record configuration options by clicking the ![Settings button](../../../images/guides/settings-icon.png) button and using the [Record Configuration](../../user-interface/record-configuration-dialog.md) dialog.
+Click the ![Settings button](../../../images/guides/settings-icon.png) button and use the [Record Configuration](../../user-interface/record-configuration-dialog.md) dialog to modify record configuration options.
 
 ![Record Configuration Dialog](../../../images/user-interface/dialogs/record-configuration-dialog.png)
 
 ## Create Fixtures
 
-Recorded tests must be organized into categories called **fixtures**. A fixture contains tests for a single target URL, and you usually have one fixture per website page.
+Recorded tests are organized into categories called **fixtures**. A fixture contains tests for a single target URL, and you usually have one fixture per website page.
 
 Follow the steps below to create a fixture:
 
@@ -58,9 +58,9 @@ Follow the steps below to create a fixture:
 
 TestCafe Studio creates the fixture and opens it in the [Fixture Editor](../../user-interface/fixture-editor.md).
 
-After the fixture is created, you can start recording tests.
+You can start recording tests after the fixture is created.
 
-> If you start recording a test from the [Welcome Page](../../user-interface/welcome-page.md), TestCafe Studio automatically creates a new fixture.
+> TestCafe Studio automatically creates a new fixture if you start recording a test from the [Welcome Page](../../user-interface/welcome-page.md).
 
 ## Create Tests
 
@@ -101,17 +101,17 @@ You can do the following during test recording:
 
     When you add an on-page action or assertion, you can visually select a target element on the tested page. To do this, click the ![Element picker](../../../images/guides/element-picker-icon.png) button in the action parameters' area and click an element on the page.
 
-    You can also choose a desired property from the auto-generated property list and see the assertion status for assertion.
+    You can also choose a property from the auto-generated property list and see an assertion's status.
 
 * View and modify the recorded actions. See [Modify Tests](#modify-tests).
 
 ### Modify Tests
 
-You can view and modify recorded tests in the [Test Editor](../../user-interface/test-editor.md) both during and after recording by performing the following tasks:
+You can perform the following tasks to view and modify recorded tests in the [Test Editor](../../user-interface/test-editor.md) during and after recording:
 
 * View and [modify action parameters](../../user-interface/test-editor.md#modify-actions-parameters).
 * [Add new actions](../../user-interface/test-editor.md#add-actions-manually).
 * [Re-order](../../user-interface/test-editor.md#change-an-actions-position) and [delete](../../user-interface/test-editor.md#delete-actions) actions.
 * [Rename tests](../../user-interface/test-editor.md#rename-tests).
 
-> You cannot visually select target elements for actions if you add or modify the actions after recording, you need to specify them manually.
+> You cannot visually select target elements for actions if you add or modify the actions after recording- you should specify them manually.
