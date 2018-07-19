@@ -2,6 +2,7 @@
 layout: docs
 title: Main Menu
 permalink: /documentation/user-interface/main-menu.html
+checked: false
 ---
 # Main Menu
 

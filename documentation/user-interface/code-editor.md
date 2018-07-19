@@ -2,6 +2,7 @@
 layout: docs
 title: Code Editor
 permalink: /documentation/user-interface/code-editor.html
+checked: false
 ---
 # Code Editor
 
