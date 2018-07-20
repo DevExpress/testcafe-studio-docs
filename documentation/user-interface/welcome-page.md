@@ -30,7 +30,7 @@ The page's **Start** section contains buttons that allow you to:
 * open an existing test directory.
 * open the directory with example tests: [recorded](../guides/organize-tests.md#recorded-test-files) and [coded](../guides/organize-tests.md#coded-test-files).
 
-You can view the directory's content in the [Explorer](explorer-panel.md) panel after you open a test directory.
+After you open a test directory, you can view the directory's content in the [Explorer](explorer-panel.md) panel.
 
 ## Open Recent Test Directories
 

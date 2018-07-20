@@ -35,13 +35,13 @@ You can record a test in any local browser. TestCafe detects browsers on the loc
 
 ![Record Congiruation Menu](../../../images/guides/record-configuration-list.png)
 
-Click the ![Settings button](../../../images/guides/settings-icon.png) button and use the [Record Configuration](../../user-interface/record-configuration-dialog.md) dialog to modify record configuration options.
+You can modify record configuration options in the [Record Configuration](../../user-interface/record-configuration-dialog.md) dialog. To open the dialog, click the ![Settings button](../../../images/guides/settings-icon.png) button next to the **Record configuration** menu on the toolbar.
 
 ![Record Configuration Dialog](../../../images/user-interface/dialogs/record-configuration-dialog.png)
 
 ## Create Fixtures
 
-Recorded tests are organized into categories called **fixtures**. A fixture contains tests for a single target URL, and you usually have one fixture per website page.
+Recorded tests should be organized into categories called **fixtures**. A fixture contains tests for a single target URL, and you usually have one fixture per website page.
 
 Follow the steps below to create a fixture:
 
@@ -101,13 +101,15 @@ You can do the following during test recording:
 
     When you add an on-page action or assertion, you can visually select a target element on the tested page. To do this, click the ![Element picker](../../../images/guides/element-picker-icon.png) button in the action parameters' area and click an element on the page.
 
-    You can also choose a property from the auto-generated property list and see an assertion's status.
+    When you add an assertion, you can also choose a property from the auto-generated property list and see the assertion's status.
 
 * View and modify the recorded actions. See [Modify Tests](#modify-tests).
 
 ### Modify Tests
 
-You can perform the following tasks to view and modify recorded tests in the [Test Editor](../../user-interface/test-editor.md) during and after recording:
+You can view and modify recorded tests in the [Test Editor](../../user-interface/test-editor.md) during and after recording.
+
+You can perform the following tasks:
 
 * View and [modify action parameters](../../user-interface/test-editor.md#modify-actions-parameters).
 * [Add new actions](../../user-interface/test-editor.md#add-actions-manually).
