@@ -10,8 +10,8 @@ The **Code Editor** allows you to write and modify [coded tests](../guides/organ
 
 ![Code Editor](../../images/guides/code-editor.png)
 
-You can write coded tests using JavaScript or TypeScript. For information about the API used in tests, see the [Test API](https://devexpress.github.io/testcafe/documentation/test-api/) topic in the open-source TestCafe documentation.
+You can write coded tests using JavaScript or TypeScript. Refer to the [Test API](https://devexpress.github.io/testcafe/documentation/test-api/) topic in the open-source TestCafe documentation for information about the API used in tests.
 
 The **Code Editor** provides the following code edit features: syntax highlight, code completion, parameter hints, bracket matching, go to definition, peek definition and so on.
 
-The editor also provides the ![Run test button](../../images/user-interface/run-target-icon.svg) buttons that allow you to run an entire fixture and individual tests. These buttons are shown in the gutter for lines that define fixtures and tests.
+The editor also provides the ![Run test button](../../images/user-interface/run-target-icon.svg) buttons that allow you to run a fixture and individual tests. These buttons are shown in the gutter for lines that define fixtures and tests.
