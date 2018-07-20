@@ -22,7 +22,7 @@ The main menu contains the following menus:
 The **TestCafe Studio** menu is available on MacOS and provides the following commands:
 
 * **About** - Provides TestCafe Studio's version and copyright information.
-* **Services** - Allows you to work with other TestCafe Studio applications.
+* **Services** - Allows you to work with other applications from TestCafe Studio.
 * **Hide** - Hides the TestCafe Studio window.
 * **Hide All** - Hides all the applications that are running except for TestCafe Studio.
 * **Quit** - Closes TestCafe Studio.
