@@ -25,17 +25,11 @@ The new directory appears in the **Explorer** panel.
 
 ## Create a Fixture
 
-To create a new [fixture](../guides/record-tests/README.md#create-fixtures), select a directory where you want to create it and click the  **Create a New Fixture** button or select the ![New fixture icon](../../images/user-interface/context-menu/new-fixture.png) **New Fixture** command from the context menu. This invokes the **New Fixture** dialog.
+To create a new [fixture](../guides/record-tests/README.md#create-fixtures), select a directory where you want to create it and click the  **Create a New Fixture** button or select the ![New fixture icon](../../images/user-interface/context-menu/new-fixture.png) **New Fixture** command from the context menu. This invokes the [Fixture Properties](../user-interface/fixture-properties-dialog.md) dialog.
 
 ![Create a fixture](../../images/user-interface/dialogs/new-fixture-dialog.png)
 
-Enter the fixture's name in the **Fixture name** dialog. A file name is automatically generated in the **File name** field. You can use the generated filename or specify your own.
-
-In the **Web page** field, specify the tested webpage's URL. TestCafe Studio supports HTTP and HTTPS protocols. You can also use the `file://` scheme to tests web pages in the local file system.
-
-If the tested webpage is protected with HTTP Basic or NTLM authentication, expand the **HTTP Basic/NTLM authentication** section and use the **User name** and **Password** fields to specify your credentials.
-
-Finally, click the **Create** button. The new fixture appears in the **Explorer** panel.
+Specify the fixture's properties and click the **Create** button. The new fixture appears in the **Explorer** panel.
 
 ## Create a Test
 
@@ -67,9 +61,9 @@ To run several tests from different fixtures and directories, select the tests u
 
 You can also use the context menu's ![Run test icon](../../images/user-interface/context-menu/run-tests.png) **Run Test** command to run tests.
 
-## Modify a Fixture
+## Modify a Fixture's Properties
 
-To edit a fixture's properties, invoke the context menu and select ![Edit icon](../../images/user-interface/context-menu/fixture-modify.png) **Edit**. The **Modify Fixture** dialog appears. You can change the fixture name, file name, target webpage and authentication credentials in this dialog. To save the changes, click **OK**.
+To edit a fixture's properties, invoke the context menu and select ![Edit icon](../../images/user-interface/context-menu/fixture-modify.png) **Edit**. The [Fixture Propeties](../user-interface/fixture-properties-dialog.md) dialog appears. You can change the fixture name, file name, target webpage and authentication credentials in this dialog. To save the changes, click **OK**.
 
 ![Modify Fixture dialog](../../images/user-interface/dialogs/modify-fixture-dialog.png)
 

@@ -49,12 +49,10 @@ Follow the steps below to create a fixture:
 2. Do any of the following:
     * In the **Explorer** panel, click **Create a New Fixture** button.
     * Right-click a test directory or subdirectory in the **Explorer** panel and select **New Fixture** from the context menu.
-    This opens the **New Fixture** dialog.
-3. Specify the fixture name and the tested page’s URL.
+    This opens the [Fixture Properties](../../user-interface/fixture-properties-dialog.md) dialog.
+3. Specify the fixture's properties and click **Create**.
 
     ![Creating a Fixture](../../../images/guides/creating-fixture.png)
-
-4. Click **Create**.
 
 TestCafe Studio creates the fixture and opens it in the [Fixture Editor](../../user-interface/fixture-editor.md).
 

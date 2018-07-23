@@ -47,9 +47,9 @@ TestCafe Studio creates the test file in the same test directory and displays it
 
 ## Modify the Fixture's Properties
 
-Click the ![Settings button](../../images/guides/settings-icon.png) button on the editor's toolbar to modify the fixture's properties. This invokes the **Modify fixture** dialog where you can change the fixture name, file name, target webpage, and authentication credentials. To save the changes, click **OK**.
+Click the ![Settings button](../../images/guides/settings-icon.png) button on the editor's toolbar to modify the fixture's properties. This invokes the [Fixture Properties](../user-interface/fixture-properties-dialog.md) dialog where you can change the fixture name, file name, target webpage, and authentication credentials. To save the changes, click **OK**.
 
-![Modify fixture dialog](../../images/user-interface/dialogs/modify-fixture-dialog.png)
+![Fixture Properties dialog](../../images/user-interface/dialogs/modify-fixture-dialog.png)
 
 ### Delete Tests
 
