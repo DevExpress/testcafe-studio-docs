@@ -14,5 +14,3 @@ TestCafe Studio supports the following browsers:
 * Safari
 * Android browser
 * Safari mobile
-
-> TestCafe Studio supports the latest version of each browser unless specified explicitly.
