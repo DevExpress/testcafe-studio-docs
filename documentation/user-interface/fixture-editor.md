@@ -29,17 +29,17 @@ You can perform the following tasks in the editor:
 
 ### Record New Tests
 
-Click the ![Record button](../../images/guides/record-test-icon.png) **Record a new test** button on the editor's toolbar to start recording a new test and add it to the fixture.
+Click ![Record button](../../images/guides/record-test-icon.png) **Record a new test** on the editor's toolbar to start recording a new test and add it to the fixture.
 
 ### Run the Fixture or Single Test
 
 Click the ![Run tests button](../../images/guides/action-run-icon.png) **Run all tests** button on the editor's toolbar to run the entire fixture.
 
-To run a single test, hover the mouse cursor over the test's row and click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button displayed to the right of it.
+To run a single test, hover the mouse cursor over the test's row and click ![Run test button](../../images/guides/action-run-icon.png) **Run test** displayed to the right of it.
 
 ### Convert the Fixture to JavaScript
 
-Click the ![Convert icon](../../images/user-interface/js-icon.svg) **Convert to JavaScript** button on the editor's toolbar to convert the fixture to a .js file. This invokes the **Convert to JavaScript** dialog that allows you to specify the file's name.
+Click ![Convert icon](../../images/user-interface/js-icon.svg) **Convert to JavaScript** on the editor's toolbar to convert the fixture to a .js file. This invokes the **Convert to JavaScript** dialog that allows you to specify the file's name.
 
 ![Convert to JavaScript Code Dialog](../../images//user-interface/dialogs/convert-dialog.png)
 
@@ -47,12 +47,12 @@ TestCafe Studio creates the test file in the same test directory and displays it
 
 ## Modify the Fixture's Properties
 
-Click the ![Settings button](../../images/guides/settings-icon.png) button on the editor's toolbar to modify the fixture's properties. This invokes the [Fixture Properties](../user-interface/fixture-properties-dialog.md) dialog where you can change the fixture name, file name, target webpage, and authentication credentials. To save the changes, click **OK**.
+Click ![Settings button](../../images/guides/settings-icon.png) on the editor's toolbar to modify the fixture's properties. This invokes the [Fixture Properties](../user-interface/fixture-properties-dialog.md) dialog where you can change the fixture name, file name, target webpage, and authentication credentials. To save the changes, click **OK**.
 
 ![Fixture Properties dialog](../../images/user-interface/dialogs/modify-fixture-dialog.png)
 
 ### Delete Tests
 
-Click the ![Remove all tests icon](../../images/user-interface/remove-all-icon.svg) **Remove all tests** button on the editor's toolbar to delete all the fixture's tests.
+Click ![Remove all tests icon](../../images/user-interface/remove-all-icon.svg) **Remove all tests** on the editor's toolbar to delete all the fixture's tests.
 
 To delete a single test from the fixture, hover the mouse cursor over the test's row and click the row's ![Remove icon](../../images/user-interface/remove-big-icon.svg) **Remove test** button.
