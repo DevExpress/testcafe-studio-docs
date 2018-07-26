@@ -9,7 +9,7 @@ The **Fixture Editor** allows you to view and modify a fixture. To open the edit
 
 The editor consists of the following parts:
 
-* The toolbar - Provides information about the fixture (the name and tested webpage's URL) and buttons for performing [common tasks](#common-tasks).
+* The toolbar - Provides information about the fixture (the name and tested webpage's URL) and buttons to perform [common tasks](#common-tasks).
 
     You can click the webpage's URL to open the webpage in the browser.
 
