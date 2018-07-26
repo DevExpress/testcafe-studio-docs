@@ -35,7 +35,7 @@ You can record a test in any local browser. TestCafe detects browsers on the loc
 
 ![Record Congiruation Menu](../../../images/guides/record-configuration-list.png)
 
-You can modify record configuration options by clicking the ![Settings button](../../../images/guides/settings-icon.png) button and using the [Record Configuration](../../user-interface/record-configuration-dialog.md) dialog.
+You can click the ![Settings button](../../../images/guides/settings-icon.png) button and use the [Record Configuration](../../user-interface/record-configuration-dialog.md) dialog to modify record configuration options.
 
 ![Record Configuration Dialog](../../../images/user-interface/dialogs/record-configuration-dialog.png)
 
@@ -48,8 +48,7 @@ Follow the steps below to create a fixture:
 1. Open a [test directory](../organize-tests.md#test-directory).
 2. Do any of the following:
     * In the **Explorer** panel, click **Create a New Fixture** button.
-    * Right-click a test directory or subdirectory in the **Explorer** panel and select **New Fixture** from the context menu.
-    This opens the [Fixture Properties](../../user-interface/fixture-properties-dialog.md) dialog.
+    * Right-click a test directory or subdirectory in the **Explorer** panel and select **New Fixture** from the context menu to open the [Fixture Properties](../../user-interface/fixture-properties-dialog.md) dialog.
 3. Specify the fixture's properties and click **Create**.
 
     ![Creating a Fixture](../../../images/guides/creating-fixture.png)
@@ -62,7 +61,7 @@ After the fixture is created, you can start recording tests.
 
 ## Create Tests
 
-> You can create a test manually or you can skip this step and go to recording. When you start recording, TestCafe Studio automatically creates a new test. See [Start and Stop Recording](#start-and-stop-recording).
+> You can create a test manually, or skip this step and go to recording. When you start recording, TestCafe Studio automatically creates a new test. See [Start and Stop Recording](#start-and-stop-recording).
 
 To create an empty test:
 
@@ -77,15 +76,15 @@ TestCafe Studio creates a test with the specified name and opens it in the [Test
 
 Do any of the following **to start recording** a new test:
 
-* Select a fixture in the **Explorer** panel and click the ![Start recording a test](../../../images/guides/record-test-icon.png) **Record a New Test** button.
-* Click the ![Start recording a test](../../../images/guides/record-test-icon.png) **Record a new test**  button on the **Fixture Editor**'s toolbar.
-* Click the ![Start recording a test](../../../images/guides/record-test-icon.png) **Start recording a test** button on the **Welcome** page.
+* Select a fixture in the **Explorer** panel and click ![Start recording a test](../../../images/guides/record-test-icon.png) **Record a New Test**.
+* Click ![Start recording a test](../../../images/guides/record-test-icon.png) **Record a new test**  on the **Fixture Editor**'s toolbar.
+* Click ![Start recording a test](../../../images/guides/record-test-icon.png) **Start recording a test** on the **Welcome** page.
 
 TestCafe Studio creates a new test, adds it to the fixture and starts recording test actions. See [During Recording](#during-recording).
 
-**To stop recording**, close the browser or click the ![Stop recording button](../../../images/guides/stop-recording-icon.png) button on the [Test Editor](../../user-interface/test-editor.md)'s toolbar.
+**To stop recording**, close the browser or click ![Stop recording button](../../../images/guides/stop-recording-icon.png) on the [Test Editor](../../user-interface/test-editor.md)'s toolbar.
 
-**To continue recording**, click the ![Start recording a test](../../../images/guides/record-test-icon.png) **Record test actions** button on the **Test Editor**'s toolbar. TestCafe plays back the previous actions and waits for new ones.
+**To continue recording**, click ![Start recording a test](../../../images/guides/record-test-icon.png) **Record test actions** on the **Test Editor**'s toolbar. TestCafe replays the previous actions and waits for new ones.
 
 ## During Recording
 
@@ -95,7 +94,7 @@ You can do the following during test recording:
 
 * Record on-page actions (clicks, drags, key presses, etc.) by interacting with the web page. TestCafe Studio adds these actions with their necessary parameters to the test.
 
-* Add actions from the **Actions** panel to the test. To do this, click a desired action in the **Actions** panel. The action is added to the end of the test. Then specify the action parameters.
+* Add actions from the **Actions** panel to the test. To do this, click an action in the **Actions** panel. The action is added to the end of the test. Then specify the action parameters.
 
     When you add an [on-page action](test-actions/on-page-actions/README.md) or [assertion](test-actions/assertions.md), you can visually select a target element on the tested page using an element picker. To do this, click the ![Element picker](../../../images/guides/element-picker-icon.png) button in the action parameters' area and click an element on the page.
 
