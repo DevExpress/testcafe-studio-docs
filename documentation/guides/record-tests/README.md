@@ -31,7 +31,7 @@ The following sections provide detailed information about recording tests:
 
 ## Record Configurations
 
-You can record tests in local browsers (see [Supported Browsers](../../references/supported-browsers.md)). TestCafe detects browsers on the local computer and adds them to the **Record configuration** drop-down menu. Before recording a test, select the record configuration from the list.
+You can record tests in [local browsers](../../references/supported-browsers.md). TestCafe detects browsers on the local computer and adds them to the **Record configuration** drop-down menu. Before recording a test, select the record configuration from the list.
 
 ![Record Congiruation Menu](../../../images/guides/record-configuration-list.png)
 
