@@ -49,6 +49,8 @@
     url: /documentation/user-interface/explorer-panel.md
   - name: Fixture Editor
     url: /documentation/user-interface/fixture-editor.md
+  - name: Fixture Properties Dialog
+    url: /documentation/user-interface/fixture-properties-dialog.md
   - name: Main Menu
     url: /documentation/user-interface/main-menu.md
   - name: Record Configuration Dialog
