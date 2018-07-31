@@ -55,7 +55,7 @@ The created file appears in the **Explorer** panel and opens in the **Code Edito
 
 To run any runnable item (test, fixture or directory), hover the mouse over it and click the ![The Run test button](../../images/user-interface/context-menu/run-tests.png) **Run test** or **Run all tests** button next to this item.
 
-To run several tests from different fixtures and directories, select the tests using Shift-click, Ctrl-click, or Command-click, then click the ![The Run tests button](../../images/user-interface/context-menu/run-tests.png) **Run Tests** button next to the selected item.
+To run several tests from different fixtures and directories, select the tests using Shift-click, Ctrl-click, or Command-click, then click the ![The Run tests button](../../images/user-interface/context-menu/run-tests.png) **Run Tests** button next to any selected item.
 
 ![Run multiple items](../../images/user-interface/running-multiple-items.png)
 
