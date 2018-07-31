@@ -63,3 +63,8 @@
     url: /documentation/user-interface/run-configurations-dialog.md
   - name: Test Editor
     url: /documentation/user-interface/test-editor.md
+- name: References
+  url: /documentation/references/README.md
+  content:
+  - name: Supported Browsers
+    url: /documentation/references/supported-browsers.html

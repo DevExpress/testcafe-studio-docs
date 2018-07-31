@@ -14,11 +14,11 @@ This topic describes how to execute tests and consists of the following sections
 
 ## Run Configurations
 
-TestCafe Studio can run tests in all desktop and mobile browsers (with or without a UI). It determines which browsers are installed on the local computer and automatically creates *run configurations* for them. You can view available configurations and switch between them in the **Run Configuration** drop-down menu.
+TestCafe Studio can run tests in [desktop and mobile browsers](../references/supported-browsers.md). TestCafe Studio determines which browsers are installed on the local computer and automatically creates *run configurations* for them. You can view available configurations and switch between them in the **Run Configuration** drop-down menu.
 
 ![Run Congiruation Menu](../../images/guides/run-configuration-list.png)
 
-To modify configurations or create a new one, click the ![Settings button](../../images/guides/settings-icon.png) button and use the [Run Configurations](../user-interface/run-configurations-dialog.md) dialog. You can select one or multiple browsers and specify options that affect test execution for each configuration.
+To modify configurations or create a new one, click ![Settings button](../../images/guides/settings-icon.png) and use the [Run Configurations](../user-interface/run-configurations-dialog.md) dialog. You can select one or multiple browsers and specify options that affect test execution for each configuration.
 
 ![Run Configurations Dialog](../../images/guides/run-configurations-dialog.png)
 
@@ -28,26 +28,26 @@ To modify configurations or create a new one, click the ![Settings button](../..
 
 You can run an entire test directory/subdirectory, a specific fixture, an individual test or a coded test file.
 
-**To run the entire test directory or subdirectory**, click the ![Run all tests button](../../images/guides/action-run-icon.png) **Run all tests** button next to the directory in the [Explorer](../user-interface/explorer-panel.md) panel.
+**To run the entire test directory or subdirectory**, click ![Run all tests button](../../images/guides/action-run-icon.png) **Run all tests** next to the directory in the [Explorer](../user-interface/explorer-panel.md) panel.
 
-**To run a fixture**, click the ![Run all tests button](../../images/guides/action-run-icon.png) **Run all tests** button next to the fixture in the **Explorer** panel or on the [Fixture Editor](../user-interface/fixture-editor.md)'s toolbar.
+**To run a fixture**, click ![Run all tests button](../../images/guides/action-run-icon.png) **Run all tests** next to the fixture in the **Explorer** panel or on the [Fixture Editor](../user-interface/fixture-editor.md)'s toolbar.
 
 **To run an individual test**, do any of the following:
 
-* Click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button on the [Test Editor](../user-interface/test-editor.md)'s toolbar.
-* Click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button next to the test in the **Fixture Editor** or **Explorer** panel.
+* Click ![Run test button](../../images/guides/action-run-icon.png) **Run test** on the [Test Editor](../user-interface/test-editor.md)'s toolbar.
+* Click ![Run test button](../../images/guides/action-run-icon.png) **Run test** next to the test in the **Fixture Editor** or **Explorer** panel.
 
-**To run a coded test's file**, click the ![Run test button](../../images/guides/action-run-icon.png) **Run test** button next to the file in the **Explorer** panel. You can also run test fixtures and individual tests from the [Code Editor](../user-interface/code-editor.md) by clicking the ![Run test button](../../images/guides/action-run-icon.png) button.
+**To run a coded test's file**, click ![Run test button](../../images/guides/action-run-icon.png) **Run test** next to the file in the **Explorer** panel. You can also click ![Run test button](../../images/guides/action-run-icon.png) to run test fixtures and individual tests from the [Code Editor](../user-interface/code-editor.md).
 
-**To run several tests** from different fixtures and directories, select the tests in the **Explorer** panel using Shift-click, Ctrl-click, or Command-click, then select **Run tests** from the context menu or click the ![The Run tests button](../../images/user-interface/context-menu/run-tests.png) **Run Tests** button next to any selected item.
+**To run several tests** from different fixtures and directories, select the tests in the **Explorer** panel using Shift-click, Ctrl-click, or Command-click, then select **Run tests** from the context menu or click ![The Run tests button](../../images/user-interface/context-menu/run-tests.png) **Run Tests** next to any selected item.
 
 ![Run multiple items](../../images/user-interface/running-multiple-items.png)
 
 After starting a test, TestCafe Studio launches the specified browsers and executes tests in them simultaneously. The [Reports panel](../user-interface/reports-panel.md) displays the tests' progress.
 
-Click the ![Stop recording button](../../images/guides/stop-recording-icon.png) button in the **Reports** panel **to stop the test**.
+Click ![Stop recording button](../../images/guides/stop-recording-icon.png) in the **Reports** panel **to stop the test**.
 
-TestCafe Studio pauses the test when it fails if the *Pause the test when it fails* option is enabled in the run configuration. To finish the test, click the **Finish** button in the browser window.
+TestCafe Studio pauses the test when it fails if the *Pause the test when it fails* option is enabled in the run configuration. To finish the test, click **Finish** in the browser window.
 
 ## Run Tests in Remote Browsers
 
@@ -60,7 +60,7 @@ Follow the steps below to run a test in remote browsers:
     ![Remote Browser Configuration](../../images/guides/remote-browser-configuration.png)
 
 2. Select the configuration in the **Run Configuration** list.
-3. Click the **Run test** button to start the test. TestCafe provides URLs to open in the remote browsers which you want to test. When you open these URLs, the browser connects to the TestCafe Studio server and starts testing.
+3. Click **Run test** to start the test. TestCafe provides URLs to open in the remote browsers which you want to test. When you open these URLs, the browser connects to the TestCafe Studio server and starts testing.
 
 ![Run tests in remote browsers](../../images/guides/running-in-remote-browsers.png)
 
