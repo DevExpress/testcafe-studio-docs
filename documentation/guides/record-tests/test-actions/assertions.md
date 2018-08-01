@@ -66,7 +66,11 @@ When you specify the assertion parameters during recording, TestCafe Studio show
 
 You can add the following options to assertions:
 
-* *Timeout* - the time (in milliseconds) an assertion can take to pass before the test fails. To add this option, click the **Add Timeout** button in the assertion parameters area.
+* *Timeout* - the time an assertion can take to pass (in milliseconds). The assertion retries to pass multiple times within this timeframe, and verifies the [Actual](../guides/record-tests/test-actions/assertions.md#actual-parameter)  parameter's value each time. The test fails if the assertion could not complete successfully within the timeout.
+
+    To add this option, click the **Add Timeout** button in the assertion parameters area.
+
+    The default timeout is used if you do not add this option. To specify the default timeout, use the *Assertion Timeout* options in the [Record Configuration](../../../user-interface/record-configuration-dialog.md) and [Run Configruations](../../../user-interface/run-configurations-dialog.md##advanced-options) dialogs.
 
 * *Message* - an assertion message that is displayed in the report if the test fails. To add this option, click the **Add Message** button in the assertion parameters area.
 

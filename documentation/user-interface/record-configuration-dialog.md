@@ -13,9 +13,9 @@ To open the dialog, click the ![Settings button](../../images/guides/settings-ic
 
 You can configure the following options:
 
-Options           | Description
------------------ | -------------
-*Selector timeout*  | Specifies the time (in milliseconds) [element selectors](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) can obtain the target DOM elements.
-*Assertion timeout* | Specifies the time (in milliseconds) an [assertion](../guides/record-tests/test-actions/assertions.md) can take to pass before the test fails.
-*Speed*             | Specifies the test speed from 0.01 to 1.
-*Debug mode*        | Activates the [debug mode](../guides/debug-tests.md#debugging-recorded-tests).
+Options           | Description | Default
+----------------- | ----------- | -------
+*Selector timeout*  | Specifies the time (in milliseconds) [element selectors](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) can obtain the target DOM elements. | 10000
+*Assertion timeout* | Specifies the time (in milliseconds) an [assertion](../guides/record-tests/test-actions/assertions.md) can take to pass. The assertion retries to pass multiple times within this timeout, and each time it verifies the [Actual](../guides/record-tests/test-actions/assertions.md#actual-parameter) parameter's value. The test fails if the assertion could not complete successfully within the timeout. | 3000
+*Speed*             | Specifies the test speed from 0.01 to 1. | 1
+*Debug mode*        | Activates the [debug mode](../guides/debug-tests.md#debugging-recorded-tests). | Disabled

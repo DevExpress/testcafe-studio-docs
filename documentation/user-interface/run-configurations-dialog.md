@@ -44,14 +44,14 @@ Setting                                         | Description
 
 ## Advanced Options
 
-Setting | Description
--------- | -------------
-*Reports path* | The directory's path where test run reports are saved.
-*Screenshots path* | The directory's path where screenshots captured during test execution are saved.
-*Selector timeout* | Specifies the time (in milliseconds) [element selectors](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) can obtain target DOM elements.
-*Assertion timeout* | Specifies the time (in milliseconds) an [assertion](../guides/record-tests/test-actions/assertions.md) can take to pass before the test fails.
-*Speed* | Specifies the [test speed](../guides/debug-tests.md#test-speed) from 0.01 to 1.
-*Concurrency* | Specifies the number of browser instances to execute tests concurrently. See [Concurrent Test Execution](../guides/run-tests.md#concurrent-test-execution).
+Setting | Description | Default
+-------- | ---------- | -------
+*Reports path* | The directory where test run reports are saved. | /TestCafeStudio/reports
+*Screenshots path* | The directory where screenshots captured during the test are saved. | /TestCafeStudio/reports/screenshots
+*Selector timeout* | Specifies the time (in milliseconds) [element selectors](../guides/record-tests/test-actions/on-page-actions/action-parameters.md#element-selector) can obtain target DOM elements. | 10000
+*Assertion timeout* | Specifies the time (in milliseconds) an [assertion](../guides/record-tests/test-actions/assertions.md) can take to pass. The assertion retries to pass multiple times within this timeout, and each time it verifies the [Actual](../guides/record-tests/test-actions/assertions.md#actual-parameter) parameter's value. The test fails if the assertion could not complete successfully within the timeout. | 3000
+*Speed* | Specifies the [test speed](../guides/debug-tests.md#test-speed) from 0.01 to 1. | 1
+*Concurrency* | Specifies the number of browser instances to execute tests concurrently. See [Concurrent Test Execution](../guides/run-tests.md#concurrent-test-execution). | 1
 
 ## Managing Configurations
 
