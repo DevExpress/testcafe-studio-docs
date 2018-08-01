@@ -70,7 +70,7 @@ You can add the following options to assertions:
 
     To add this option, click the **Add Timeout** button in the assertion parameters area.
 
-    If you do not add this option, the default timeout is used. You can specify it by the *Assertion Timeout* options in the [Record Configuration](../../../user-interface/record-configuration-dialog.md) and [Run Configruations](../../../user-interface/run-configurations-dialog.md##advanced-options) dialogs.
+    The default timeout is used if you do not add this option. To specify the default timeout, use the *Assertion Timeout* options in the [Record Configuration](../../../user-interface/record-configuration-dialog.md) and [Run Configruations](../../../user-interface/run-configurations-dialog.md##advanced-options) dialogs.
 
 * *Message* - an assertion message that is displayed in the report if the test fails. To add this option, click the **Add Message** button in the assertion parameters area.
 
