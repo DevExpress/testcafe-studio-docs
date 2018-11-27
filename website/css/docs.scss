@@ -58,7 +58,7 @@ body {
 }
 
 .doc-main-nav {
-  display: inline-block !important;
+  float: left;
   background-color: #f2f3f4;
   height: calc(100% - 80px) !important;
   width: 270px;
@@ -200,9 +200,7 @@ body {
 }
 
 main {
-    display: inline-block;
     vertical-align: top;
-    margin-left: -4px;
     height: calc(100% - 80px);
     width: calc(100% - 271px);
     overflow-y: auto;
