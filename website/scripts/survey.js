@@ -1,3 +1,5 @@
+---
+---
 var defaultThemeColors = Survey
     .StylesManager
     .ThemeColors["default"];
@@ -25,7 +27,16 @@ function competeSurvey(survey) {
 }
 
 var survey = new Survey.Model(surveyJSON);
+
 $("#surveyContainer").Survey({
     model: survey,
     onComplete: competeSurvey
 });
+
+{% if jekyll.environment == "production" %}
+    $(".sv_complete_btn").on('click', function () {
+        gtag('config', window.GA_PROPERTY_ID, {
+            'page_path': '/complete-survey'
+        });
+    });
+{% endif %} 
