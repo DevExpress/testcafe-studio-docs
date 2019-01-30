@@ -1,35 +1,11 @@
-# Documentation for TestCafe Studio
+# [Deprecated] TestCafe Studio Documentation
 
-This repository contains documentation for TestCafe Studio and the source code of TestCafe Studio website.
+Following the release of TestCafe Studio v0.4.0, this documentation and website are now deprecated.
 
-## What is TestCafe Studio?
+Documentation for TestCafe Studio has been moved to the DevExpress website:
 
-TestCafe Studio is a cross-platform IDE for end-to-end Web testing. You can create and maintain tests without coding using the built-in Visual Test Recorder.
+* [TestCafe Studio Documentation](https://docs.devexpress.com/TestCafeStudio/)
 
-TestCafe Studio does not require WebDriver, browser plugins or other tools. It works on Windows, macOS and Linux.
+You can download the most recent TestCafe Studio version from the following page:
 
-The IDE is built on top of the [open-source TestCafe testing framework](https://github.com/DevExpress/testcafe/) and inhertis all its benefits. TestCafe tests do not require manual timeouts as all the waiting is performed automatically. This makes tests more stable and deterministic.
-
-Altogether it provides lightweight, fast and reliable test automation.
-
-## What's in this repo?
-
-### Website
-
-This repository contains the sources of TestCafe Studio website. This static website is built using Jekyll and published on GitHub Pages.
-
-To preview the website locally, you need to [install Ruby](https://www.ruby-lang.org/en/documentation/installation/) with the following gems.
-
-```sh
-gem install jekyll htmlentities sanitize redcarpet jekyll-sitemap
-```
-
-After that, run a `gulp` task.
-
-```sh
-gulp preview-website
-```
-
-### Documentation
-
-In the [/documentation](/documentation) directory, you can find the current **development** version of TestCafe Studio documentation. Note that the functionality described here may not be included in the current release version. Unreleased functionality may change or be dropped before the next release.
+* [Download TestCafe Studio](https://www.devexpress.com/products/testcafestudio/)
